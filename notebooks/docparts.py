@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import pandas as pd
+
 def doc_ejer(title="", author=""):
     start=r"""
 	\documentclass[spanish, 11pt]{exam}
@@ -58,6 +60,7 @@ def doc_ejer(title="", author=""):
 	\runningheadrule
 	
 	\begin{document}
+    \begin{questions}
     """
 
     if title:
@@ -66,6 +69,7 @@ def doc_ejer(title="", author=""):
     
 
     end="""
+    \end{questions}
     \end{document}
     """
     return start, end
@@ -245,3 +249,8 @@ def doc_exam(title="", author=""):
 
 #if __name__ == "__main__":
 #   print problem("test", "fasd", "asdfasd", 10)
+
+def añadir_ejercicios(enunciado_latex, enunciado, solucion) :
+    encabezado = ['enunciado_latex','enunciado','solucion']
+    datos = [enunciado_latex, enunciado, solucion]
+    return pd.DataFrame(dict(zip(encabezado, datos)))
