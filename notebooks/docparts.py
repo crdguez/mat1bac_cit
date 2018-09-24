@@ -44,9 +44,9 @@ def doc_ejer(title="", author=""):
 	
 	\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
 	
-	\newcommand{\class}{4º Académicas}
+	\newcommand{\class}{1º Bachillerato}
 	\newcommand{\examdate}{\today}
-	\newcommand{\examnum}{Geometría Analítica}
+	
 	\newcommand{\tipo}{A}
 	
 	
@@ -59,20 +59,22 @@ def doc_ejer(title="", author=""):
 	\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
 	\runningheadrule
 	
-	\begin{document}
+	"""
+    
+    if title:
+        start = start + "\\newcommand{\\examnum}{%s}" % title
+    
+    middle=r"""
+    \begin{document}
     \begin{questions}
     """
+   
 
-    if title:
-        start = start + "\\title{%s} \n \date{\\vspace{-5ex}} \n \maketitle" % title
-
-    
-
-    end="""
+    end=r"""
     \end{questions}
     \end{document}
     """
-    return start, end
+    return start, middle, end
 
 def doc_parts(title="", author=""):
     start="""
@@ -250,7 +252,9 @@ def doc_exam(title="", author=""):
 #if __name__ == "__main__":
 #   print problem("test", "fasd", "asdfasd", 10)
 
-def añadir_ejercicios(enunciado_latex, enunciado, solucion) :
+def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:' ) :
     encabezado = ['enunciado_latex','enunciado','solucion']
     datos = [enunciado_latex, enunciado, solucion]
-    return pd.DataFrame(dict(zip(encabezado, datos)))
+    df = pd.DataFrame(dict(zip(encabezado, datos)))
+    df['texto'] = texto
+    return df
