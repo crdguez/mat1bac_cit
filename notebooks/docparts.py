@@ -272,7 +272,7 @@ def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios') :
 
 
 def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
-    txt = df_ejercicios.iloc[0].texto
+    txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
     f = open(fichero,'a')
     f.write(r'\question %s' % txt)
     f.write(r"""
