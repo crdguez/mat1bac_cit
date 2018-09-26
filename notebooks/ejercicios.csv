@@ -1,0 +1,79 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio
+\frac{{{3^{ - 2}} \cdot {3^5} \cdot {2^3}}}{{{{( {3 \cdot 2} )}^4}}},(2**3*(3**5*3**(-2)))/(2*3)**4,\frac{1}{6},Calcula :,1BC,Potencias y radicales,p4e1-2
+{3^{ - 5}} \cdot {( {\frac{1}{3}} )^{ - 2}} \cdot 81,81*(3**(-5)*(1/3)**(-2)),3,Calcula :,1BC,Potencias y radicales,p4e1-2
+{( {\frac{5}{4}} )^5} \cdot \frac{{{2^6}}}{{{5^2}}},(5/4)**5*(2**6/5**2),\frac{125}{16},Calcula :,1BC,Potencias y radicales,p4e1-2
+\frac{{{2^{ - 2}} \cdot {{( {{2^2}} )}^3}}}{{{2^{ - 3}}}},(2**(-2)*(2**2)**3)/2**(-3),128,Calcula :,1BC,Potencias y radicales,p4e1-2
+\frac{{{5^{ - 3}} \cdot {5^{ - 1}} \cdot {5^2}}}{{{5^0} + {5^6}}},(5**2*(5**(-3)/5))/(5**0 + 5**6),\frac{1}{390650},Calcula :,1BC,Potencias y radicales,p4e1-2
+{( {\frac{2}{3}} )^{ - 2}} \cdot {( {\frac{3}{2}} )^4},(2/3)**(-2)*(3/2)**4,\frac{729}{64},Calcula :,1BC,Potencias y radicales,p4e1-2
+\frac{{\sqrt {2}  \cdot {{( {\sqrt {2} } )}^3} \cdot {{( {\sqrt {5} } )}^3}}}{{{{( {5\sqrt{2} } )}^2}}},((sqrt(2)*(sqrt(2))**3)*(sqrt(5))**3)/(5*sqrt(2))**2,\frac{2 \sqrt{5}}{5},Calcula :,1BC,Potencias y radicales,p4e1-2
+\frac{{{9^{\frac{1}{2}}} \cdot {3^{ - 1}} \cdot {2^{\frac{3}{2}}}}}{{\sqrt {2} }},(2**(3/2)*(9**(1/2)/3))/sqrt(2),2,Calcula :,1BC,Potencias y radicales,p4e1-2
+\sqrt {16},4,4,Calcula los siguientes radicales:,1BC,Potencias y radicales,p6e13
+\sqrt[4]{ - 16},2*(-1)**(1/4),2 \sqrt[4]{-1},Calcula los siguientes radicales:,1BC,Potencias y radicales,p6e13
+\sqrt[3]{27},3,3,Calcula los siguientes radicales:,1BC,Potencias y radicales,p6e13
+\sqrt[5]{-1},(-1)**(1/5),\sqrt[5]{-1},Calcula los siguientes radicales:,1BC,Potencias y radicales,p6e13
+\sqrt {1225},35,35,Calcula los siguientes radicales:,1BC,Potencias y radicales,p6e13
+\sqrt[7]{1},1,1,Calcula los siguientes radicales:,1BC,Potencias y radicales,p6e13
+x^4 = 81,"Eq(x**4, 81)",x^{4} = 81,Resuelve las siguientes ecuaciones:,1BC,Potencias y radicales,p6e14
+x^3 = 125,"Eq(x**3, 125)",x^{3} = 125,Resuelve las siguientes ecuaciones:,1BC,Potencias y radicales,p6e14
+x^2 = -6,"Eq(x**2, -6)",x^{2} = -6,Resuelve las siguientes ecuaciones:,1BC,Potencias y radicales,p6e14
+x^5 = -1,"Eq(x**5, -1)",x^{5} = -1,Resuelve las siguientes ecuaciones:,1BC,Potencias y radicales,p6e14
+\sqrt {27}  \cdot \sqrt {243}  \cdot \sqrt {81},9*((3*sqrt(3))*(9*sqrt(3))),729,Calcula y expresa el resultado de la forma más simple:,1BC,Potencias y radicales,p6e15
+\frac{{\sqrt[3] {625} }}{{\sqrt[3] {5}  }},(5*5**(1/3))/5**(1/3),5,Calcula y expresa el resultado de la forma más simple:,1BC,Potencias y radicales,p6e15
+({\sqrt[3]{5}})^7,(5**(1/3))**7,25 \sqrt[3]{5},Calcula y expresa el resultado de la forma más simple:,1BC,Potencias y radicales,p6e15
+\sqrt[3]{\sqrt{8}},2**(1/6)*2**(1/3),\sqrt{2},Calcula y expresa el resultado de la forma más simple:,1BC,Potencias y radicales,p6e15
+\sqrt {512},16*sqrt(2),16 \sqrt{2},Extrae factores fuera del signo radical en:,1BC,Potencias y radicales,p6e16
+\sqrt[3]{11664},18*2**(1/3),18 \sqrt[3]{2},Extrae factores fuera del signo radical en:,1BC,Potencias y radicales,p6e16
+\sqrt[4]{48},2*3**(1/4),2 \sqrt[4]{3},Extrae factores fuera del signo radical en:,1BC,Potencias y radicales,p6e16
+\sqrt{a^5\cdot b^3},sqrt(a**5*b**3),\sqrt{a^{5} b^{3}},Extrae factores fuera del signo radical en:,1BC,Potencias y radicales,p6e16
+\sqrt{a}  \cdot \sqrt[5]{a} \cdot \sqrt[6]{a},a**(1/6)*(a**(1/5)*sqrt(a)),a^{\frac{13}{15}},Calcula y expresa el resultado como potencia de exponente racional:,1BC,Potencias y radicales,p6e17
+\sqrt[3]{\sqrt{a} },a**(1/6),\sqrt[6]{a},Calcula y expresa el resultado como potencia de exponente racional:,1BC,Potencias y radicales,p6e17
+\frac{{\sqrt[3]{a} 3}}{{\sqrt{a}}},(3*a**(1/3))/sqrt(a),\frac{3}{\sqrt[6]{a}},Calcula y expresa el resultado como potencia de exponente racional:,1BC,Potencias y radicales,p6e17
+\sqrt {\sqrt {\sqrt {2} } },2**(1/8),\sqrt[8]{2},Calcula y expresa el resultado como potencia de exponente racional:,1BC,Potencias y radicales,p6e17
+\sqrt {a\sqrt[3]{a} },sqrt(a**(4/3)),\sqrt{a^{\frac{4}{3}}},Calcula y expresa el resultado como potencia de exponente racional:,1BC,Potencias y radicales,p6e17
+\frac{{\sqrt[5]{a}  \cdot \sqrt {a} }}{{{a^{\frac{1}{3}}}}},(a**(1/5)*sqrt(a))/a**(1/3),a^{\frac{11}{30}},Calcula y expresa el resultado como potencia de exponente racional:,1BC,Potencias y radicales,p6e17
+4\sqrt {3125}  + 2\sqrt {20}  - 30\sqrt {45},-90*sqrt(5) + 2*(2*sqrt(5)) + 4*(25*sqrt(5)),14 \sqrt{5},Calcula:,1BC,Potencias y radicales,p6e18
+\frac{1}{4}\sqrt {3125}  - 2\sqrt {20}  - \frac{3}{2}\sqrt {45},-9*sqrt(5)/2 - 4*sqrt(5) + (25*sqrt(5))/4,- \frac{9 \sqrt{5}}{4},Calcula:,1BC,Potencias y radicales,p6e18
+\frac{3}{{2\sqrt {6} }},3/((2*sqrt(6))),\frac{\sqrt{6}}{4},Racionaliza:,1BC,Potencias y radicales,p6e19
+\frac{5}{{\sqrt{2} }},5/sqrt(2),\frac{5 \sqrt{2}}{2},Racionaliza:,1BC,Potencias y radicales,p6e19
+\frac{2}{{3\sqrt[3]{ 2} }},2/((3*2**(1/3))),\frac{2^{\frac{2}{3}}}{3},Racionaliza:,1BC,Potencias y radicales,p6e19
+\frac{2}{{5\sqrt[5]{ 2} }},2/((5*2**(1/5))),\frac{2^{\frac{4}{5}}}{5},Racionaliza:,1BC,Potencias y radicales,p6e19
+\frac{6}{{\sqrt {5}  + \sqrt {2} }},6/(sqrt(2) + sqrt(5)),- 2 \sqrt{2} + 2 \sqrt{5},Racionaliza:,1BC,Potencias y radicales,p6e19
+\frac{5}{{2 - \sqrt {6} }},5/(-sqrt(6) + 2),\frac{- 5 \sqrt{6} - 10}{2},Racionaliza:,1BC,Potencias y radicales,p6e19
+\sqrt {729},27,27,"Calcula, descomponiendo el radicando en factores primos:",1BC,Potencias y radicales,p6e23
+\sqrt[3]{64000},40,40,"Calcula, descomponiendo el radicando en factores primos:",1BC,Potencias y radicales,p6e23
+\sqrt[4]{50625},15,15,"Calcula, descomponiendo el radicando en factores primos:",1BC,Potencias y radicales,p6e23
+\sqrt[5]{59049},9,9,"Calcula, descomponiendo el radicando en factores primos:",1BC,Potencias y radicales,p6e23
+5\sqrt {8}  - 2\sqrt {50}  + \sqrt {32}  - \sqrt {2},-sqrt(2) - 10*sqrt(2) + 5*(2*sqrt(2)) + 4*sqrt(2),3 \sqrt{2},Calcula:,1BC,Potencias y radicales,p6e25
+\sqrt {27}  - \frac{1}{4}\sqrt {12}  + \frac{2}{5}\sqrt {75},(5*sqrt(3))*(2/5) - sqrt(3)/2 + 3*sqrt(3),\frac{9 \sqrt{3}}{2},Calcula:,1BC,Potencias y radicales,p6e25
+\sqrt {\frac{2}{9}}  + \sqrt 8  - \sqrt {\frac{1}{8}},sqrt(2)/3,\frac{\sqrt{2}}{3},Calcula:,1BC,Potencias y radicales,p6e25
+\sqrt [3] {5}  \cdot \sqrt [4] {3}   \cdot \sqrt {2},sqrt(2)*(3**(1/4)*5**(1/3)),\sqrt{2} \sqrt[4]{3} \sqrt[3]{5},Calcula y simplifica:,1BC,Potencias y radicales,p6e26
+\frac{{\sqrt[3]{5} \cdot \sqrt{3}}}{{\sqrt {15}  \cdot \sqrt {6} }},(sqrt(3)*5**(1/3))/((sqrt(15)*sqrt(6))),\frac{5^{\frac{5}{6}} \sqrt{6}}{30},Calcula y simplifica:,1BC,Potencias y radicales,p6e26
+\frac{{\sqrt[6]{5}}}{{\sqrt[3]{5}}},5**(1/6)/5**(1/3),\frac{5^{\frac{5}{6}}}{5},Calcula y simplifica:,1BC,Potencias y radicales,p6e26
+\sqrt[5]{{{27}^{\frac{5}{3}}}},3,3,Calcula y simplifica:,1BC,Potencias y radicales,p6e26
+\sqrt[3] {4}  \cdot \sqrt[4] {8}  \cdot \sqrt {2},sqrt(2)*(2**(2/3)*2**(3/4)),2 \cdot 2^{\frac{11}{12}},Calcula y simplifica:,1BC,Potencias y radicales,p6e26
+\sqrt[3] {5} \cdot \sqrt[3]{5^2},5**(1/3)*5**(2/3),5,Efectúa:,1BC,Potencias y radicales,p6e27
+\frac{{\sqrt[3]{{x^2}{y^3}} }}{{\sqrt[3]{xy} }},(x**2*y**3)**(1/3)/(x*y)**(1/3),\frac{\sqrt[3]{x^{2} y^{3}}}{\sqrt[3]{x y}},Efectúa:,1BC,Potencias y radicales,p6e27
+( {\sqrt[5]{{3^2}} } )^4,(3**(2/5))**4,3 \cdot 3^{\frac{3}{5}},Efectúa:,1BC,Potencias y radicales,p6e27
+\sqrt[3] {5}  \cdot \sqrt[4] {{5^2}},5**(1/3)*sqrt(5),5^{\frac{5}{6}},Efectúa:,1BC,Potencias y radicales,p6e27
+3\sqrt{ 5}  \cdot 2\sqrt[3]{25},(3*sqrt(5))*(2*5**(2/3)),30 \sqrt[6]{5},Efectúa:,1BC,Potencias y radicales,p6e27
+\sqrt[3]{{a^3} b}  \cdot \sqrt[6]{a{b^4}},(a*b**4)**(1/6)*(a**3*b)**(1/3),\sqrt[6]{a b^{4}} \sqrt[3]{a^{3} b},Efectúa:,1BC,Potencias y radicales,p6e27
+3\sqrt[4]{2}  \cdot \sqrt {8} ,(3*2**(1/4))*(2*sqrt(2)),6 \cdot 2^{\frac{3}{4}},Efectúa:,1BC,Potencias y radicales,p6e27
+\frac{{\sqrt[4]{{x^3}{y^3}} }}{{\sqrt[3]{xy} }},(x**3*y**3)**(1/4)/(x*y)**(1/3),\frac{\sqrt[4]{x^{3} y^{3}}}{\sqrt[3]{x y}},Efectúa:,1BC,Potencias y radicales,p6e27
+\frac{{4\sqrt [4]{6} }}{{2\sqrt {3} }},(4*6**(1/4))/((2*sqrt(3))),\frac{2 \sqrt[4]{2} \cdot 3^{\frac{3}{4}}}{3},Efectúa:,1BC,Potencias y radicales,p6e27
+\frac{{6\sqrt[3] { 5} }}{{2\sqrt {10} }},(6*5**(1/3))/((2*sqrt(10))),\frac{3 \sqrt{2} \cdot 5^{\frac{5}{6}}}{10},Efectúa:,1BC,Potencias y radicales,p6e27
+\frac{{\sqrt[5]{{{( {a + b})}^3}} }}{{\sqrt {a + b} }},((a + b)**3)**(1/5)/sqrt(a + b),\frac{\sqrt{a + b} \sqrt[5]{\left(a + b\right)^{3}}}{a + b},Efectúa:,1BC,Potencias y radicales,p6e27
+\sqrt [3] {{x^2}}  \cdot \frac{{\sqrt [5] {xy} }}{{\sqrt {x{y^3}} }},((x*y)**(1/5)/sqrt(x*y**3))*(x**2)**(1/3),\frac{\sqrt[5]{x y} \sqrt{x y^{3}} \sqrt[3]{x^{2}}}{x y^{3}},Efectúa:,1BC,Potencias y radicales,p6e27
+\sqrt [3] {\sqrt[4] {a} },a**(1/12),\sqrt[12]{a},Efectúa:,1BC,Potencias y radicales,p6e27
+\sqrt {\sqrt [3]  {{x^2}\sqrt[5] {{x^3}} } },(x**2*(x**3)**(1/5))**(1/6),\sqrt[6]{x^{2} \sqrt[5]{x^{3}}},Efectúa:,1BC,Potencias y radicales,p6e27
+\sqrt {n\sqrt [5] {n\sqrt [6]{n} } },sqrt(n*(n**(7/6))**(1/5)),\sqrt{n \sqrt[5]{n^{\frac{7}{6}}}},Efectúa:,1BC,Potencias y radicales,p6e27
+\frac{3}{{\sqrt {5} }},3/sqrt(5),\frac{3 \sqrt{5}}{5},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{{12}}{{\sqrt {8} }},12/((2*sqrt(2))),3 \sqrt{2},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{5}{{\sqrt {5} }},5/sqrt(5),\sqrt{5},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{a}{{\sqrt[3]{{a^2}} }},a/(a**2)**(1/3),\frac{a}{\sqrt[3]{a^{2}}},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{{{x^2}}}{{\sqrt [4] {x} }},x**2/x**(1/4),x^{\frac{7}{4}},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{{abc}}{{\sqrt {ab{c^3}} }},(a*(b*c))/sqrt(a*b*c**3),\frac{\sqrt{a b c^{3}}}{c^{2}},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{5}{{2 + \sqrt {3} }},5/(sqrt(3) + 2),- 5 \sqrt{3} + 10,Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{{\sqrt {2}  - \sqrt {3} }}{{\sqrt{ 2}  + \sqrt {3} }},(-sqrt(3) + sqrt(2))/(sqrt(2) + sqrt(3)),- \left(- \sqrt{3} + \sqrt{2}\right)^{2},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{{2 - \sqrt {2} }}{{2 + \sqrt {2} }},(-sqrt(2) + 2)/(sqrt(2) + 2),\frac{\left(- \sqrt{2} + 2\right)^{2}}{2},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{1}{{\sqrt {\sqrt {2 }} }},1/(2**(1/4)),\frac{2^{\frac{3}{4}}}{2},Racionaliza:,1BC,Potencias y radicales,p6e28
+\frac{a}{{\sqrt {a}  + \sqrt {b} }},a/(sqrt(a) + sqrt(b)),\frac{a^{\frac{3}{2}} - a \sqrt{b}}{a - b},Racionaliza:,1BC,Potencias y radicales,p6e28

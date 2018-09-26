@@ -252,9 +252,47 @@ def doc_exam(title="", author=""):
 #if __name__ == "__main__":
 #   print problem("test", "fasd", "asdfasd", 10)
 
-def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:' ) :
+def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex' ) :
     encabezado = ['enunciado_latex','enunciado','solucion']
     datos = [enunciado_latex, enunciado, solucion]
     df = pd.DataFrame(dict(zip(encabezado, datos)))
     df['texto'] = texto
+    df['curso'] = curso
+    df['titulo'] = titulo
+    df['n_ejercicio'] = n_ejercicio
     return df
+
+
+def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios') :
+    f = open(fichero,'w')
+    f.write(doc_ejer(titulo)[0])
+    f.write(doc_ejer(titulo)[1])
+
+    f.close()
+
+
+def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
+    txt = df_ejercicios.iloc[0].texto
+    f = open(fichero,'a')
+    f.write(r'\question %s' % txt)
+    f.write(r"""
+        \begin{multicols}{3} 
+        \begin{parts}""")
+    
+    for s in df_ejercicios.index :
+        f.write(r' \part[]  $ %s $ '  % df_ejercicios.loc[s].enunciado_latex)
+        f.write(r' \begin{solution}  $ %s $  \end{solution}'  % df_ejercicios.loc[s].solucion)
+
+    f.write(r"""
+        \end{parts}
+        \end{multicols}
+        """)
+    
+    f.close()
+    
+    
+def escribir_fin(fichero = 'prueba3.tex') :
+    f = open(fichero,'a')
+
+    f.write(doc_ejer()[2])
+    f.close()
