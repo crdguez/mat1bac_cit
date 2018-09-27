@@ -1,0 +1,14 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio
+\frac{{7!}}{{6!}},factorial(7)/factorial(6),7,Simplifica los cocientes entre factoriales:,1BC,Números combinatorios. Binomio de Newton,p9e2
+\frac{{8!}}{{9!}},factorial(8)/factorial(9),\frac{1}{9},Simplifica los cocientes entre factoriales:,1BC,Números combinatorios. Binomio de Newton,p9e2
+\frac{{9!}}{{5!\cdot 4!}},factorial(9)/((factorial(4)*factorial(5))),126,Simplifica los cocientes entre factoriales:,1BC,Números combinatorios. Binomio de Newton,p9e2
+\frac{{m!}}{{(m - 1)!}},factorial(m)/factorial(m - 1),m,Simplifica los cocientes entre factoriales:,1BC,Números combinatorios. Binomio de Newton,p9e2
+\frac{{( {m + 1} )!}}{{( {m - 1} )!}},factorial(m + 1)/factorial(m - 1),m \left(m + 1\right),Simplifica los cocientes entre factoriales:,1BC,Números combinatorios. Binomio de Newton,p9e2
+\binom{252}{250},"binomial(252,250)",31626,Calcula las siguientes operaciones:,1BC,Números combinatorios. Binomio de Newton,p9e3
+\binom{25}{3} + \binom{25}{4},"binomial(25,3) + binomial(25,4)",14950,Calcula las siguientes operaciones:,1BC,Números combinatorios. Binomio de Newton,p9e3
+\binom{9}{6} + \binom{9}{7} + \binom{10}{2},"binomial(9,6) + binomial(9,7) + binomial(10,2)",165,Calcula las siguientes operaciones:,1BC,Números combinatorios. Binomio de Newton,p9e3
+\binom{4}{2} + \binom{4}{3} + \binom{5}{4}+ \binom{6}{5} + \binom{7}{6} + \binom{8}{7},"binomial(4,2) + binomial(4,3) + binomial(5,4)+ binomial(6,5) + binomial(7,6) + binomial(8,7)",36,Calcula las siguientes operaciones:,1BC,Números combinatorios. Binomio de Newton,p9e3
+\binom{4}{0} + \binom{4}{1} + \binom{4}{2}+\binom{4}{3},"binomial(4,0) + binomial(4,1) + binomial(4,2)+binomial(4,3)",15,Calcula las siguientes operaciones:,1BC,Números combinatorios. Binomio de Newton,p9e3
+\frac{{6!}}{{5!}} + \frac{{8!}}{{6!}},factorial(6)/factorial(5) + factorial(8)/factorial(6),62,Simplifica:,1BC,Números combinatorios. Binomio de Newton,p9e5
+\frac{{n!}}{{(n - 1)!}} + \frac{{(n + 2)!}}{{n!}},factorial(n)/factorial(n - 1) + factorial(n + 2)/factorial(n),n^{2} + 4 n + 2,Simplifica:,1BC,Números combinatorios. Binomio de Newton,p9e5
+\frac{\binom{n+3}{n}+\binom{n+2}{n}}{\frac{n+6}{6}},"(binomial(n+3,n)+binomial(n+2,n))/(n+6/n)",\frac{n \left(n + 1\right) \left(n + 2\right) \left(n + 6\right)}{6 \left(n^{2} + 6\right)},Simplifica:,1BC,Números combinatorios. Binomio de Newton,p9e5
