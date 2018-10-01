@@ -1,9 +1,9 @@
-enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio
-\left|{x - 2}\right| - 1< 0,"(Abs(x - 2) - 1, '<')",1 < x \wedge x < 3,Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{2 x + 3}\right| - 4< 0,"(Abs(2*x + 3) - 4, '<')",- \frac{7}{2} < x \wedge x < \frac{1}{2},Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{x + 5}\right| - 2\leq 0,"(Abs(x + 5) - 2, '<=')",-7 \leq x \wedge x \leq -3,Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{3 x - 2}\right| - 0.5\leq 0,"(Abs(3*x - 2) - 0.5, '<=')",0.5 \leq x \wedge x \leq 0.833333333333333,Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{x - 1}\right| - 2> 0,"(Abs(x - 1) - 2, '>')",\left(-\infty < x \wedge x < -1\right) \vee \left(3 < x \wedge x < \infty\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{x + 2}\right| - 5> 0,"(Abs(x + 2) - 5, '>')",\left(-\infty < x \wedge x < -7\right) \vee \left(3 < x \wedge x < \infty\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{2 x - 3}\right| - 1\geq 0,"(Abs(2*x - 3) - 1, '>=')",\left(2 \leq x \wedge x < \infty\right) \vee \left(x \leq 1 \wedge -\infty < x\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
-\left|{2 x + 1}\right| - 0.5\geq 0,"(Abs(2*x + 1) - 0.5, '>=')",\left(-0.25 \leq x \wedge x < \infty\right) \vee \left(x \leq -0.75 \wedge - \infty < x\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad
+\left|{x - 2}\right| - 1< 0,"(Abs(x - 2) - 1, '<')",1 < x \wedge x < 3,Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{2 x + 3}\right| - 4< 0,"(Abs(2*x + 3) - 4, '<')",- \frac{7}{2} < x \wedge x < \frac{1}{2},Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{x + 5}\right| - 2\leq 0,"(Abs(x + 5) - 2, '<=')",-7 \leq x \wedge x \leq -3,Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{3 x - 2}\right| - 0.5\leq 0,"(Abs(3*x - 2) - 0.5, '<=')",0.5 \leq x \wedge x \leq 0.833333333333333,Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{x - 1}\right| - 2> 0,"(Abs(x - 1) - 2, '>')",\left(-\infty < x \wedge x < -1\right) \vee \left(3 < x \wedge x < \infty\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{x + 2}\right| - 5> 0,"(Abs(x + 2) - 5, '>')",\left(-\infty < x \wedge x < -7\right) \vee \left(3 < x \wedge x < \infty\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{2 x - 3}\right| - 1\geq 0,"(Abs(2*x - 3) - 1, '>=')",\left(2 \leq x \wedge x < \infty\right) \vee \left(x \leq 1 \wedge -\infty < x\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1
+\left|{2 x + 1}\right| - 0.5\geq 0,"(Abs(2*x + 1) - 0.5, '>=')",\left(-0.25 \leq x \wedge x < \infty\right) \vee \left(x \leq -0.75 \wedge - \infty < x\right),Resolver las siguientes inecuaciones:,1BC,1 - Números reales,p9e3,1

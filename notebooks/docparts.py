@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pandas as pd
+import os
 
 def doc_ejer(title="", author=""):
     start=r"""
@@ -252,7 +253,7 @@ def doc_exam(title="", author=""):
 #if __name__ == "__main__":
 #   print problem("test", "fasd", "asdfasd", 10)
 
-def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex' ) :
+def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex', dificultad = '1' ) :
     encabezado = ['enunciado_latex','enunciado','solucion']
     datos = [enunciado_latex, enunciado, solucion]
     df = pd.DataFrame(dict(zip(encabezado, datos)))
@@ -260,6 +261,7 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
     df['curso'] = curso
     df['titulo'] = titulo
     df['n_ejercicio'] = n_ejercicio
+    df['dificultad'] = dificultad
     return df
 
 
@@ -292,7 +294,19 @@ def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
     
     
 def escribir_fin(fichero = 'prueba3.tex') :
-    f = open(fichero,'a')
-
+    fichero = fichero.replace('.tex','')
+    f = open(fichero + '.tex','a')
     f.write(doc_ejer()[2])
     f.close()
+    os.system("pdflatex %s.tex" % fichero)
+    os.rename(fichero+'.pdf','../ejercicios/buid/'+fichero+'.pdf')
+    os.remove("%s.log" % fichero)
+    os.remove("%s.aux" % fichero)
+    os.remove("%s.tex" % fichero)
+
+    
+def generar_tex(df_ejercicios, fichero, titulo) :
+    escribir_preambulo(fichero, titulo)
+    for s in df_ejercicios.groupby('n_ejercicio').count().index : 
+        escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero)
+    escribir_fin(fichero)
