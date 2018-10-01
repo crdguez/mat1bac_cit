@@ -1,0 +1,68 @@
+
+	\documentclass[spanish, 11pt]{exam}
+	
+	%These tell TeX which packages to use.
+	\usepackage{array,epsfig}
+	\usepackage{amsmath, textcomp}
+	\usepackage{amsfonts}
+	\usepackage{amssymb}
+	\usepackage{amsxtra}
+	\usepackage{amsthm}
+	\usepackage{mathrsfs}
+	\usepackage{color}
+	\usepackage{multicol}
+	\usepackage{verbatim}
+	
+	
+	\usepackage[utf8]{inputenc}
+	\usepackage[spanish]{babel}
+	\usepackage{eurosym}
+	
+	\usepackage{graphicx}
+	\graphicspath{{../img/}}
+	
+	
+	
+	\printanswers
+	\nopointsinmargin
+	\pointformat{}
+	
+	%Pagination stuff.
+	%\setlength{\topmargin}{-.3 in}
+	%\setlength{\oddsidemargin}{0in}
+	%\setlength{\evensidemargin}{0in}
+	%\setlength{\textheight}{9.in}
+	%\setlength{\textwidth}{6.5in}
+	%\pagestyle{empty}
+	
+	\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+	
+	\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+	
+	\newcommand{\class}{1º Bachillerato}
+	\newcommand{\examdate}{\today}
+	
+	\newcommand{\tipo}{A}
+	
+	
+	\newcommand{\timelimit}{50 minutos}
+	
+	
+	
+	\pagestyle{head}
+	\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+	\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+	\runningheadrule
+	
+	\newcommand{\examnum}{4 - Polinomios}
+    \begin{document}
+    \begin{questions}
+    \question p12e3 - Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, B(x)- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:
+        \begin{multicols}{3} 
+        \begin{parts} \part[]  $ A(x) + B(x) $  \begin{solution}  $ - \frac{x^{5}}{2} - x^{4} + 2 x^{3} - 5 x^{2} + 6 x + 6 $  \end{solution} \part[]  $ A(x) - B(x) $  \begin{solution}  $ \frac{x^{5}}{2} + x^{4} + 2 x^{3} - 5 x^{2} - 6 x + 6 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
