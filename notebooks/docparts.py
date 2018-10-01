@@ -298,11 +298,13 @@ def escribir_fin(fichero = 'prueba3.tex') :
     f = open(fichero + '.tex','a')
     f.write(doc_ejer()[2])
     f.close()
+    cwd = os.getcwd()
     os.system("pdflatex %s.tex" % fichero)
-    os.rename(fichero+'.pdf','../ejercicios/buid/'+fichero+'.pdf')
+    os.rename(cwd+'/'+fichero+'.pdf','../ejercicios/build/'+fichero+'.pdf')
+    os.rename(cwd+'/'+fichero+'.tex','../ejercicios/'+fichero+'.tex')
     os.remove("%s.log" % fichero)
     os.remove("%s.aux" % fichero)
-    os.remove("%s.tex" % fichero)
+    #os.remove("%s.tex" % fichero)
 
     
 def generar_tex(df_ejercicios, fichero, titulo) :
