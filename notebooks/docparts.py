@@ -16,7 +16,7 @@ def doc_ejer(title="", author=""):
 	\usepackage{amsthm}
 	\usepackage{mathrsfs}
 	\usepackage{color}
-	\usepackage{multicol}
+	\usepackage{multicol, xparse}
 	\usepackage{verbatim}
 	
 	
@@ -40,7 +40,23 @@ def doc_ejer(title="", author=""):
 	%\setlength{\textheight}{9.in}
 	%\setlength{\textwidth}{6.5in}
 	%\pagestyle{empty}
-	
+	    
+	\let\multicolmulticols\multicols
+	\let\endmulticolmulticols\endmulticols
+	\RenewDocumentEnvironment{multicols}{mO{}}
+	 {%
+	  \ifnum#1=1
+	    #2%
+	  \else % More than 1 column
+	    \multicolmulticols{#1}[#2]
+	  \fi
+	 }
+	 {%
+	  \ifnum#1=1
+	  \else % More than 1 column
+	    \endmulticolmulticols
+	  \fi
+	 }
 	\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
 	
 	\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
@@ -253,7 +269,7 @@ def doc_exam(title="", author=""):
 #if __name__ == "__main__":
 #   print problem("test", "fasd", "asdfasd", 10)
 
-def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex', dificultad = '1' ) :
+def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex', dificultad = '1', n_columnas = '3' ) :
     encabezado = ['enunciado_latex','enunciado','solucion']
     datos = [enunciado_latex, enunciado, solucion]
     df = pd.DataFrame(dict(zip(encabezado, datos)))
@@ -262,6 +278,7 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
     df['titulo'] = titulo
     df['n_ejercicio'] = n_ejercicio
     df['dificultad'] = dificultad
+    df['n_columnas'] = n_columnas
     return df
 
 
@@ -275,11 +292,12 @@ def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios') :
 
 def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
     txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
+    n_columnas = df_ejercicios.iloc[0].n_columnas
     f = open(fichero,'a')
     f.write(r'\question %s' % txt)
     f.write(r"""
-        \begin{multicols}{3} 
-        \begin{parts}""")
+        \begin{multicols}{%s} 
+        \begin{parts}""" % n_columnas)
     
     for s in df_ejercicios.index :
         f.write(r' \part[]  $ %s $ '  % df_ejercicios.loc[s].enunciado_latex)
