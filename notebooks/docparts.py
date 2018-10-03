@@ -3,80 +3,156 @@
 import pandas as pd
 import os
 
-def doc_ejer(title="", author=""):
-    start=r"""
-	\documentclass[spanish, 11pt]{exam}
-	
-	%These tell TeX which packages to use.
-	\usepackage{array,epsfig}
-	\usepackage{amsmath, textcomp}
-	\usepackage{amsfonts}
-	\usepackage{amssymb}
-	\usepackage{amsxtra}
-	\usepackage{amsthm}
-	\usepackage{mathrsfs}
-	\usepackage{color}
-	\usepackage{multicol, xparse}
-	\usepackage{verbatim}
-	
-	
-	\usepackage[utf8]{inputenc}
-	\usepackage[spanish]{babel}
-	\usepackage{eurosym}
-	
-	\usepackage{graphicx}
-	\graphicspath{{../img/}}
-	
-	
-	
-	\printanswers
-	\nopointsinmargin
-	\pointformat{}
-	
-	%Pagination stuff.
-	%\setlength{\topmargin}{-.3 in}
-	%\setlength{\oddsidemargin}{0in}
-	%\setlength{\evensidemargin}{0in}
-	%\setlength{\textheight}{9.in}
-	%\setlength{\textwidth}{6.5in}
-	%\pagestyle{empty}
-	    
-	\let\multicolmulticols\multicols
-	\let\endmulticolmulticols\endmulticols
-	\RenewDocumentEnvironment{multicols}{mO{}}
-	 {%
-	  \ifnum#1=1
-	    #2%
-	  \else % More than 1 column
-	    \multicolmulticols{#1}[#2]
-	  \fi
-	 }
-	 {%
-	  \ifnum#1=1
-	  \else % More than 1 column
-	    \endmulticolmulticols
-	  \fi
-	 }
-	\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
-	
-	\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
-	
-	\newcommand{\class}{1º Bachillerato}
-	\newcommand{\examdate}{\today}
-	
-	\newcommand{\tipo}{A}
-	
-	
-	\newcommand{\timelimit}{50 minutos}
-	
-	
-	
-	\pagestyle{head}
-	\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
-	\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
-	\runningheadrule
-	
-	"""
+def doc_ejer(title="", tipo = 'ejercicios'):
+    if tipo == 'ejercicios' :
+        start=r"""
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        """
+        
+    else:
+        start=r"""
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{2º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        """
     
     if title:
         start = start + "\\newcommand{\\examnum}{%s}" % title
@@ -282,10 +358,10 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
     return df
 
 
-def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios') :
+def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios', tipo = 'ejercicios') :
     f = open(fichero,'w')
-    f.write(doc_ejer(titulo)[0])
-    f.write(doc_ejer(titulo)[1])
+    f.write(doc_ejer(titulo, tipo)[0])
+    f.write(doc_ejer(titulo, tipo)[1])
 
     f.close()
 
@@ -325,8 +401,8 @@ def escribir_fin(fichero = 'prueba3.tex') :
     #os.remove("%s.tex" % fichero)
 
     
-def generar_tex(df_ejercicios, fichero, titulo) :
-    escribir_preambulo(fichero, titulo)
+def generar_tex(df_ejercicios, fichero, titulo, tipo = 'ejercicios') :
+    escribir_preambulo(fichero, titulo, tipo)
     for s in df_ejercicios.groupby('n_ejercicio').count().index : 
         escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero)
     escribir_fin(fichero)
