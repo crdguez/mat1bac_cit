@@ -1,39 +1,37 @@
 
-        \documentclass[spanish, 11pt]{exam}
-
-        %These tell TeX which packages to use.
-        \usepackage{array,epsfig}
-        \usepackage{amsmath, textcomp}
-        \usepackage{amsfonts}
-        \usepackage{amssymb}
-        \usepackage{amsxtra}
-        \usepackage{amsthm}
-        \usepackage{mathrsfs}
-        \usepackage{color}
-        \usepackage{multicol, xparse}
-        \usepackage{verbatim}
-
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        %\printanswers
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
 
         \usepackage[utf8]{inputenc}
         \usepackage[spanish]{babel}
         \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
 
         \usepackage{graphicx}
         \graphicspath{{../img/}}
 
 
 
-        \printanswers
-        \nopointsinmargin
-        \pointformat{}
-
-        %Pagination stuff.
-        %\setlength{\topmargin}{-.3 in}
-        %\setlength{\oddsidemargin}{0in}
-        %\setlength{\evensidemargin}{0in}
-        %\setlength{\textheight}{9.in}
-        %\setlength{\textwidth}{6.5in}
-        %\pagestyle{empty}
 
         \let\multicolmulticols\multicols
         \let\endmulticolmulticols\endmulticols
@@ -63,6 +61,7 @@
 
         \newcommand{\timelimit}{50 minutos}
 
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
 
 
         \pagestyle{head}
@@ -71,9 +70,30 @@
         \runningheadrule
 
         \newcommand{\examnum}{4 - Polinomios}
-    \begin{document}
-    \begin{questions}
-    \question p012e03 - Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, \  B(x)=- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1.a y 4.a
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question p012e03 - Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, \  B(x)=- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:
         \begin{multicols}{3} 
         \begin{parts} \part[]  $ A(x) + B(x) $  \begin{solution}  $ - \frac{x^{5}}{2} - x^{4} + 2 x^{3} - 5 x^{2} + 6 x + 6 $  \end{solution} \part[]  $ A(x) - B(x) $  \begin{solution}  $ \frac{x^{5}}{2} + x^{4} + 2 x^{3} - 5 x^{2} - 6 x + 6 $  \end{solution}
         \end{parts}

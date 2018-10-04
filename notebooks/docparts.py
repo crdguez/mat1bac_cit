@@ -79,43 +79,46 @@ def doc_ejer(title="", tipo = 'ejercicios'):
 
         """
         
+        middle=r"""
+        \begin{document}
+        \begin{questions}
+        """
+        
     else:
         start=r"""
-        \documentclass[spanish, 11pt]{exam}
-
-        %These tell TeX which packages to use.
-        \usepackage{array,epsfig}
-        \usepackage{amsmath, textcomp}
-        \usepackage{amsfonts}
-        \usepackage{amssymb}
-        \usepackage{amsxtra}
-        \usepackage{amsthm}
-        \usepackage{mathrsfs}
-        \usepackage{color}
-        \usepackage{multicol, xparse}
-        \usepackage{verbatim}
-
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        %\printanswers
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
 
         \usepackage[utf8]{inputenc}
         \usepackage[spanish]{babel}
         \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
 
         \usepackage{graphicx}
         \graphicspath{{../img/}}
 
 
 
-        \printanswers
-        \nopointsinmargin
-        \pointformat{}
-
-        %Pagination stuff.
-        %\setlength{\topmargin}{-.3 in}
-        %\setlength{\oddsidemargin}{0in}
-        %\setlength{\evensidemargin}{0in}
-        %\setlength{\textheight}{9.in}
-        %\setlength{\textwidth}{6.5in}
-        %\pagestyle{empty}
 
         \let\multicolmulticols\multicols
         \let\endmulticolmulticols\endmulticols
@@ -137,7 +140,7 @@ def doc_ejer(title="", tipo = 'ejercicios'):
 
         \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
 
-        \newcommand{\class}{2º Bachillerato}
+        \newcommand{\class}{1º Bachillerato}
         \newcommand{\examdate}{\today}
 
         \newcommand{\tipo}{A}
@@ -145,6 +148,7 @@ def doc_ejer(title="", tipo = 'ejercicios'):
 
         \newcommand{\timelimit}{50 minutos}
 
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
 
 
         \pagestyle{head}
@@ -153,14 +157,36 @@ def doc_ejer(title="", tipo = 'ejercicios'):
         \runningheadrule
 
         """
+        middle=r"""
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1.a y 4.a
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        """
     
     if title:
         start = start + "\\newcommand{\\examnum}{%s}" % title
     
-    middle=r"""
-    \begin{document}
-    \begin{questions}
-    """
+    
    
 
     end=r"""
@@ -393,6 +419,7 @@ def escribir_fin(fichero = 'prueba3.tex') :
     f.write(doc_ejer()[2])
     f.close()
     cwd = os.getcwd()
+    os.system("pdflatex %s.tex" % fichero)
     os.system("pdflatex %s.tex" % fichero)
     os.rename(cwd+'/'+fichero+'.pdf','../ejercicios/build/'+fichero+'.pdf')
     os.rename(cwd+'/'+fichero+'.tex','../ejercicios/'+fichero+'.tex')
