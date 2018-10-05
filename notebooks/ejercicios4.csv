@@ -1,55 +1,55 @@
-enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas
-A(x) + B(x),A(x) + B(x),- \frac{x^{5}}{2} - x^{4} + 2 x^{3} - 5 x^{2} + 6 x + 6,"Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, \  B(x)=- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:",1BC,4 - Polinomios,p012e03,1,3
-A(x) - B(x),A(x) - B(x),\frac{x^{5}}{2} + x^{4} + 2 x^{3} - 5 x^{2} - 6 x + 6,"Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, \  B(x)=- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:",1BC,4 - Polinomios,p012e03,1,3
-A(x) \cdot B(x),A(x)*B(x),- 3 x^{7} + 9 x^{6} - 8 x^{5} + 6 x^{4} - 25 x^{3} + 38 x^{2} - 13 x + 6,"Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:",1BC,4 - Polinomios,p012e04,1,3
-A(x) - 3B(x) + 5C(x),A(x) - 3*B(x) + 5*C(x),8 x^{4} - 11 x^{2} + 4 x + \frac{39}{2},"Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:",1BC,4 - Polinomios,p012e04,1,3
-x^2\cdot A(x) + 3x\cdot B(x),x**2*A(x) + (3*x)*B(x),- 3 x^{4} + 2 x^{3} + 2 x^{2} - 18 x,"Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:",1BC,4 - Polinomios,p012e04,1,3
-( {5{x^4} - 7{x^2} + 6x + 1} ):( {3{x^2}} ),(6*x + 5*x**4 - 7*x**2 + 1)/(3*x**2),"\left ( \frac{5 x^{2}}{3} - \frac{7}{3}, \quad 6 x + 1\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1
-( {7{x^4} - 3{x^2} + 6x - 1} ):( {{x^2}-x+3} ),(6*x + 7*x**4 - 3*x**2 - 1)/(x**2 - x + 3),"\left ( 7 x^{2} + 7 x - 17, \quad - 32 x + 50\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1
-( {{x^6} - 5} ):( {{x^2} - x}),(x**6 - 5)/(x**2 - x),"\left ( x^{4} + x^{3} + x^{2} + x + 1, \quad x - 5\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1
-( {8{x^6} - 5x^4 + 6 } ):( {2x^2} - 1),(8*x**6 - 5*x**4 + 6)/(2*x**2 - 1),"\left ( 4 x^{4} - \frac{x^{2}}{2} - \frac{1}{4}, \quad \frac{23}{4}\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1
-( {3{x^5} - 6{x^2} + 9} ):( {{x^2} + 1} ),(3*x**5 - 6*x**2 + 9)/(x**2 + 1),"\left ( 3 x^{3} - 3 x - 6, \quad 3 x + 15\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1
-( {x^9} - 7{x} + 1 ):( {{x^3} + x} ),(x**9 - 7*x + 1)/(x**3 + x),"\left ( x^{6} - x^{4} + x^{2} - 1, \quad - 6 x + 1\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1
-x=1,x=1,6\ y \ 11,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3
-x=-1,x=-1,8\ y \ 5,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3
-x=2,x=2,5\ y \ 44,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3
-x=-2,x=-2,21\ y \ 32,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3
-x=\frac{1}{2},x=\frac{1}{2},\frac{43}{8}\ y \ \frac{61}{8},"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3
-x=-\frac{1}{2},x=-\frac{1}{2},\frac{45}{8}\ y \ \frac{37}{8},"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3
-x^2 - 1,x**2 - 1,"\left\{-1, 1\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3
-x^2 - 7,x**2 - 7,"\left\{- \sqrt{7}, \sqrt{7}\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3
-3x^2 -12,3*x**2 - 12,"\left\{-2, 2\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3
-5x^2 -25,5*x**2 - 25,"\left\{- \sqrt{5}, \sqrt{5}\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3
-x^4 +3,x**4 + 3,"\left\{- \frac{\sqrt{2} \sqrt[4]{3}}{2} - \frac{\sqrt{2} \sqrt[4]{3} i}{2}, - \frac{\sqrt{2} \sqrt[4]{3}}{2} + \frac{\sqrt{2} \sqrt[4]{3} i}{2}, \frac{\sqrt{2} \sqrt[4]{3}}{2} - \frac{\sqrt{2} \sqrt[4]{3} i}{2}, \frac{\sqrt{2} \sqrt[4]{3}}{2} + \frac{\sqrt{2} \sqrt[4]{3} i}{2}\right\}",¿Tiene el polinomio A(x)= $x^4 +3$ alguna raíz real?,1BC,4 - Polinomios,p012e10,1,1
-( {{x^2} - 3x + 6} ):( {x+2} ),(x**2 - 3*x + 6)/(x + 2),"\left ( x - 5, \quad 16\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1
-( {2{x^6} - 7{x^4} + 6x - 9} ):( {x+3} ),(6*x + 2*x**6 - 7*x**4 - 9)/(x + 3),"\left ( 2 x^{5} - 6 x^{4} + 11 x^{3} - 33 x^{2} + 99 x - 291, \quad 864\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1
-( {7{x^3} - 4x - 3} ):( {{x} - 1}),(7*x**3 - 4*x - 3)/(x - 1),"\left ( 7 x^{2} + 7 x + 3, \quad 0\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1
-( {x^2 - 1 } ):( {x} + 1),(x**2 - 1)/(x + 1),"\left ( x - 1, \quad 0\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1
-( {7{x^3} - 4x + 9} ):( {x+1} ),(7*x**3 - 4*x + 9)/(x + 1),6,Aplica el teorema del resto para calcular el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e12,1,3
-( {7{x^3} - 4x - 3} ):( {x-1} ),(7*x**3 - 4*x - 3)/(x - 1),0,Aplica el teorema del resto para calcular el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e12,1,3
-( {x^2 - 1} ):( {x + 1}),(x**2 - 1)/(x + 1),0,Aplica el teorema del resto para calcular el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e12,1,3
-x^2-81,x**2 - 81,\left(x - 9\right) \left(x + 9\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^2-2,x**2 - 2,\left(x - \sqrt{2}\right) \left(x + \sqrt{2}\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-4x^2-9,4*x**2 - 9,4 \left(x - \frac{3}{2}\right) \left(x + \frac{3}{2}\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3-x,x**3 - x,x \left(x - 1\right) \left(x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^2-3x,x**2 - 3*x,x \left(x - 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^2-2x+1,x**2 - 2*x + 1,\left(x - 1\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^5-3x^4+2x^3,2*x**3 + x**5 - 3*x**4,x^{3} \left(x - 2\right) \left(x - 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^2-x-30,x**2 - x - 30,\left(x - 6\right) \left(x + 5\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^2+2x+1,x**2 + 2*x + 1,\left(x + 1\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3-x^2-x+1,-x + x**3 - x**2 + 1,\left(x - 1\right)^{2} \left(x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3-2x^2-5x+6,-5*x + x**3 - 2*x**2 + 6,\left(x - 3\right) \left(x - 1\right) \left(x + 2\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^5+4x^4+x^3-10x^2-4x+8,-4*x - 10*x**2 + x**3 + x**5 + 4*x**4 + 8,\left(x - 1\right)^{2} \left(x + 2\right)^{3},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3+3x^2-2x-6,-2*x + x**3 + 3*x**2 - 6,\left(x + 3\right) \left(x - \sqrt{2}\right) \left(x + \sqrt{2}\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3-3x^2-13x+15,-13*x + x**3 - 3*x**2 + 15,\left(x - 5\right) \left(x - 1\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3+x^2-6x,-6*x + x**3 + x**2,x \left(x - 2\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-3x^3+x^2-12x-4,-12*x + 3*x**3 + x**2 - 4,3 \left(x - 2\right) \left(x + \frac{1}{3}\right) \left(x + 2\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^4+2x^3-x^2-2x,-2*x - x**2 + x**4 + 2*x**3,x \left(x - 1\right) \left(x + 1\right) \left(x + 2\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^4-2x^3+2x^2-2x+1,-2*x + 2*x**2 + x**4 - 2*x**3 + 1,\left(x - 1\right)^{2} \left(x^{2} + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^4+2x^3-3x^2-4x+4,-4*x - 3*x**2 + x**4 + 2*x**3 + 4,\left(x - 1\right)^{2} \left(x + 2\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^3+4x^2+x-6,x + x**3 + 4*x**2 - 6,\left(x - 1\right) \left(x + 2\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x^5- 4x^3-x^2+4,-x**2 + x**5 - 4*x**3 + 4,\left(x - 2\right) \left(x - 1\right) \left(x + 2\right) \left(x^{2} + x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2
-x=0,x=0,3,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3
-x=1,x=1,1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3
-x=2,x=2,-1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3
-x=\frac{2}{3},x=\frac{2}{3},\frac{175}{81},"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos
+A(x) + B(x),A(x) + B(x),- \frac{x^{5}}{2} - x^{4} + 2 x^{3} - 5 x^{2} + 6 x + 6,"Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, \  B(x)=- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:",1BC,4 - Polinomios,p012e03,1,3,1
+A(x) - B(x),A(x) - B(x),\frac{x^{5}}{2} + x^{4} + 2 x^{3} - 5 x^{2} - 6 x + 6,"Dados los polinomios $ A(x)=2{x^3} - 5{x^2} + 6, \  B(x)=- \frac{1}{2}{x^5} - {x^4} + 6x$ halla:",1BC,4 - Polinomios,p012e03,1,3,1
+A(x) \cdot B(x),A(x)*B(x),- 3 x^{7} + 9 x^{6} - 8 x^{5} + 6 x^{4} - 25 x^{3} + 38 x^{2} - 13 x + 6,"Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:",1BC,4 - Polinomios,p012e04,1,3,1
+A(x) - 3B(x) + 5C(x),A(x) - 3*B(x) + 5*C(x),8 x^{4} - 11 x^{2} + 4 x + \frac{39}{2},"Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:",1BC,4 - Polinomios,p012e04,1,3,1
+x^2\cdot A(x) + 3x\cdot B(x),x**2*A(x) + (3*x)*B(x),- 3 x^{4} + 2 x^{3} + 2 x^{2} - 18 x,"Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:",1BC,4 - Polinomios,p012e04,1,3,1
+( {5{x^4} - 7{x^2} + 6x + 1} ):( {3{x^2}} ),(6*x + 5*x**4 - 7*x**2 + 1)/(3*x**2),"\left ( \frac{5 x^{2}}{3} - \frac{7}{3}, \quad 6 x + 1\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1,1
+( {7{x^4} - 3{x^2} + 6x - 1} ):( {{x^2}-x+3} ),(6*x + 7*x**4 - 3*x**2 - 1)/(x**2 - x + 3),"\left ( 7 x^{2} + 7 x - 17, \quad - 32 x + 50\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1,1
+( {{x^6} - 5} ):( {{x^2} - x}),(x**6 - 5)/(x**2 - x),"\left ( x^{4} + x^{3} + x^{2} + x + 1, \quad x - 5\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1,1
+( {8{x^6} - 5x^4 + 6 } ):( {2x^2} - 1),(8*x**6 - 5*x**4 + 6)/(2*x**2 - 1),"\left ( 4 x^{4} - \frac{x^{2}}{2} - \frac{1}{4}, \quad \frac{23}{4}\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1,1
+( {3{x^5} - 6{x^2} + 9} ):( {{x^2} + 1} ),(3*x**5 - 6*x**2 + 9)/(x**2 + 1),"\left ( 3 x^{3} - 3 x - 6, \quad 3 x + 15\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1,1
+( {x^9} - 7{x} + 1 ):( {{x^3} + x} ),(x**9 - 7*x + 1)/(x**3 + x),"\left ( x^{6} - x^{4} + x^{2} - 1, \quad - 6 x + 1\right )",Halla el cociente y el resto de:,1BC,4 - Polinomios,p012e07,1,1,1
+x=1,x=1,6\ y \ 11,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3,1
+x=-1,x=-1,8\ y \ 5,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3,1
+x=2,x=2,5\ y \ 44,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3,1
+x=-2,x=-2,21\ y \ 32,"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3,1
+x=\frac{1}{2},x=\frac{1}{2},\frac{43}{8}\ y \ \frac{61}{8},"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3,1
+x=-\frac{1}{2},x=-\frac{1}{2},\frac{45}{8}\ y \ \frac{37}{8},"Dados $ A(x)= - {x^3} + 2{x^2} + 5, \  B(x)= 2{x^4} + 3x + 6$ halla el valor numérico de ambos polinomios en:",1BC,4 - Polinomios,p012e08,1,3,1
+x^2 - 1,x**2 - 1,"\left\{-1, 1\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3,1
+x^2 - 7,x**2 - 7,"\left\{- \sqrt{7}, \sqrt{7}\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3,1
+3x^2 -12,3*x**2 - 12,"\left\{-2, 2\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3,1
+5x^2 -25,5*x**2 - 25,"\left\{- \sqrt{5}, \sqrt{5}\right\}","Halla, para cada uno  de los siguientes polinomios, sus raíces:",1BC,4 - Polinomios,p012e09,1,3,1
+x^4 +3,x**4 + 3,"\left\{- \frac{\sqrt{2} \sqrt[4]{3}}{2} - \frac{\sqrt{2} \sqrt[4]{3} i}{2}, - \frac{\sqrt{2} \sqrt[4]{3}}{2} + \frac{\sqrt{2} \sqrt[4]{3} i}{2}, \frac{\sqrt{2} \sqrt[4]{3}}{2} - \frac{\sqrt{2} \sqrt[4]{3} i}{2}, \frac{\sqrt{2} \sqrt[4]{3}}{2} + \frac{\sqrt{2} \sqrt[4]{3} i}{2}\right\}",¿Tiene el polinomio A(x)= $x^4 +3$ alguna raíz real?,1BC,4 - Polinomios,p012e10,1,1,1
+( {{x^2} - 3x + 6} ):( {x+2} ),(x**2 - 3*x + 6)/(x + 2),"\left ( x - 5, \quad 16\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1,1
+( {2{x^6} - 7{x^4} + 6x - 9} ):( {x+3} ),(6*x + 2*x**6 - 7*x**4 - 9)/(x + 3),"\left ( 2 x^{5} - 6 x^{4} + 11 x^{3} - 33 x^{2} + 99 x - 291, \quad 864\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1,1
+( {7{x^3} - 4x - 3} ):( {{x} - 1}),(7*x**3 - 4*x - 3)/(x - 1),"\left ( 7 x^{2} + 7 x + 3, \quad 0\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1,1
+( {x^2 - 1 } ):( {x} + 1),(x**2 - 1)/(x + 1),"\left ( x - 1, \quad 0\right )",Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e11,1,1,1
+( {7{x^3} - 4x + 9} ):( {x+1} ),(7*x**3 - 4*x + 9)/(x + 1),6,Aplica el teorema del resto para calcular el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e12,1,3,1
+( {7{x^3} - 4x - 3} ):( {x-1} ),(7*x**3 - 4*x - 3)/(x - 1),0,Aplica el teorema del resto para calcular el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e12,1,3,1
+( {x^2 - 1} ):( {x + 1}),(x**2 - 1)/(x + 1),0,Aplica el teorema del resto para calcular el resto de las siguientes divisiones:,1BC,4 - Polinomios,p013e12,1,3,1
+x^2-81,x**2 - 81,\left(x - 9\right) \left(x + 9\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^2-2,x**2 - 2,\left(x - \sqrt{2}\right) \left(x + \sqrt{2}\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+4x^2-9,4*x**2 - 9,4 \left(x - \frac{3}{2}\right) \left(x + \frac{3}{2}\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3-x,x**3 - x,x \left(x - 1\right) \left(x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^2-3x,x**2 - 3*x,x \left(x - 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^2-2x+1,x**2 - 2*x + 1,\left(x - 1\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^5-3x^4+2x^3,2*x**3 + x**5 - 3*x**4,x^{3} \left(x - 2\right) \left(x - 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^2-x-30,x**2 - x - 30,\left(x - 6\right) \left(x + 5\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^2+2x+1,x**2 + 2*x + 1,\left(x + 1\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3-x^2-x+1,-x + x**3 - x**2 + 1,\left(x - 1\right)^{2} \left(x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3-2x^2-5x+6,-5*x + x**3 - 2*x**2 + 6,\left(x - 3\right) \left(x - 1\right) \left(x + 2\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^5+4x^4+x^3-10x^2-4x+8,-4*x - 10*x**2 + x**3 + x**5 + 4*x**4 + 8,\left(x - 1\right)^{2} \left(x + 2\right)^{3},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3+3x^2-2x-6,-2*x + x**3 + 3*x**2 - 6,\left(x + 3\right) \left(x - \sqrt{2}\right) \left(x + \sqrt{2}\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3-3x^2-13x+15,-13*x + x**3 - 3*x**2 + 15,\left(x - 5\right) \left(x - 1\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3+x^2-6x,-6*x + x**3 + x**2,x \left(x - 2\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+3x^3+x^2-12x-4,-12*x + 3*x**3 + x**2 - 4,3 \left(x - 2\right) \left(x + \frac{1}{3}\right) \left(x + 2\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^4+2x^3-x^2-2x,-2*x - x**2 + x**4 + 2*x**3,x \left(x - 1\right) \left(x + 1\right) \left(x + 2\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^4-2x^3+2x^2-2x+1,-2*x + 2*x**2 + x**4 - 2*x**3 + 1,\left(x - 1\right)^{2} \left(x^{2} + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^4+2x^3-3x^2-4x+4,-4*x - 3*x**2 + x**4 + 2*x**3 + 4,\left(x - 1\right)^{2} \left(x + 2\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^3+4x^2+x-6,x + x**3 + 4*x**2 - 6,\left(x - 1\right) \left(x + 2\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x^5- 4x^3-x^2+4,-x**2 + x**5 - 4*x**3 + 4,\left(x - 2\right) \left(x - 1\right) \left(x + 2\right) \left(x^{2} + x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+x=0,x=0,3,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
+x=1,x=1,1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
+x=2,x=2,-1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
+x=\frac{2}{3},x=\frac{2}{3},\frac{175}{81},"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1

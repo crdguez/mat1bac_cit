@@ -68,6 +68,10 @@
         \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
         \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
         \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
 
         \newcommand{\examnum}{Autoevaluación}
         \begin{document}
@@ -79,7 +83,7 @@
         \end{tabular*}
         \rule[2ex]{\textwidth}{2pt}
         Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
-        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1.a y 4.a
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
 
         \begin{center}
 
@@ -93,65 +97,64 @@
         \rule[2ex]{\textwidth}{2pt}
 
         \begin{questions}
-        \question p012e09 - Halla, para cada uno  de los siguientes polinomios, sus raíces:
-        \begin{multicols}{3.0} 
-        \begin{parts} \part[]  $ 3x^2 -12 $  \begin{solution}  $ \left\{-2, 2\right\} $  \end{solution}
+        \question Halla, para cada uno  de los siguientes polinomios, sus raíces:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ x^2 - 1 $  \begin{solution}  $ \left\{-1, 1\right\} $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p4e1-2 - Calcula :
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ \frac{{{9^{\frac{1}{2}}} \cdot {3^{ - 1}} \cdot {2^{\frac{3}{2}}}}}{{\sqrt {2} }} $  \begin{solution}  $ 2 $  \end{solution} \part[]  $ {( {\frac{2}{3}} )^{ - 2}} \cdot {( {\frac{3}{2}} )^4} $  \begin{solution}  $ \frac{729}{64} $  \end{solution}
+        \question Aplica el teorema del resto para calcular el resto de las siguientes divisiones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {x^2 - 1} ):( {x + 1}) $  \begin{solution}  $ 0 $  \end{solution} \part[1]  $ ( {7{x^3} - 4x + 9} ):( {x+1} ) $  \begin{solution}  $ 6 $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p6e13 - Calcula los siguientes radicales:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ \sqrt[5]{-1} $  \begin{solution}  $ \sqrt[5]{-1} $  \end{solution}
+        \question Descomponer en factores
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ x^3+x^2-6x $  \begin{solution}  $ x \left(x - 2\right) \left(x + 3\right) $  \end{solution} \part[1]  $ x^3-2x^2-5x+6 $  \begin{solution}  $ \left(x - 3\right) \left(x - 1\right) \left(x + 2\right) $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p6e15 - Calcula y expresa el resultado de la forma más simple:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ \frac{{\sqrt[3] {625} }}{{\sqrt[3] {5}  }} $  \begin{solution}  $ 5 $  \end{solution}
+        \question Calcula los siguientes radicales:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sqrt {1225} $  \begin{solution}  $ 35 $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p6e19 - Racionaliza:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ \frac{5}{{2 - \sqrt {6} }} $  \begin{solution}  $ \frac{- 5 \sqrt{6} - 10}{2} $  \end{solution}
+        \question Resuelve las siguientes ecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ x^5 = -1 $  \begin{solution}  $ x^{5} = -1 $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p6e23 - Calcula, descomponiendo el radicando en factores primos:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ 51    \sqrt[5]{59049}
-51    \sqrt[5]{59049}
-Name: enunciado_latex, dtype: object $  \begin{solution}  $ 51    9
-51    9
-Name: solucion, dtype: object $  \end{solution} \part[]  $ 51    \sqrt[5]{59049}
-51    \sqrt[5]{59049}
-Name: enunciado_latex, dtype: object $  \begin{solution}  $ 51    9
-51    9
-Name: solucion, dtype: object $  \end{solution}
+        \question Calcula y expresa el resultado de la forma más simple:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sqrt[3]{\sqrt{8}} $  \begin{solution}  $ \sqrt{2} $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p6e27 - Efectúa:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ \frac{{\sqrt[4]{{x^3}{y^3}} }}{{\sqrt[3]{xy} }} $  \begin{solution}  $ \frac{\sqrt[4]{x^{3} y^{3}}}{\sqrt[3]{x y}} $  \end{solution}
+        \question Calcula, descomponiendo el radicando en factores primos:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sqrt[4]{50625} $  \begin{solution}  $ 15 $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p9e3 - Resolver las siguientes inecuaciones:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ \left|{2 x + 1}\right| - 0.5\geq 0 $  \begin{solution}  $ \left(-0.25 \leq x \wedge x < \infty\right) \vee \left(x \leq -0.75 \wedge - \infty < x\right) $  \end{solution} \part[]  $ \left|{2 x + 3}\right| - 4< 0 $  \begin{solution}  $ - \frac{7}{2} < x \wedge x < \frac{1}{2} $  \end{solution} \part[]  $ 94    \binom{4}{2} + \binom{4}{3} + \binom{5}{4}+ \b...
-94    \binom{4}{2} + \binom{4}{3} + \binom{5}{4}+ \b...
-Name: enunciado_latex, dtype: object $  \begin{solution}  $ 94    36
-94    36
-Name: solucion, dtype: object $  \end{solution} \part[]  $ 94    \binom{4}{2} + \binom{4}{3} + \binom{5}{4}+ \b...
-94    \binom{4}{2} + \binom{4}{3} + \binom{5}{4}+ \b...
-Name: enunciado_latex, dtype: object $  \begin{solution}  $ 94    36
-94    36
-Name: solucion, dtype: object $  \end{solution} \part[]  $ \binom{25}{3} + \binom{25}{4} $  \begin{solution}  $ 14950 $  \end{solution}
+        \question Efectúa:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sqrt [3] {{x^2}}  \cdot \frac{{\sqrt [5] {xy} }}{{\sqrt {x{y^3}} }} $  \begin{solution}  $ \frac{\sqrt[5]{x y} \sqrt{x y^{3}} \sqrt[3]{x^{2}}}{x y^{3}} $  \end{solution} \part[1]  $ \frac{{\sqrt[3]{{x^2}{y^3}} }}{{\sqrt[3]{xy} }} $  \begin{solution}  $ \frac{\sqrt[3]{x^{2} y^{3}}}{\sqrt[3]{x y}} $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p9e7-13 - Realiza los desarrollos de los siguientes binomios para identificar determinados términos y coeficientes:
-        \begin{multicols}{nan} 
-        \begin{parts} \part[]  $ ( {{x^2} + \frac{1}{x}} )^8 $  \begin{solution}  $ x^{16} + 8 x^{13} + 28 x^{10} + 56 x^{7} + 70 x^{4} + 56 x + \frac{28}{x^{2}} + \frac{8}{x^{5}} + \frac{1}{x^{8}} $  \end{solution}
+        \question Simplifica los cocientes entre factoriales:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{( {m + 1} )!}}{{( {m - 1} )!}} $  \begin{solution}  $ m \left(m + 1\right) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Resolver las siguientes inecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \left|{3 x - 2}\right| - 0.5\leq 0 $  \begin{solution}  $ 0.5 \leq x \wedge x \leq 0.833333333333333 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Realiza los desarrollos de los siguientes binomios:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {\frac{x}{2} + \frac{2}{{{x^2}}}} )^5 $  \begin{solution}  $ \frac{x^{5}}{32} + \frac{5 x^{2}}{8} + \frac{5}{x} + \frac{20}{x^{4}} + \frac{40}{x^{7}} + \frac{32}{x^{10}} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Realiza los desarrollos de los siguientes binomios para identificar determinados términos y coeficientes:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {\frac{2}{5} + \frac{3}{x}} )^8 $  \begin{solution}  $ \frac{256}{390625} + \frac{3072}{78125 x} + \frac{16128}{15625 x^{2}} + \frac{48384}{3125 x^{3}} + \frac{18144}{125 x^{4}} + \frac{108864}{125 x^{5}} + \frac{81648}{25 x^{6}} + \frac{34992}{5 x^{7}} + \frac{6561}{x^{8}} $  \end{solution}
         \end{parts}
         \end{multicols}
         

@@ -1,83 +1,99 @@
 
-	\documentclass[spanish, 11pt]{exam}
-	
-	%These tell TeX which packages to use.
-	\usepackage{array,epsfig}
-	\usepackage{amsmath, textcomp}
-	\usepackage{amsfonts}
-	\usepackage{amssymb}
-	\usepackage{amsxtra}
-	\usepackage{amsthm}
-	\usepackage{mathrsfs}
-	\usepackage{color}
-	\usepackage{multicol}
-	\usepackage{verbatim}
-	
-	
-	\usepackage[utf8]{inputenc}
-	\usepackage[spanish]{babel}
-	\usepackage{eurosym}
-	
-	\usepackage{graphicx}
-	\graphicspath{{../img/}}
-	
-	
-	
-	\printanswers
-	\nopointsinmargin
-	\pointformat{}
-	
-	%Pagination stuff.
-	%\setlength{\topmargin}{-.3 in}
-	%\setlength{\oddsidemargin}{0in}
-	%\setlength{\evensidemargin}{0in}
-	%\setlength{\textheight}{9.in}
-	%\setlength{\textwidth}{6.5in}
-	%\pagestyle{empty}
-	
-	\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
-	
-	\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
-	
-	\newcommand{\class}{1º Bachillerato}
-	\newcommand{\examdate}{\today}
-	
-	\newcommand{\tipo}{A}
-	
-	
-	\newcommand{\timelimit}{50 minutos}
-	
-	
-	
-	\pagestyle{head}
-	\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
-	\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
-	\runningheadrule
-	
-	\newcommand{\examnum}{3 - Números combinatorios. Binomio de Newton}
-    \begin{document}
-    \begin{questions}
-    \question p9e2 - Simplifica los cocientes entre factoriales:
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{3 - Números combinatorios. Binomio de Newton}
+        \begin{document}
+        \begin{questions}
+        \question Simplifica los cocientes entre factoriales:
         \begin{multicols}{3} 
         \begin{parts} \part[]  $ \frac{{7!}}{{6!}} $  \begin{solution}  $ 7 $  \end{solution} \part[]  $ \frac{{8!}}{{9!}} $  \begin{solution}  $ \frac{1}{9} $  \end{solution} \part[]  $ \frac{{9!}}{{5!\cdot 4!}} $  \begin{solution}  $ 126 $  \end{solution} \part[]  $ \frac{{m!}}{{(m - 1)!}} $  \begin{solution}  $ m $  \end{solution} \part[]  $ \frac{{( {m + 1} )!}}{{( {m - 1} )!}} $  \begin{solution}  $ m \left(m + 1\right) $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p9e3 - Calcula las siguientes operaciones:
+        \question Calcula las siguientes operaciones:
         \begin{multicols}{3} 
         \begin{parts} \part[]  $ \binom{252}{250} $  \begin{solution}  $ 31626 $  \end{solution} \part[]  $ \binom{25}{3} + \binom{25}{4} $  \begin{solution}  $ 14950 $  \end{solution} \part[]  $ \binom{9}{6} + \binom{9}{7} + \binom{10}{2} $  \begin{solution}  $ 165 $  \end{solution} \part[]  $ \binom{4}{2} + \binom{4}{3} + \binom{5}{4}+ \binom{6}{5} + \binom{7}{6} + \binom{8}{7} $  \begin{solution}  $ 36 $  \end{solution} \part[]  $ \binom{4}{0} + \binom{4}{1} + \binom{4}{2}+\binom{4}{3} $  \begin{solution}  $ 15 $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p9e5 - Simplifica:
+        \question Simplifica:
         \begin{multicols}{3} 
         \begin{parts} \part[]  $ \frac{{6!}}{{5!}} + \frac{{8!}}{{6!}} $  \begin{solution}  $ 62 $  \end{solution} \part[]  $ \frac{{n!}}{{(n - 1)!}} + \frac{{(n + 2)!}}{{n!}} $  \begin{solution}  $ n^{2} + 4 n + 2 $  \end{solution} \part[]  $ \frac{\binom{n+3}{n}+\binom{n+2}{n}}{\frac{n+6}{6}} $  \begin{solution}  $ \frac{n \left(n + 1\right) \left(n + 2\right) \left(n + 6\right)}{6 \left(n^{2} + 6\right)} $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p9e6 - Realiza los desarrollos de los siguientes binomios:
+        \question Realiza los desarrollos de los siguientes binomios:
         \begin{multicols}{3} 
         \begin{parts} \part[]  $ (2 + x)^4 $  \begin{solution}  $ x^{4} + 8 x^{3} + 24 x^{2} + 32 x + 16 $  \end{solution} \part[]  $ ( {1 + 2\sqrt{ 2} })^3 $  \begin{solution}  $ 25 + 22 \sqrt{2} $  \end{solution} \part[]  $ ( {2 - 3\sqrt{ 2} })^3 $  \begin{solution}  $ - 90 \sqrt{2} + 116 $  \end{solution} \part[]  $ ( {\frac{x}{2} + \frac{2}{{{x^2}}}} )^5 $  \begin{solution}  $ \frac{x^{5}}{32} + \frac{5 x^{2}}{8} + \frac{5}{x} + \frac{20}{x^{4}} + \frac{40}{x^{7}} + \frac{32}{x^{10}} $  \end{solution} \part[]  $ ( {\frac{2}{\sqrt {2} } + \sqrt {2} } )^4 $  \begin{solution}  $ 16 \frac{\sqrt{2}}{2} \sqrt{2} + 48 $  \end{solution} \part[]  $ ( {5\sqrt {2} - 2\sqrt {3} } )^4 $  \begin{solution}  $ - 2480 \sqrt{6} + 6244 $  \end{solution} \part[]  $ ( {2{x^2} - \frac{3}{x}} )^6 $  \begin{solution}  $ 64 x^{12} - 576 x^{9} + 2160 x^{6} - 4320 x^{3} + 4860 - \frac{2916}{x^{3}} + \frac{729}{x^{6}} $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question p9e7-13 - Realiza los desarrollos de los siguientes binomios para identificar determinados términos y coeficientes:
+        \question Realiza los desarrollos de los siguientes binomios para identificar determinados términos y coeficientes:
         \begin{multicols}{3} 
         \begin{parts} \part[]  $ (2 + x)^8 $  \begin{solution}  $ x^{8} + 16 x^{7} + 112 x^{6} + 448 x^{5} + 1120 x^{4} + 1792 x^{3} + 1792 x^{2} + 1024 x + 256 $  \end{solution} \part[]  $ ( {\frac{2}{5} + \frac{3}{x}} )^8 $  \begin{solution}  $ \frac{256}{390625} + \frac{3072}{78125 x} + \frac{16128}{15625 x^{2}} + \frac{48384}{3125 x^{3}} + \frac{18144}{125 x^{4}} + \frac{108864}{125 x^{5}} + \frac{81648}{25 x^{6}} + \frac{34992}{5 x^{7}} + \frac{6561}{x^{8}} $  \end{solution} \part[]  $ (2a^2b - 3 a^3)^7 $  \begin{solution}  $ - 2187 a^{21} + 10206 a^{20} b - 20412 a^{19} b^{2} + 22680 a^{18} b^{3} - 15120 a^{17} b^{4} + 6048 a^{16} b^{5} - 1344 a^{15} b^{6} + 128 a^{14} b^{7} $  \end{solution} \part[]  $ ( {3x - \frac{1}{x}})^7 $  \begin{solution}  $ 2187 x^{7} - 5103 x^{5} + 5103 x^{3} - 2835 x + \frac{945}{x} - \frac{189}{x^{3}} + \frac{21}{x^{5}} - \frac{1}{x^{7}} $  \end{solution} \part[]  $ ( {{x^2} + \frac{1}{x}})^{12} $  \begin{solution}  $ x^{24} + 12 x^{21} + 66 x^{18} + 220 x^{15} + 495 x^{12} + 792 x^{9} + 924 x^{6} + 792 x^{3} + 495 + \frac{220}{x^{3}} + \frac{66}{x^{6}} + \frac{12}{x^{9}} + \frac{1}{x^{12}} $  \end{solution} \part[]  $ ( {2x - \frac{1}{x}})^{18} $  \begin{solution}  $ 262144 x^{18} - 2359296 x^{16} + 10027008 x^{14} - 26738688 x^{12} + 50135040 x^{10} - 70189056 x^{8} + 76038144 x^{6} - 65175552 x^{4} + 44808192 x^{2} - 24893440 + \frac{11202048}{x^{2}} - \frac{4073472}{x^{4}} + \frac{1188096}{x^{6}} - \frac{274176}{x^{8}} + \frac{48960}{x^{10}} - \frac{6528}{x^{12}} + \frac{612}{x^{14}} - \frac{36}{x^{16}} + \frac{1}{x^{18}} $  \end{solution} \part[]  $ ( {{x^2} + \frac{1}{x}} )^8 $  \begin{solution}  $ x^{16} + 8 x^{13} + 28 x^{10} + 56 x^{7} + 70 x^{4} + 56 x + \frac{28}{x^{2}} + \frac{8}{x^{5}} + \frac{1}{x^{8}} $  \end{solution} \part[]  $ ( {\frac{2}{{\sqrt {x} }} + 1})^{10} $  \begin{solution}  $ 1 + \frac{180}{x} + \frac{3360}{x^{2}} + \frac{13440}{x^{3}} + \frac{11520}{x^{4}} + \frac{1024}{x^{5}} + \frac{20}{\sqrt{x}} + \frac{960}{x^{\frac{3}{2}}} + \frac{8064}{x^{\frac{5}{2}}} + \frac{15360}{x^{\frac{7}{2}}} + \frac{5120}{x^{\frac{9}{2}}} $  \end{solution} \part[]  $ ( {\frac{{{x^2}}}{2} - \frac{3}{x}} )^6 $  \begin{solution}  $ \frac{x^{12}}{64} - \frac{9 x^{9}}{16} + \frac{135 x^{6}}{16} - \frac{135 x^{3}}{2} + \frac{1215}{4} - \frac{729}{x^{3}} + \frac{729}{x^{6}} $  \end{solution} \part[]  $ ( {\frac{{{x^2}}}{2} - \frac{3}{x}} )^8 $  \begin{solution}  $ \frac{x^{16}}{256} - \frac{3 x^{13}}{16} + \frac{63 x^{10}}{16} - \frac{189 x^{7}}{4} + \frac{2835 x^{4}}{8} - 1701 x + \frac{5103}{x^{2}} - \frac{8748}{x^{5}} + \frac{6561}{x^{8}} $  \end{solution}
         \end{parts}

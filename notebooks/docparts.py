@@ -155,6 +155,10 @@ def doc_ejer(title="", tipo = 'ejercicios'):
         \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
         \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
         \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
 
         """
         middle=r"""
@@ -167,7 +171,7 @@ def doc_ejer(title="", tipo = 'ejercicios'):
         \end{tabular*}
         \rule[2ex]{\textwidth}{2pt}
         Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
-        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1.a y 4.a
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
 
         \begin{center}
 
@@ -371,7 +375,7 @@ def doc_exam(title="", author=""):
 #if __name__ == "__main__":
 #   print problem("test", "fasd", "asdfasd", 10)
 
-def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex', dificultad = '1', n_columnas = '3' ) :
+def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:', curso = '1BC', titulo = 'sin_titulo', n_ejercicio = 'ex', dificultad = '1', n_columnas = '3' , puntos = '1') :
     encabezado = ['enunciado_latex','enunciado','solucion']
     datos = [enunciado_latex, enunciado, solucion]
     df = pd.DataFrame(dict(zip(encabezado, datos)))
@@ -381,6 +385,7 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
     df['n_ejercicio'] = n_ejercicio
     df['dificultad'] = dificultad
     df['n_columnas'] = n_columnas
+    df['puntos'] = puntos
     return df
 
 
@@ -393,7 +398,8 @@ def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios', tipo = 'e
 
 
 def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
-    txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
+    #txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
+    txt = df_ejercicios.iloc[0].texto
     n_columnas = df_ejercicios.iloc[0].n_columnas
     f = open(fichero,'a')
     f.write(r'\question %s' % txt)
@@ -402,7 +408,7 @@ def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
         \begin{parts}""" % n_columnas)
     
     for s in df_ejercicios.index :
-        f.write(r' \part[]  $ %s $ '  % df_ejercicios.loc[s].enunciado_latex)
+        f.write(r' \part[%s]  $ %s $ '  % (str(df_ejercicios.loc[s].puntos),df_ejercicios.loc[s].enunciado_latex))
         f.write(r' \begin{solution}  $ %s $  \end{solution}'  % df_ejercicios.loc[s].solucion)
 
     f.write(r"""
