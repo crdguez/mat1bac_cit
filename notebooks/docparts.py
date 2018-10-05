@@ -389,7 +389,8 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
     return df
 
 
-def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios', tipo = 'ejercicios') :
+def escribir_preambulo(fichero = 'prueba3', titulo = 'Ejercicios', tipo = 'ejercicios') :
+    fichero = fichero + '.tex'
     f = open(fichero,'w')
     f.write(doc_ejer(titulo, tipo)[0])
     f.write(doc_ejer(titulo, tipo)[1])
@@ -397,9 +398,10 @@ def escribir_preambulo(fichero = 'prueba3.tex', titulo = 'Ejercicios', tipo = 'e
     f.close()
 
 
-def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
-    #txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
-    txt = df_ejercicios.iloc[0].texto
+def escribir_ejercicios(df_ejercicios, fichero = 'prueba3') :
+    fichero = fichero + '.tex'
+    txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
+    #txt = df_ejercicios.iloc[0].texto
     n_columnas = df_ejercicios.iloc[0].n_columnas
     f = open(fichero,'a')
     f.write(r'\question %s' % txt)
@@ -419,7 +421,8 @@ def escribir_ejercicios(df_ejercicios, fichero = 'prueba3.tex') :
     f.close()
     
     
-def escribir_fin(fichero = 'prueba3.tex') :
+def escribir_fin(fichero = 'prueba3') :
+    fichero = fichero + '.tex'
     fichero = fichero.replace('.tex','')
     f = open(fichero + '.tex','a')
     f.write(doc_ejer()[2])
@@ -435,6 +438,7 @@ def escribir_fin(fichero = 'prueba3.tex') :
 
     
 def generar_tex(df_ejercicios, fichero, titulo, tipo = 'ejercicios') :
+    fichero = fichero + '.tex'
     escribir_preambulo(fichero, titulo, tipo)
     for s in df_ejercicios.groupby('n_ejercicio').count().index : 
         escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero)
