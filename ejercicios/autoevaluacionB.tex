@@ -1,0 +1,153 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        %\printanswers
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        \newcommand{\tipo}{B}\newcommand{\examnum}{Autoevaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question Halla el cociente y el resto de:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {3{x^5} - 6{x^2} + 9} ):( {{x^2} + 1} ) $  \begin{solution}  $ \left ( 3 x^{3} - 3 x - 6, \quad 3 x + 15\right ) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Aplica la regla de Ruffini para hallar el cociente y el resto de las siguientes divisiones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {2{x^6} - 7{x^4} + 6x - 9} ):( {x+3} ) $  \begin{solution}  $ \left ( 2 x^{5} - 6 x^{4} + 11 x^{3} - 33 x^{2} + 99 x - 291, \quad 864\right ) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Descomponer en factores
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ x^2-x-30 $  \begin{solution}  $ \left(x - 6\right) \left(x + 5\right) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula :
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ {3^{ - 5}} \cdot {( {\frac{1}{3}} )^{ - 2}} \cdot 81 $  \begin{solution}  $ 3 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula y expresa el resultado como potencia de exponente racional:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{\sqrt[5]{a}  \cdot \sqrt {a} }}{{{a^{\frac{1}{3}}}}} $  \begin{solution}  $ a^{\frac{11}{30}} $  \end{solution} \part[1]  $ \sqrt{a}  \cdot \sqrt[5]{a} \cdot \sqrt[6]{a} $  \begin{solution}  $ a^{\frac{13}{15}} $  \end{solution} \part[1]  $ \frac{{\sqrt[3]{a} 3}}{{\sqrt{a}}} $  \begin{solution}  $ \frac{3}{\sqrt[6]{a}} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Efectúa:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sqrt {n\sqrt [5] {n\sqrt [6]{n} } } $  \begin{solution}  $ \sqrt{n \sqrt[5]{n^{\frac{7}{6}}}} $  \end{solution} \part[1]  $ 3\sqrt[4]{2}  \cdot \sqrt {8}  $  \begin{solution}  $ 6 \cdot 2^{\frac{3}{4}} $  \end{solution} \part[1]  $ \frac{{4\sqrt [4]{6} }}{{2\sqrt {3} }} $  \begin{solution}  $ \frac{2 \sqrt[4]{2} \cdot 3^{\frac{3}{4}}}{3} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Racionaliza:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{5}{{2 + \sqrt {3} }} $  \begin{solution}  $ - 5 \sqrt{3} + 10 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Resolver las siguientes inecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \left|{x + 5}\right| - 2\leq 0 $  \begin{solution}  $ -7 \leq x \wedge x \leq -3 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Realiza los desarrollos de los siguientes binomios:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ (2 + x)^4 $  \begin{solution}  $ x^{4} + 8 x^{3} + 24 x^{2} + 32 x + 16 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Realiza los desarrollos de los siguientes binomios para identificar determinados términos y coeficientes:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ (2 + x)^8 $  \begin{solution}  $ x^{8} + 16 x^{7} + 112 x^{6} + 448 x^{5} + 1120 x^{4} + 1792 x^{3} + 1792 x^{2} + 1024 x + 256 $  \end{solution} \part[1]  $ (2a^2b - 3 a^3)^7 $  \begin{solution}  $ - 2187 a^{21} + 10206 a^{20} b - 20412 a^{19} b^{2} + 22680 a^{18} b^{3} - 15120 a^{17} b^{4} + 6048 a^{16} b^{5} - 1344 a^{15} b^{6} + 128 a^{14} b^{7} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    

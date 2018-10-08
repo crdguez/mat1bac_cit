@@ -49,7 +49,10 @@ x^4-2x^3+2x^2-2x+1,-2*x + 2*x**2 + x**4 - 2*x**3 + 1,\left(x - 1\right)^{2} \lef
 x^4+2x^3-3x^2-4x+4,-4*x - 3*x**2 + x**4 + 2*x**3 + 4,\left(x - 1\right)^{2} \left(x + 2\right)^{2},Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
 x^3+4x^2+x-6,x + x**3 + 4*x**2 - 6,\left(x - 1\right) \left(x + 2\right) \left(x + 3\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
 x^5- 4x^3-x^2+4,-x**2 + x**5 - 4*x**3 + 4,\left(x - 2\right) \left(x - 1\right) \left(x + 2\right) \left(x^{2} + x + 1\right),Descomponer en factores,1BC,4 - Polinomios,p013e17-18,1,2,1
+ A(x)= x^4-4\  y \ \  B(x)= x^3+2x ,"[ x^4-4, x^3+2x]",x^{2} + 2\ y \ x^{5} - 4 x,Halla el m.c.d. y el m.c.m. de los polinomios: ,1BC,4 - Polinomios,p013e19,1,2,1
+ A(x)= x^3-9x\  y \ \  B(x)= (x-1)(x+3)^2 ,"[ x^3-9x, (x-1)(x+3)^2]",x + 3\ y \ x^{5} + 2 x^{4} - 12 x^{3} - 18 x^{2} + 27 x,Halla el m.c.d. y el m.c.m. de los polinomios: ,1BC,4 - Polinomios,p013e19,1,2,1
+ A(x)= x^3+x^2-2x\  y \ \  B(x)= x^3+2x^2 ,"[ x^3+x^2-2x, x^3+2x^2]",1\ y \ x^{6} + 3 x^{5} - 4 x^{3},Halla el m.c.d. y el m.c.m. de los polinomios: ,1BC,4 - Polinomios,p013e19,1,2,1
 x=0,x=0,3,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
 x=1,x=1,1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
 x=2,x=2,-1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
-x=\frac{2}{3},x=\frac{2}{3},\frac{175}{81},"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
+x=\frac{2}{3},x=\,\frac{175}{81},"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1

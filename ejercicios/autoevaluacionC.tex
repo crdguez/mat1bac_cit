@@ -1,0 +1,153 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        %\printanswers
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        \newcommand{\tipo}{C}\newcommand{\examnum}{Autoevaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question Dados los polinomios $ A(x)=3{x^3} - 6{x^2} + 2x - 1, \  B(x)=- {x^4} + {x^3} + x - 6, \  C(x)={x^4} - {x^2} + x + \frac{1}{2}$ halla:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ x^2\cdot A(x) + 3x\cdot B(x) $  \begin{solution}  $ - 3 x^{4} + 2 x^{3} + 2 x^{2} - 18 x $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Halla el cociente y el resto de:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {8{x^6} - 5x^4 + 6 } ):( {2x^2} - 1) $  \begin{solution}  $ \left ( 4 x^{4} - \frac{x^{2}}{2} - \frac{1}{4}, \quad \frac{23}{4}\right ) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Descomponer en factores
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ x^3+3x^2-2x-6 $  \begin{solution}  $ \left(x + 3\right) \left(x - \sqrt{2}\right) \left(x + \sqrt{2}\right) $  \end{solution} \part[1]  $ 4x^2-9 $  \begin{solution}  $ 4 \left(x - \frac{3}{2}\right) \left(x + \frac{3}{2}\right) $  \end{solution} \part[1]  $ x^3-2x^2-5x+6 $  \begin{solution}  $ \left(x - 3\right) \left(x - 1\right) \left(x + 2\right) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula :
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{{9^{\frac{1}{2}}} \cdot {3^{ - 1}} \cdot {2^{\frac{3}{2}}}}}{{\sqrt {2} }} $  \begin{solution}  $ 2 $  \end{solution} \part[1]  $ \frac{{\sqrt {2}  \cdot {{( {\sqrt {2} } )}^3} \cdot {{( {\sqrt {5} } )}^3}}}{{{{( {5\sqrt{2} } )}^2}}} $  \begin{solution}  $ \frac{2 \sqrt{5}}{5} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula y expresa el resultado como potencia de exponente racional:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{\sqrt[3]{a} 3}}{{\sqrt{a}}} $  \begin{solution}  $ \frac{3}{\sqrt[6]{a}} $  \end{solution} \part[1]  $ \sqrt {\sqrt {\sqrt {2} } } $  \begin{solution}  $ \sqrt[8]{2} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Racionaliza:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{2}{{5\sqrt[5]{ 2} }} $  \begin{solution}  $ \frac{2^{\frac{4}{5}}}{5} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula y simplifica:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sqrt[5]{{{27}^{\frac{5}{3}}}} $  \begin{solution}  $ 3 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Efectúa:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{\sqrt[3]{{x^2}{y^3}} }}{{\sqrt[3]{xy} }} $  \begin{solution}  $ \frac{\sqrt[3]{x^{2} y^{3}}}{\sqrt[3]{x y}} $  \end{solution} \part[1]  $ 3\sqrt{ 5}  \cdot 2\sqrt[3]{25} $  \begin{solution}  $ 30 \sqrt[6]{5} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Racionaliza:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{5}{{\sqrt {5} }} $  \begin{solution}  $ \sqrt{5} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Realiza los desarrollos de los siguientes binomios para identificar determinados términos y coeficientes:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ ( {{x^2} + \frac{1}{x}} )^8 $  \begin{solution}  $ x^{16} + 8 x^{13} + 28 x^{10} + 56 x^{7} + 70 x^{4} + 56 x + \frac{28}{x^{2}} + \frac{8}{x^{5}} + \frac{1}{x^{8}} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    

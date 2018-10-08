@@ -2,8 +2,10 @@
 
 import pandas as pd
 import os
+from IPython.display import Markdown as md
+from IPython.display import display
 
-def doc_ejer(title="", tipo = 'ejercicios'):
+def doc_ejer(title="", tipo = 'ejercicios', letra = 'A'):
     if tipo == 'ejercicios' :
         start=r"""
         \documentclass[spanish, 11pt]{exam}
@@ -143,7 +145,7 @@ def doc_ejer(title="", tipo = 'ejercicios'):
         \newcommand{\class}{1º Bachillerato}
         \newcommand{\examdate}{\today}
 
-        \newcommand{\tipo}{A}
+        %\newcommand{\tipo}{A}
 
 
         \newcommand{\timelimit}{50 minutos}
@@ -161,6 +163,8 @@ def doc_ejer(title="", tipo = 'ejercicios'):
         \marginpointname{ \emph{\points}}
 
         """
+        start = start + r'\newcommand{\tipo}{' + letra + '}'
+        
         middle=r"""
         \begin{document}
         \noindent
@@ -186,6 +190,7 @@ def doc_ejer(title="", tipo = 'ejercicios'):
 
         \begin{questions}
         """
+    
     
     if title:
         start = start + "\\newcommand{\\examnum}{%s}" % title
@@ -392,16 +397,19 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
 def escribir_preambulo(fichero = 'prueba3', titulo = 'Ejercicios', tipo = 'ejercicios') :
     fichero = fichero + '.tex'
     f = open(fichero,'w')
-    f.write(doc_ejer(titulo, tipo)[0])
-    f.write(doc_ejer(titulo, tipo)[1])
+    letra = f.name[-5:-4]
+    f.write(doc_ejer(titulo, tipo, letra)[0])
+    f.write(doc_ejer(titulo, tipo, letra)[1])
 
     f.close()
 
 
-def escribir_ejercicios(df_ejercicios, fichero = 'prueba3') :
+def escribir_ejercicios(df_ejercicios, fichero = 'prueba3', tipo = 'ejercicios') :
     fichero = fichero + '.tex'
-    txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
-    #txt = df_ejercicios.iloc[0].texto
+    if tipo == 'ejercicios' :
+        txt = df_ejercicios.iloc[0].n_ejercicio + " - " + df_ejercicios.iloc[0].texto
+    else :
+        txt = df_ejercicios.iloc[0].texto
     n_columnas = df_ejercicios.iloc[0].n_columnas
     f = open(fichero,'a')
     f.write(r'\question %s' % txt)
@@ -422,8 +430,7 @@ def escribir_ejercicios(df_ejercicios, fichero = 'prueba3') :
     
     
 def escribir_fin(fichero = 'prueba3') :
-    fichero = fichero + '.tex'
-    fichero = fichero.replace('.tex','')
+    fichero = fichero
     f = open(fichero + '.tex','a')
     f.write(doc_ejer()[2])
     f.close()
@@ -441,5 +448,19 @@ def generar_tex(df_ejercicios, fichero, titulo, tipo = 'ejercicios') :
     fichero = fichero + '.tex'
     escribir_preambulo(fichero, titulo, tipo)
     for s in df_ejercicios.groupby('n_ejercicio').count().index : 
-        escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero)
+        escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero, tipo)
+    escribir_fin(fichero)
+    
+    
+def exportar_pdf(df_ejercicios,fichero, titulo, tipo, letra = 'A') : 
+    # titulo = titulo + letra
+    fichero = fichero + letra
+    if tipo != 'ejercicios' : df_ejercicios.n_columnas = 1 # para los exámenes
+
+    escribir_preambulo(fichero, titulo, tipo)
+    for s in df_ejercicios.groupby('n_ejercicio').count().index : 
+        display(md("**Ejercicio: **" + s ))
+        display(df_ejercicios[df_ejercicios.n_ejercicio == s])
+        escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero, tipo)
+
     escribir_fin(fichero)
