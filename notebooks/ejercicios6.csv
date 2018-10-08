@@ -1,0 +1,3 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos
+x^{2} + 6 = 0,"Eq(x**2 + 6, 0)",\emptyset,Resuelve las ecuaciones:,1BC,6 - Ecuaciones de segundo grado,p016e01,1,2,1
+x^{2} - 9 = 0,"Eq(x**2 - 9, 0)","\left\{-3, 3\right\}",Resuelve las ecuaciones:,1BC,6 - Ecuaciones de segundo grado,p016e01,1,2,1
