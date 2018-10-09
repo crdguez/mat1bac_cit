@@ -90,7 +90,7 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A'):
         start=r"""
         \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
         %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-        %\printanswers
+        \printanswers
         \pointpoints{punto}{puntos}
         \hpword{Puntos:}
         \vpword{Puntos:}
