@@ -5,7 +5,7 @@ import os
 from IPython.display import Markdown as md
 from IPython.display import display
 
-def doc_ejer(title="", tipo = 'ejercicios', letra = 'A'):
+def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
     if tipo == 'ejercicios' :
         start=r"""
         \documentclass[spanish, 11pt]{exam}
@@ -90,7 +90,7 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A'):
         start=r"""
         \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
         %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-        \printanswers
+        
         \pointpoints{punto}{puntos}
         \hpword{Puntos:}
         \vpword{Puntos:}
@@ -163,7 +163,13 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A'):
         \marginpointname{ \emph{\points}}
 
         """
-        start = start + r'\newcommand{\tipo}{' + letra + '}'
+        
+        if soluciones == True :
+            start = start + r"""\printanswers
+            """ + r'\newcommand{\tipo}{' + letra + '}'
+        else :
+            start = start + r"""%\printanswers
+            """ + r'\newcommand{\tipo}{' + letra + '}'
         
         middle=r"""
         \begin{document}
@@ -394,12 +400,12 @@ def añadir_ejercicios(enunciado_latex, enunciado, solucion, texto = 'CCalcula:'
     return df
 
 
-def escribir_preambulo(fichero = 'prueba3', titulo = 'Ejercicios', tipo = 'ejercicios') :
+def escribir_preambulo(fichero = 'prueba3', titulo = 'Ejercicios', tipo = 'ejercicios', soluciones = False) :
     fichero = fichero + '.tex'
     f = open(fichero,'w')
     letra = f.name[-5:-4]
-    f.write(doc_ejer(titulo, tipo, letra)[0])
-    f.write(doc_ejer(titulo, tipo, letra)[1])
+    f.write(doc_ejer(titulo, tipo, letra, soluciones)[0])
+    f.write(doc_ejer(titulo, tipo, letra, soluciones)[1])
 
     f.close()
 
@@ -452,12 +458,17 @@ def generar_tex(df_ejercicios, fichero, titulo, tipo = 'ejercicios') :
     escribir_fin(fichero)
     
     
-def exportar_pdf(df_ejercicios,fichero, titulo, tipo, letra = 'A') : 
+def exportar_pdf(df_ejercicios,fichero, titulo, tipo, letra = 'A', soluciones = False) : 
     # titulo = titulo + letra
-    fichero = fichero + letra
-    if tipo != 'ejercicios' : df_ejercicios.n_columnas = 1 # para los exámenes
+    
+    
+    if tipo != 'ejercicios' : 
+        df_ejercicios.n_columnas = 1 # para los exámenes
+        fichero = fichero + letra
+        
+    if soluciones == True : fichero=fichero + '_sol'
 
-    escribir_preambulo(fichero, titulo, tipo)
+    escribir_preambulo(fichero, titulo, tipo, soluciones)
     for s in df_ejercicios.groupby('n_ejercicio').count().index : 
         display(md("**Ejercicio: **" + s ))
         display(df_ejercicios[df_ejercicios.n_ejercicio == s])

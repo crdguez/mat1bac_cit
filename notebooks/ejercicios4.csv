@@ -56,3 +56,5 @@ x=0,x=0,3,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los va
 x=1,x=1,1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
 x=2,x=2,-1,"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
 x=\frac{2}{3},x=\,\frac{175}{81},"Halla el valor numérico del polinomio $x^4-2x^3-x^2+3$,  para los valores:",1BC,4 - Polinomios,p013e21,1,3,1
+x^4-ax^2-20,-a*x**2 + x**4 - 20,\to \left [ -1\right ],Calcula el valor de $a$ para que -2 sea raíz del polinomio: ,1BC,4 - Polinomios,p013e22,1,1,1
+El \ resto \ de \ dividir \ P(x)=x^{31}-5x+m \ entre\  x+1 \ sea \ 3 :,"(Poly(m + (x**31 - 5*x), m, x**31 - 5*x, domain='ZZ'), Poly(x + 1, x, domain='ZZ'), 3)",-1,Calcula el valor de $k$ para que:,1BC,4 - Polinomios,p013e23,1,1,1
