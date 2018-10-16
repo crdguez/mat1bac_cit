@@ -469,6 +469,7 @@ def exportar_pdf(df_ejercicios,fichero, titulo, tipo, letra = 'A', soluciones = 
     if soluciones == True : fichero=fichero + '_sol'
 
     escribir_preambulo(fichero, titulo, tipo, soluciones)
+    #for s in df_ejercicios.groupby('n_ejercicio',sort=False).count().index
     for s in df_ejercicios.groupby('n_ejercicio').count().index : 
         display(md("**Ejercicio: **" + s ))
         display(df_ejercicios[df_ejercicios.n_ejercicio == s])
