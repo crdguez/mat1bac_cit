@@ -44,8 +44,8 @@ body {
 body {
   position: relative;
   line-height: 1;
-  background-color: #fff;
-  color: #000; }
+  background-color: #000;
+  color: #fff; }
 
 /*********************************************
  * VIEW FRAGMENTS
