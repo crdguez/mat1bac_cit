@@ -3,7 +3,7 @@
 requires a copy of reveal.js (version 3.x)
 
 ```
-jupyter nbconvert --to slides reunion_inicial_padres.ipynb
+jupyter nbconvert --to slides --SlidesExporter.reveal_theme=sky reunion_inicial_padres.ipynb
 ```
 
 
