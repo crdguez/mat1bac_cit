@@ -80,3 +80,25 @@ x^{2} = \frac{12}{x^{2} - 1},"Eq(x**2, 12/(x**2 - 1))","\left\{-2, 2\right\}",Re
 2 \sqrt{x + 4} = \sqrt{5 x + 4},"Eq(2*sqrt(x + 4), sqrt(5*x + 4))",\left\{12\right\},Resuelve:,1BC,6 - Ecuaciones de segundo grado,p018e20,1,2,1
 2 \sqrt{2 x - 1} = \sqrt{2 x - 9} + \sqrt{6 x - 5},"Eq(2*sqrt(2*x - 1), sqrt(2*x - 9) + sqrt(6*x - 5))",\left\{5\right\},Resuelve:,1BC,6 - Ecuaciones de segundo grado,p018e20,1,2,1
 \sqrt{x} + \frac{2}{\sqrt{x}} = \sqrt{x - 5},"Eq(sqrt(x) + 2/sqrt(x), sqrt(x - 5))",\emptyset,Resuelve:,1BC,6 - Ecuaciones de segundo grado,p018e20,1,2,1
+\left(7 x + \left(x^{3} - 7 x^{2}\right)\right) + 15 = 0,"Eq(7*x + x**3 - 7*x**2 + 15, 0)","\left\{-1, 3, 5\right\}",Resuelve las siguientes ecuaciones de grado superior a dos:,1BC,6 - Ecuaciones de segundo grado,p018e21,1,2,1
+\left(- x + \left(x^{3} - 2 x^{2}\right)\right) + 2 = 0,"Eq(-x + x**3 - 2*x**2 + 2, 0)","\left\{-1, 1, 2\right\}",Resuelve las siguientes ecuaciones de grado superior a dos:,1BC,6 - Ecuaciones de segundo grado,p018e21,1,2,1
+\left(- 4 x + \left(- 16 x^{2} + \left(x^{4} + x^{3}\right)\right)\right) + 48 = 0,"Eq(-4*x - 16*x**2 + x**4 + x**3 + 48, 0)","\left\{-4, -2, 2, 3\right\}",Resuelve las siguientes ecuaciones de grado superior a dos:,1BC,6 - Ecuaciones de segundo grado,p018e21,1,2,1
+\left(- x + \left(- 7 x^{2} + \left(x^{4} + x^{3}\right)\right)\right) + 6 = 0,"Eq(-x - 7*x**2 + x**4 + x**3 + 6, 0)","\left\{-3, -1, 1, 2\right\}",Resuelve las siguientes ecuaciones de grado superior a dos:,1BC,6 - Ecuaciones de segundo grado,p018e21,1,2,1
+x^{4} - 81 = 0,"Eq(x**4 - 81, 0)","\left\{-3, 3\right\}",Resuelve las siguientes ecuaciones de grado superior a dos:,1BC,6 - Ecuaciones de segundo grado,p018e21,1,2,1
+2 \sqrt{x} + x = 24,"Eq(2*sqrt(x) + x, 24)",\left\{16\right\},Calcula un número que sumado con el doble de su raíz cuadrada nos de 24.,1BC,6 - Ecuaciones de segundo grado,p018e22,1,2,1
+\left(2 x + 1\right)^{2} + \left(\left(2 x - 3\right)^{2} + \left(2 x - 1\right)^{2}\right) = 5051,"Eq((2*x + 1)**2 + (2*x - 3)**2 + (2*x - 1)**2, 5051)","\left [ -20, \quad 21\right ] \to \left [ -43, \quad -41, \quad -39\right ] \lor \left [ 39, \quad 41, \quad 43\right ]","Halla tres números impares consecutivos, tales que sus cuadrados sumen 5051",1BC,6 - Ecuaciones de segundo grado,p018e23,1,2,1
+x + y - 11 = 0\land\left(x + 10 y\right) \left(10 x + y\right) - 3154 = 0,"[x + y - 11, (x + 10*y)*(10*x + y) - 3154]","\left [ \left ( 3, \quad 8\right ), \quad \left ( 8, \quad 3\right )\right ]",Las dos cifras de un número suman 11 y el producto de dicho número por el que se obtiene de invertir suscifras es 3154. Halla dicho número.,1BC,6 - Ecuaciones de segundo grado,p018e24,1,2,1
+\left(x + 8\right)^{2} + \left(x + 22\right)^{2} = \left(x + 24\right)^{2},"Eq((x + 8)**2 + (x + 22)**2, (x + 24)**2)",\left\{2\right\},"""Tres segmentos miden, respectivamente, 8, 22 y 24 cm. 
+Si a los tres les añadimos una misma longitud, el triángulo construido con ellos es rectángulo. Halla dicha longitud.",1BC,6 - Ecuaciones de segundo grado,p018e25,1,2,1
+x + 2 y - 87 = 0\land x^{2} + y^{2} - \left(y + 3\right)^{2} = 0,"[x + 2*y - 87, x**2 + y**2 - (y + 3)**2]","\left [ \left ( -18, \quad \frac{105}{2}\right ), \quad \left ( 15, \quad 36\right )\right ]","""El perímetro de un triángulo rectángulo es 90 m y el cateto mayor tiene 3 m menos que 
+la hipotenusa. Halla los tres lados del triángulo.",1BC,6 - Ecuaciones de segundo grado,p018e26,1,2,1
+\left(2 x + 2\right) + \left(2 x + \left(2 x - 2\right)\right) = \frac{2 x \left(2 x + 2\right) \left(2 x - 2\right)}{4},"Eq(2*x + 2 + 2*x + 2*x - 2, (((2*x)*(2*x + 2))*(2*x - 2))/4)","\left [ -2, \quad 0, \quad 2\right ] \to \left [ -6, \quad -4, \quad -2\right ] \lor \left [ -2, \quad 0, \quad 2\right ] \lor \left [ 2, \quad 4, \quad 6\right ]","""Halla tres números pares consecutivos sabiendo que su 
+producto es igual a cuatro veces su suma.",1BC,6 - Ecuaciones de segundo grado,p018e27,1,2,1
+\left(x + 80\right) \left(x + 100\right) - 8000 = 4000,"Eq((x + 80)*(x + 100) - 8000, 4000)",\left\{20\right\},"""Un terreno rectangular tiene 100 m de largo y 80 m de ancho y está rodeado 
+por calles de anchura uniforme.
+Si el área de las calles es de 4000 m² , ¿cuál es su anchura?",1BC,6 - Ecuaciones de segundo grado,p018e28,1,2,1
+x + y - 14 = 0\land x^{2} + y^{2} - 100 = 0,"[x + y - 14, x**2 + y**2 - 100]","\left [ \left ( 6, \quad 8\right ), \quad \left ( 8, \quad 6\right )\right ]","""Halla dos números cuya suma es 14 y la de sus cuadrados 100.",1BC,6 - Ecuaciones de segundo grado,p018e29,1,2,1
+x - y - 7 = 0\land x^{2} + y^{2} - 3809 = 0,"[x - y - 7, x**2 + y**2 - 3809]","\left ( 47, \quad 40\right )","""Halla dos números positivos cuya diferencia sea 7 y la suma de sus cuadrados 3809.",1BC,6 - Ecuaciones de segundo grado,p018e30,1,2,1
+x y - 28 = 0\land 2 x + 2 y - 22 = 0,"[x*y - 28, 2*x + 2*y - 22]","\left [ \left ( 4, \quad 7\right ), \quad \left ( 7, \quad 4\right )\right ]","""Una habitación rectangular tiene una superficie de 28 m² y 
+su zócalo tiene una longitud de 22 m. Halla las
+dimensiones de la habitación.",1BC,6 - Ecuaciones de segundo grado,p018e30,1,2,1
