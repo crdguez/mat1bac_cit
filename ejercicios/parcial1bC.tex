@@ -1,0 +1,136 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        %\printanswers
+            \newcommand{\tipo}{C}\newcommand{\examnum}{Parcial 1ª evaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question Dados los siguientes conjuntos A, B y C, represéntalos en la recta real. A continuación, calcula $A \cup  B$ , $A \cap B$ y $A \cap B \cap C$ , 
+y expresa los resultados en forma de Intervalos. 
+Indica además, si existe, el supremo y el ínfimo de cada uno.de los conjuntos resultado.
+        \begin{multicols}{1} 
+        \begin{parts} \part[2]  $ A=\left\{ x \in \mathbb{R}| 6 \leq x \wedge x < 8 \right\}, \\ B=\left(-\infty, -3\right) \cup \left(3, \infty\right)  y \\  C=\left\{ x \in \mathbb{R}| \left|{x + 2}\right|\geq12 \right\} \\ $  \begin{solution}  $ C=\left(-\infty, -14\right] \cup \left[10, \infty\right) \ \ A \cup  B = \left(-\infty, -3\right) \cup \left(3, \infty\right)  \\  A \cap B= \left[6, 8\right)   \\  A \cap B  \cap C= \emptyset $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Usando la definición y las propiedades de los números combinatorios, resolver las ecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ {\binom{20}{7}} - {\binom{19}{x}}-{\binom{19}{x+1}} $  \begin{solution}  $ \left [ 6\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Encontrar, sin hacer todo el desarrollo, el término central del desarrollo del siguiente polinomio:
+        \begin{multicols}{1} 
+        \begin{parts} \part[2]  $ P(x)=\left(3 x^{2} - \frac{1}{3 x}\right)^{10} \,  $  \begin{solution}  $ - 61236 x^{10} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Efectúa:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{\sqrt{3}}{\sqrt{3}-\sqrt{2}}-\frac{\sqrt{3}}{\sqrt{3}+\sqrt{2}} $  \begin{solution}  $ 2 \sqrt{6}\to2 \sqrt{6} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula el valor de $m$ para que:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ P(x)=\frac{x^2}{4}-mx+\frac{1}{16} \ tenga\ una \ ra \acute \imath z \ doble $  \begin{solution}  $ \left [ \frac{1}{4}, \quad - m, \quad \frac{1}{16}\right ]\to \left [ - \frac{1}{4}, \quad \frac{1}{4}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula expresando el resultado en forma de fracción algebraica irreducible:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{1+{ \frac{1}{x}}}{{1 + \frac{1}{{1 + \frac{1}{x}}}}} $  \begin{solution}  $ \frac{x^{2} + 2 x + 1}{2 x^{2} + x} $  \end{solution} \part[1]  $ \frac{{\frac{1}{{x - 3}} - \frac{1}{{x + 3}}}}{{1 - \frac{3}{{{x^2} - 9}}}} $  \begin{solution}  $ \frac{6}{x^{2} - 12} $  \end{solution} \part[1]  $ \frac{{x^3}-x^2 -4x + 4}{{x^2} - 3x + 2}:\frac{{x^3} - {x^2} + 3x - 3}{{{x^3} + 3x}} $  \begin{solution}  $ \frac{x^{2} + 2 x}{x - 1} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
