@@ -1,0 +1,22 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex
+5x - 3 \leq 7 - 2x,5*x - 3 <= -2*x + 7,"\left(-\infty, \frac{10}{7}\right]",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{2( {x - 3} )}}{5} - \frac{{3x}}{2} + 7 < 10 - \frac{{2x - 3}}{3},-3*x/2 + (2*(x - 3))/5 + 7 < -2*x/3 + 1 + 10,"\left(-12, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+x - 2( {x + 4} ) \leq 3x - 6,x - 2*(x + 4) <= 3*x - 6,"\left[- \frac{1}{2}, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{x - 1}}{2} - \frac{{x + 1}}{3} > 5 - x,-x/3 - 1/3 + (x - 1)/2 > -x + 5,"\left(5, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+2( {x - 6} ) - 5( {x - 4} ) \leq 6x - 1,2*(x - 6) - 5*(x - 4) <= 6*x - 1,"\left[1, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{3( {x - 2} )}}{4} - 5( {x + 1} ) > 3 - \frac{x}{4},-5*(x + 1) + (3*(x - 2))/4 > -x/4 + 3,"\left(-\infty, - \frac{19}{8}\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+5 - 2( {5x - 6} ) \geq 3( {x - 1} ) + \frac{{7 - x}}{2},-2*(5*x - 6) + 5 >= (-x + 7)/2 + 3*(x - 1),"\left(-\infty, \frac{33}{25}\right]",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+3( {x - 2} ) < 6,3*(x - 2) < 6,"\left(-\infty, 4\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+2( {x + 3} ) > 3( {x + 2} ),2*(x + 3) > 3*(x + 2),"\left(-\infty, 0\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+2( {x + 1} ) - 7 \geq x - 3,2*(x + 1) - 7 >= x - 3,"\left[2, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{x - 1}}{4} - \frac{{x + 2}}{3} > \frac{{3x - 1}}{6} - x,-x/3 - 2/3 + (x - 1)/4 > -x + (3*x - 1)/6,"\left(\frac{9}{5}, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{x - 3}}{5} + \frac{{2x + 6}}{2} \geq \frac{x}{4} - \frac{{3x - 6}}{2},(x - 3)/5 + (2*x + 6)/2 >= x/4 - 3*x/2 + 3,"\left[\frac{12}{49}, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+{( {x - 3} )^2} - {( {x + 2} )^2} < 5,(x - 3)**2 - (x + 2)**2 < 5,"\left(0, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+( {4x - 3} )( {2 + x} ) > {( {3 - 2x} )^2},(x + 2)*(4*x - 3) > (-2*x + 3)**2,"\left(\frac{15}{17}, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{x - 1}}{2} - x < \frac{{1 - x}}{4} - 3,-x + (x - 1)/2 < (-x + 1)/4 - 3,"\left(9, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{x + 7}}{{10}} - \frac{{x - 5}}{5} > \frac{{x - 9}}{3},-x/5 + 1 + (x + 7)/10 > (x - 9)/3,"\left(-\infty, \frac{141}{13}\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{5x - 2}}{3} - \frac{{x - 8}}{4} > \frac{{x + 14}}{2} - 2,-x/4 + 2 + (5*x - 2)/3 > (x + 14)/2 - 2,"\left(4, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+4x - \frac{{3 - 2x}}{4} < \frac{{3x - 1}}{3} + \frac{{37}}{{12}},4*x + x/2 - 3/4 < (3*x - 1)/3 + 37/12,"\left(-\infty, 1\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{x + 2}}{3} - \frac{{12 - x}}{2} > \frac{{5x - 36}}{4} - 1,x/2 - 6 + (x + 2)/3 > (5*x - 36)/4 - 1,"\left(-\infty, \frac{56}{5}\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+3( {x - 2( {\frac{{x - 1}}{4}x - 5} )} ) < \frac{3}{2}( {4 - x} )x,3*(x - 2*(x*((x - 1)/4) - 5)) < (3/2)*(x*(-x + 4)),"\left(20, \infty\right)",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
+\frac{{3x + 1}}{4} - \frac{1}{3} \leq \frac{2}{{15}}( {3x + 2} ) + \frac{{4( {1 - x} )}}{3},(3*x + 1)/4 - 1/3 <= (4*(-x + 1))/3 + (2/15)*(3*x + 2),"\left(-\infty, 1\right]",Resuelve las inecuaciones lineales:,1BC,8 - Inecuaciones,p025e01,1,2,1,True
