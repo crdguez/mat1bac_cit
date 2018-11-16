@@ -1,0 +1,10 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+{10^{3 - x}} = 1,"Eq(10**(-x + 3), 1)",\left [ 3\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+{5^{x + 3}} = 125,"Eq(5**(x + 3), 125)",\left [ 0\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+5^{1-x^2}=\frac{1}{125},"Eq(5**(-x**2 + 1), 1/125)","\left [ -2.0, \quad 2.0\right ]",Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+{5^{{x^2} - 5x + 6}} = 1,"Eq(5**(x**2 - 5*x + 6), 1)","\left [ 2, \quad 3\right ]",Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+{2^{1 - x}} = \frac{1}{8},"Eq(2**(-x + 1), 1/8)",\left [ 4.0\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+2^{x + 3} = 4^{- x},"Eq(2**(x + 3), 4**(-x))",\left [ -1\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+3+x=-2x,"Eq(x + 3, -2*x)",\left [ -1\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+{9^{x - 1}} = {3^{x + 1}},"Eq(9**(x - 1), 3**(x + 1))",\left [ 3\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
+{4^{4x + 3}} = {2^{ - x}},"Eq(4**(4*x + 3), 2**(-x))",\left [ - \frac{2}{3}\right ],Resuelve las siguientes ecuaciones exponenciales:,1BC,9 - Ecuaciones exponenciales y logarítmicas,p027e04,1,2,1,True,True
