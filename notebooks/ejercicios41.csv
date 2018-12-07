@@ -39,3 +39,33 @@ Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama 
 Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 13.833333333333334, 'mediana': 14.0, 'moda': ModeResult(mode=array([11]), count=array([4]))}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
 Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 11.75, 'Q3': 16.0}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
 Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 8, 'varianza': 6.222222222222221, 'desviación típica': 2.49443825784929, 'coeficiente variación': 0.180320837916816}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
+Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
+\hline
+   x\_i &   f\_i &   F\_i &   r\_i &   R\_i &   \%\_i &   \%A\_i \\
+\hline
+     1 &     2 &     2 &  0.1  &  0.1  &    10 &     10 \\
+     2 &     6 &     8 &  0.3  &  0.4  &    30 &     40 \\
+     3 &     8 &    16 &  0.4  &  0.8  &    40 &     80 \\
+     4 &     3 &    19 &  0.15 &  0.95 &    15 &     95 \\
+     5 &     1 &    20 &  0.05 &  1    &     5 &    100 \\
+\hline
+\end{tabular}","Al preguntar a 20 individuos sobre el número de libros que han leído en el último mes: 3 2 3 2 1
+                    3 4 2 4 3
+                    4 3 1 3 2
+                    2 5 2 3 3",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e03},"Al preguntar a 20 individuos sobre el número de libros que han leído en el último mes: 3 2 3 2 1
+                    3 4 2 4 3
+                    4 3 1 3 2
+                    2 5 2 3 3",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 2.75, 'mediana': 3.0, 'moda': ModeResult(mode=array([3]), count=array([8]))}","Al preguntar a 20 individuos sobre el número de libros que han leído en el último mes: 3 2 3 2 1
+                    3 4 2 4 3
+                    4 3 1 3 2
+                    2 5 2 3 3",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 2.0, 'Q3': 3.0}","Al preguntar a 20 individuos sobre el número de libros que han leído en el último mes: 3 2 3 2 1
+                    3 4 2 4 3
+                    4 3 1 3 2
+                    2 5 2 3 3",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 4, 'varianza': 0.9875, 'desviación típica': 0.993730345717590, 'coeficiente variación': 0.361356489351851}","Al preguntar a 20 individuos sobre el número de libros que han leído en el último mes: 3 2 3 2 1
+                    3 4 2 4 3
+                    4 3 1 3 2
+                    2 5 2 3 3",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
