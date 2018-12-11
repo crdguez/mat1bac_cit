@@ -73,7 +73,7 @@
         \newcommand{\examnum}{41 - Estadística Unidimensional}
         \begin{document}
         \begin{questions}
-        \question p089e01 - Las calificaciones de un grupo de alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2
+        \question p089e01 - Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2
         \begin{multicols}{1} 
         \begin{parts} \part[1] Realiza una tabla de frecuencias  \begin{solution}   \begin{tabular}{rrrrrrr}
 \hline
@@ -113,22 +113,142 @@
 \end{tabular}   \end{solution} \part[1] Realiza un diagrama de barras y un polígono de frecuencias  \begin{solution}   \\ \includegraphics[width=1\columnwidth]{p089e02}   \end{solution} \part[1] Calcular los parámetros de centralización  \begin{solution}   {'media': 13.833333333333334, 'mediana': 14.0, 'moda': ModeResult(mode=array([11]), count=array([4]))}   \end{solution} \part[1] Calcular los parámetros de posición  \begin{solution}   {'Q1': 11.75, 'Q3': 16.0}   \end{solution} \part[1] Calcular los parámetros de dispersión  \begin{solution}   {'rango': 8, 'varianza': 6.222222222222221, 'desviación típica': 2.49443825784929, 'coeficiente variación': 0.180320837916816}   \end{solution}
         \end{parts}
         \end{multicols}
-        \question p089e03 - Al preguntar a 20 individuos sobre el número de libros que han leído en el último mes: 3 2 3 2 1
-                    3 4 2 4 3
-                    4 3 1 3 2
-                    2 5 2 3 3
+        \question p089e03 - La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
+                  167 162 162 163 166 166 167 167 
+                  174 159 170 172 173 164 161 163 176 177
         \begin{multicols}{1} 
         \begin{parts} \part[1] Realiza una tabla de frecuencias  \begin{solution}   \begin{tabular}{rrrrrrr}
 \hline
-   x\_i &   f\_i &   F\_i &   r\_i &   R\_i &   \%\_i &   \%A\_i \\
+   x\_i &   f\_i &   F\_i &       r\_i &       R\_i &      \%\_i &      \%A\_i \\
 \hline
-     1 &     2 &     2 &  0.1  &  0.1  &    10 &     10 \\
-     2 &     6 &     8 &  0.3  &  0.4  &    30 &     40 \\
-     3 &     8 &    16 &  0.4  &  0.8  &    40 &     80 \\
-     4 &     3 &    19 &  0.15 &  0.95 &    15 &     95 \\
-     5 &     1 &    20 &  0.05 &  1    &     5 &    100 \\
+   157 &     1 &     1 & 0.0333333 & 0.0333333 &  3.33333 &   3.33333 \\
+   159 &     1 &     2 & 0.0333333 & 0.0666667 &  3.33333 &   6.66667 \\
+   161 &     1 &     3 & 0.0333333 & 0.1       &  3.33333 &  10       \\
+   162 &     2 &     5 & 0.0666667 & 0.166667  &  6.66667 &  16.6667  \\
+   163 &     2 &     7 & 0.0666667 & 0.233333  &  6.66667 &  23.3333  \\
+   164 &     1 &     8 & 0.0333333 & 0.266667  &  3.33333 &  26.6667  \\
+   166 &     3 &    11 & 0.1       & 0.366667  & 10       &  36.6667  \\
+   167 &     3 &    14 & 0.1       & 0.466667  & 10       &  46.6667  \\
+   168 &     3 &    17 & 0.1       & 0.566667  & 10       &  56.6667  \\
+   169 &     1 &    18 & 0.0333333 & 0.6       &  3.33333 &  60       \\
+   170 &     1 &    19 & 0.0333333 & 0.633333  &  3.33333 &  63.3333  \\
+   171 &     1 &    20 & 0.0333333 & 0.666667  &  3.33333 &  66.6667  \\
+   172 &     2 &    22 & 0.0666667 & 0.733333  &  6.66667 &  73.3333  \\
+   173 &     2 &    24 & 0.0666667 & 0.8       &  6.66667 &  80       \\
+   174 &     2 &    26 & 0.0666667 & 0.866667  &  6.66667 &  86.6667  \\
+   176 &     2 &    28 & 0.0666667 & 0.933333  &  6.66667 &  93.3333  \\
+   177 &     1 &    29 & 0.0333333 & 0.966667  &  3.33333 &  96.6667  \\
+   184 &     1 &    30 & 0.0333333 & 1         &  3.33333 & 100       \\
 \hline
-\end{tabular}   \end{solution} \part[1] Realiza un diagrama de barras y un polígono de frecuencias  \begin{solution}   \\ \includegraphics[width=1\columnwidth]{p089e03}   \end{solution} \part[1] Calcular los parámetros de centralización  \begin{solution}   {'media': 2.75, 'mediana': 3.0, 'moda': ModeResult(mode=array([3]), count=array([8]))}   \end{solution} \part[1] Calcular los parámetros de posición  \begin{solution}   {'Q1': 2.0, 'Q3': 3.0}   \end{solution} \part[1] Calcular los parámetros de dispersión  \begin{solution}   {'rango': 4, 'varianza': 0.9875, 'desviación típica': 0.993730345717590, 'coeficiente variación': 0.361356489351851}   \end{solution}
+\end{tabular}   \end{solution} \part[1] Realiza un diagrama de barras y un polígono de frecuencias  \begin{solution}   \\ \includegraphics[width=1\columnwidth]{p089e03}   \end{solution} \part[1] Calcular los parámetros de centralización  \begin{solution}   {'media': 168.5, 'mediana': 168.0, 'moda': ModeResult(mode=array([166]), count=array([3]))}   \end{solution} \part[1] Calcular los parámetros de posición  \begin{solution}   {'Q1': 164.5, 'Q3': 172.75}   \end{solution} \part[1] Calcular los parámetros de dispersión  \begin{solution}   {'rango': 27, 'varianza': 34.31666666666667, 'desviación típica': 5.85804290413331, 'coeficiente variación': 0.0347658332589514}   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p089e03b - La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
+                  167 162 162 163 166 166 167 167 
+                  174 159 170 172 173 164 161 163 176 177
+        \begin{multicols}{1} 
+        \begin{parts} \part[1] Realiza una tabla de frecuencias  \begin{solution}   \begin{tabular}{rrrrrrr}
+\hline
+   x\_i &   f\_i &   F\_i &       r\_i &       R\_i &      \%\_i &      \%A\_i \\
+\hline
+ 157.5 &     2 &     2 & 0.0666667 & 0.0666667 &  6.66667 &   6.66667 \\
+ 162.5 &     6 &     8 & 0.2       & 0.266667  & 20       &  26.6667  \\
+ 167.5 &    10 &    18 & 0.333333  & 0.6       & 33.3333  &  60       \\
+ 172.5 &     8 &    26 & 0.266667  & 0.866667  & 26.6667  &  86.6667  \\
+ 177.5 &     3 &    29 & 0.1       & 0.966667  & 10       &  96.6667  \\
+ 182.5 &     1 &    30 & 0.0333333 & 1         &  3.33333 & 100       \\
+\hline
+\end{tabular}   \end{solution} \part[1] Realiza un diagrama de barras y un polígono de frecuencias  \begin{solution}   \\ \includegraphics[width=1\columnwidth]{p089e03b}   \end{solution} \part[1] Calcular los parámetros de centralización  \begin{solution}   {'media': 168.66666666666666, 'mediana': 167.5, 'moda': ModeResult(mode=array([167.5]), count=array([10]))}   \end{solution} \part[1] Calcular los parámetros de posición  \begin{solution}   {'Q1': 163.75, 'Q3': 172.5}   \end{solution} \part[1] Calcular los parámetros de dispersión  \begin{solution}   {'rango': 25.0, 'varianza': 34.47222222222222, 'desviación típica': 5.87130498460285, 'coeficiente variación': 0.0348101086043647}   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p90e05 - La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
+76
+29
+35
+75
+31
+18
+19
+52
+23
+15
+46
+73
+23
+18
+81
+35
+17
+19
+81
+35
+27
+15
+62
+15
+81
+44
+18
+41
+31
+63
+76
+18
+45
+24
+27
+31
+27
+32
+32
+69
+74
+45
+15
+19
+18
+18
+31
+29
+13
+47
+17
+18
+19
+30
+76
+82
+77
+14
+50 
+        \begin{multicols}{1} 
+        \begin{parts} \part[1] Realiza una tabla de frecuencias  \begin{solution}   \begin{tabular}{rrrrrrr}
+\hline
+   x\_i &   f\_i &   F\_i &       r\_i &      R\_i &      \%\_i &     \%A\_i \\
+\hline
+    15 &    20 &    20 & 0.333333  & 0.333333 & 33.3333  &  33.3333 \\
+    25 &     8 &    28 & 0.133333  & 0.466667 & 13.3333  &  46.6667 \\
+    35 &    10 &    38 & 0.166667  & 0.633333 & 16.6667  &  63.3333 \\
+    45 &     6 &    44 & 0.1       & 0.733333 & 10       &  73.3333 \\
+    55 &     2 &    46 & 0.0333333 & 0.766667 &  3.33333 &  76.6667 \\
+    65 &     3 &    49 & 0.05      & 0.816667 &  5       &  81.6667 \\
+    75 &     7 &    56 & 0.116667  & 0.933333 & 11.6667  &  93.3333 \\
+    85 &     4 &    60 & 0.0666667 & 1        &  6.66667 & 100      \\
+\hline
+\end{tabular}   \end{solution} \part[1] Realiza un diagrama de barras y un polígono de frecuencias  \begin{solution}   \\ \includegraphics[width=1\columnwidth]{p90e05}   \end{solution} \part[1] Calcular los parámetros de centralización  \begin{solution}   {'media': 38.166666666666664, 'mediana': 35.0, 'moda': ModeResult(mode=array([15.]), count=array([20]))}   \end{solution} \part[1] Calcular los parámetros de posición  \begin{solution}   {'Q1': 15.0, 'Q3': 55.0}   \end{solution} \part[1] Calcular los parámetros de dispersión  \begin{solution}   {'rango': 70.0, 'varianza': 558.3055555555554, 'desviación típica': 23.6284903359388, 'coeficiente variación': 0.619087083037699}   \end{solution} \part[1] Realiza una tabla de frecuencias  \begin{solution}   \begin{tabular}{rrrrrrr}
+\hline
+   x\_i &   f\_i &   F\_i &       r\_i &      R\_i &      \%\_i &     \%A\_i \\
+\hline
+    15 &    20 &    20 & 0.333333  & 0.333333 & 33.3333  &  33.3333 \\
+    25 &     8 &    28 & 0.133333  & 0.466667 & 13.3333  &  46.6667 \\
+    35 &    10 &    38 & 0.166667  & 0.633333 & 16.6667  &  63.3333 \\
+    45 &     6 &    44 & 0.1       & 0.733333 & 10       &  73.3333 \\
+    55 &     2 &    46 & 0.0333333 & 0.766667 &  3.33333 &  76.6667 \\
+    65 &     3 &    49 & 0.05      & 0.816667 &  5       &  81.6667 \\
+    75 &     7 &    56 & 0.116667  & 0.933333 & 11.6667  &  93.3333 \\
+    85 &     4 &    60 & 0.0666667 & 1        &  6.66667 & 100      \\
+\hline
+\end{tabular}   \end{solution} \part[1] Realiza un diagrama de barras y un polígono de frecuencias  \begin{solution}   \\ \includegraphics[width=1\columnwidth]{p90e05}   \end{solution} \part[1] Calcular los parámetros de centralización  \begin{solution}   {'media': 38.166666666666664, 'mediana': 35.0, 'moda': ModeResult(mode=array([15.]), count=array([20]))}   \end{solution} \part[1] Calcular los parámetros de posición  \begin{solution}   {'Q1': 15.0, 'Q3': 55.0}   \end{solution} \part[1] Calcular los parámetros de dispersión  \begin{solution}   {'rango': 70.0, 'varianza': 558.3055555555554, 'desviación típica': 23.6284903359388, 'coeficiente variación': 0.619087083037699}   \end{solution}
         \end{parts}
         \end{multicols}
         

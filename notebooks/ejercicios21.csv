@@ -1,0 +1,2 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+"A(3, 4), B(7, 2), C(-1, 0) y D(3, -2)","[Point2D(3, 4), Point2D(7, 2), Point2D(-1, 0), Point2D(3, -2)]","Point2D(4, -2), Point2D(4, -2): True","¿Son equipolentes los vectores  $\overrightarrow {AB} $  y  $\overrightarrow {CD} $ siendo A, B, C y D los puntos de coordenadas:?",1BC,21 - Teoría de vectores,p032e04,1,2,1,False,True
