@@ -10,6 +10,6 @@ $\overrightarrow v = 2\overrightarrow i - 3\overrightarrow j$,
 $\overrightarrow w = \overrightarrow i + \overrightarrow j$, 
 $\overrightarrow z =  - \overrightarrow i - 3\overrightarrow j$
 	Calcular:",1BC,22 - Producto Escalar,p035e01,1,1,1,False,True
-"\overrightarrow{u}=(4, 12) \, \ \overrightarrow{v}=(2, 6)","Point(4, 12).is_collinear(Point(2, 6), Point(0,0))",True,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,1,1,False,True
-"\overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4)","Point(1, 2).is_collinear(Point(3, 4), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,1,1,False,True
-"\overrightarrow{u}=(1, 1) \, \ \overrightarrow{v}=(-2, -3)","Point(1, 1).is_collinear(Point(-2, -3), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,1,1,False,True
+"\overrightarrow{u}=(4, 12) \, \ \overrightarrow{v}=(2, 6)","Point(4, 12).is_collinear(Point(2, 6), Point(0,0))",True,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,2,1,True,True
+"\overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4)","Point(1, 2).is_collinear(Point(3, 4), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,2,1,True,True
+"\overrightarrow{u}=(1, 1) \, \ \overrightarrow{v}=(-2, -3)","Point(1, 1).is_collinear(Point(-2, -3), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,2,1,True,True
