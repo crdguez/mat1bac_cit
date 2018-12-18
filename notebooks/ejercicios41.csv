@@ -1,7 +1,7 @@
 enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
 Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
 \hline
-   x\_i &   f\_i &   F\_i &       r\_i &       R\_i &      \%\_i &      \%A\_i \\
+   x\_i &   f\_i &   F\_i &       h\_i &       H\_i &      \%\_i &      \%A\_i \\
 \hline
      0 &     1 &     1 & 0.0294118 & 0.0294118 &  2.94118 &   2.94118 \\
      1 &     2 &     3 & 0.0588235 & 0.0882353 &  5.88235 &   8.82353 \\
@@ -18,11 +18,11 @@ Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabula
 \end{tabular}",Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2,1BC,41 - Estadística Unidimensional,p089e01,1,1,1,False,False
 Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e01},Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2,1BC,41 - Estadística Unidimensional,p089e01,1,1,1,False,False
 Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 5.294117647058823, 'mediana': 5.5, 'moda': ModeResult(mode=array([5]), count=array([6]))}",Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2,1BC,41 - Estadística Unidimensional,p089e01,1,1,1,False,False
-Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 4.0, 'Q3': 7.0}",Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2,1BC,41 - Estadística Unidimensional,p089e01,1,1,1,False,False
+"Calcular los parámetros de posición P70, Q1, Q3, D4","Calcular los parámetros de posición P70, Q1, Q3, D4","{'P70': 7.0, 'Q1': 4.0, 'Q3': 7.0, 'D4': 5.0}",Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2,1BC,41 - Estadística Unidimensional,p089e01,1,1,1,False,False
 Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 10, 'varianza': 6.031141868512111, 'desviación típica': 2.45583832295860, 'coeficiente variación': 0.463880572114402}",Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2,1BC,41 - Estadística Unidimensional,p089e01,1,1,1,False,False
 Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
 \hline
-   x\_i &   f\_i &   F\_i &       r\_i &       R\_i &      \%\_i &      \%A\_i \\
+   x\_i &   f\_i &   F\_i &       h\_i &       H\_i &      \%\_i &      \%A\_i \\
 \hline
     10 &     2 &     2 & 0.0833333 & 0.0833333 &  8.33333 &   8.33333 \\
     11 &     4 &     6 & 0.166667  & 0.25      & 16.6667  &  25       \\
@@ -34,14 +34,14 @@ Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabula
     17 &     2 &    22 & 0.0833333 & 0.916667  &  8.33333 &  91.6667  \\
     18 &     2 &    24 & 0.0833333 & 1         &  8.33333 & 100       \\
 \hline
-\end{tabular}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
-Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e02},"Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
-Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 13.833333333333334, 'mediana': 14.0, 'moda': ModeResult(mode=array([11]), count=array([4]))}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
-Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 11.75, 'Q3': 16.0}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
-Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 8, 'varianza': 6.222222222222221, 'desviación típica': 2.49443825784929, 'coeficiente variación': 0.180320837916816}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
+\end{tabular}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e03},"Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 13.833333333333334, 'mediana': 14.0, 'moda': ModeResult(mode=array([11]), count=array([4]))}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+"Calcular los parámetros de posición P70, Q1, Q3, D4","Calcular los parámetros de posición P70, Q1, Q3, D4","{'P70': 16.0, 'Q1': 11.75, 'Q3': 16.0, 'D4': 13.0}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 8, 'varianza': 6.222222222222221, 'desviación típica': 2.49443825784929, 'coeficiente variación': 0.180320837916816}","Estos datos reflejan el tiempo, en minutos, que tardan en llegar a su centro escolar varios alumnos. 10 15 11 11 14 14 11 14 17 11 17 15 10 16 12 12 13 16 13 16 18 12 18 16",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
 Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
 \hline
-   x\_i &   f\_i &   F\_i &       r\_i &       R\_i &      \%\_i &      \%A\_i \\
+   x\_i &   f\_i &   F\_i &       h\_i &       H\_i &      \%\_i &      \%A\_i \\
 \hline
    157 &     1 &     1 & 0.0333333 & 0.0333333 &  3.33333 &   3.33333 \\
    159 &     1 &     2 & 0.0333333 & 0.0666667 &  3.33333 &   6.66667 \\
@@ -64,668 +64,48 @@ Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabula
 \hline
 \end{tabular}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
                   167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
-Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e03},"La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
+                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e04,1,1,1,False,False
+Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e04},"La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
                   167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e04,1,1,1,False,False
 Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 168.5, 'mediana': 168.0, 'moda': ModeResult(mode=array([166]), count=array([3]))}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
                   167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
-Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 164.5, 'Q3': 172.75}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
+                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e04,1,1,1,False,False
+"Calcular los parámetros de posición P70, Q1, Q3, D4","Calcular los parámetros de posición P70, Q1, Q3, D4","{'P70': 172.0, 'Q1': 164.5, 'Q3': 172.75, 'D4': 167.0}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
                   167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e04,1,1,1,False,False
 Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 27, 'varianza': 34.31666666666667, 'desviación típica': 5.85804290413331, 'coeficiente variación': 0.0347658332589514}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
                   167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03,1,1,1,False,False
+                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e04,1,1,1,False,False
 Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
 \hline
-   x\_i &   f\_i &   F\_i &       r\_i &       R\_i &      \%\_i &      \%A\_i \\
+   x\_i &   f\_i &   F\_i &       h\_i &       H\_i &      \%\_i &      \%A\_i \\
 \hline
- 157.5 &     2 &     2 & 0.0666667 & 0.0666667 &  6.66667 &   6.66667 \\
- 162.5 &     6 &     8 & 0.2       & 0.266667  & 20       &  26.6667  \\
- 167.5 &    10 &    18 & 0.333333  & 0.6       & 33.3333  &  60       \\
- 172.5 &     8 &    26 & 0.266667  & 0.866667  & 26.6667  &  86.6667  \\
- 177.5 &     3 &    29 & 0.1       & 0.966667  & 10       &  96.6667  \\
- 182.5 &     1 &    30 & 0.0333333 & 1         &  3.33333 & 100       \\
+     1 &     1 &     1 & 0.0333333 & 0.0333333 &  3.33333 &   3.33333 \\
+     2 &     1 &     2 & 0.0333333 & 0.0666667 &  3.33333 &   6.66667 \\
+     3 &     3 &     5 & 0.1       & 0.166667  & 10       &  16.6667  \\
+     4 &     1 &     6 & 0.0333333 & 0.2       &  3.33333 &  20       \\
+     5 &     2 &     8 & 0.0666667 & 0.266667  &  6.66667 &  26.6667  \\
+     6 &     2 &    10 & 0.0666667 & 0.333333  &  6.66667 &  33.3333  \\
+     7 &     1 &    11 & 0.0333333 & 0.366667  &  3.33333 &  36.6667  \\
+     8 &     2 &    13 & 0.0666667 & 0.433333  &  6.66667 &  43.3333  \\
+     9 &     1 &    14 & 0.0333333 & 0.466667  &  3.33333 &  46.6667  \\
+    10 &     5 &    19 & 0.166667  & 0.633333  & 16.6667  &  63.3333  \\
+    11 &     1 &    20 & 0.0333333 & 0.666667  &  3.33333 &  66.6667  \\
+    12 &     3 &    23 & 0.1       & 0.766667  & 10       &  76.6667  \\
+    14 &     1 &    24 & 0.0333333 & 0.8       &  3.33333 &  80       \\
+    15 &     1 &    25 & 0.0333333 & 0.833333  &  3.33333 &  83.3333  \\
+    16 &     3 &    28 & 0.1       & 0.933333  & 10       &  93.3333  \\
+    17 &     1 &    29 & 0.0333333 & 0.966667  &  3.33333 &  96.6667  \\
+    20 &     1 &    30 & 0.0333333 & 1         &  3.33333 & 100       \\
 \hline
-\end{tabular}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
-                  167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03b,1,1,1,False,False
-Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e03b},"La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
-                  167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03b,1,1,1,False,False
-Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 168.66666666666666, 'mediana': 167.5, 'moda': ModeResult(mode=array([167.5]), count=array([10]))}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
-                  167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03b,1,1,1,False,False
-Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 163.75, 'Q3': 172.5}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
-                  167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03b,1,1,1,False,False
-Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 25.0, 'varianza': 34.47222222222222, 'desviación típica': 5.87130498460285, 'coeficiente variación': 0.0348101086043647}","La altura en cm de 30 alumnos de un curso son:174 157 168 166 169 168 173 184 176 171 172 168 
-                  167 162 162 163 166 166 167 167 
-                  174 159 170 172 173 164 161 163 176 177",1BC,41 - Estadística Unidimensional,p089e03b,1,1,1,False,False
-Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
-\hline
-   x\_i &   f\_i &   F\_i &       r\_i &      R\_i &      \%\_i &     \%A\_i \\
-\hline
-    15 &    20 &    20 & 0.333333  & 0.333333 & 33.3333  &  33.3333 \\
-    25 &     8 &    28 & 0.133333  & 0.466667 & 13.3333  &  46.6667 \\
-    35 &    10 &    38 & 0.166667  & 0.633333 & 16.6667  &  63.3333 \\
-    45 &     6 &    44 & 0.1       & 0.733333 & 10       &  73.3333 \\
-    55 &     2 &    46 & 0.0333333 & 0.766667 &  3.33333 &  76.6667 \\
-    65 &     3 &    49 & 0.05      & 0.816667 &  5       &  81.6667 \\
-    75 &     7 &    56 & 0.116667  & 0.933333 & 11.6667  &  93.3333 \\
-    85 &     4 &    60 & 0.0666667 & 1        &  6.66667 & 100      \\
-\hline
-\end{tabular}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p90e05},"La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 38.166666666666664, 'mediana': 35.0, 'moda': ModeResult(mode=array([15.]), count=array([20]))}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 15.0, 'Q3': 55.0}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 70.0, 'varianza': 558.3055555555554, 'desviación típica': 23.6284903359388, 'coeficiente variación': 0.619087083037699}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Realiza una tabla de frecuencias,Realiza una tabla de frecuencias,"\begin{tabular}{rrrrrrr}
-\hline
-   x\_i &   f\_i &   F\_i &       r\_i &      R\_i &      \%\_i &     \%A\_i \\
-\hline
-    15 &    20 &    20 & 0.333333  & 0.333333 & 33.3333  &  33.3333 \\
-    25 &     8 &    28 & 0.133333  & 0.466667 & 13.3333  &  46.6667 \\
-    35 &    10 &    38 & 0.166667  & 0.633333 & 16.6667  &  63.3333 \\
-    45 &     6 &    44 & 0.1       & 0.733333 & 10       &  73.3333 \\
-    55 &     2 &    46 & 0.0333333 & 0.766667 &  3.33333 &  76.6667 \\
-    65 &     3 &    49 & 0.05      & 0.816667 &  5       &  81.6667 \\
-    75 &     7 &    56 & 0.116667  & 0.933333 & 11.6667  &  93.3333 \\
-    85 &     4 &    60 & 0.0666667 & 1        &  6.66667 & 100      \\
-\hline
-\end{tabular}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p90e05},"La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 38.166666666666664, 'mediana': 35.0, 'moda': ModeResult(mode=array([15.]), count=array([20]))}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Calcular los parámetros de posición,Calcular los parámetros de posición,"{'Q1': 15.0, 'Q3': 55.0}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
-Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 70.0, 'varianza': 558.3055555555554, 'desviación típica': 23.6284903359388, 'coeficiente variación': 0.619087083037699}","La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
-76
-29
-35
-75
-31
-18
-19
-52
-23
-15
-46
-73
-23
-18
-81
-35
-17
-19
-81
-35
-27
-15
-62
-15
-81
-44
-18
-41
-31
-63
-76
-18
-45
-24
-27
-31
-27
-32
-32
-69
-74
-45
-15
-19
-18
-18
-31
-29
-13
-47
-17
-18
-19
-30
-76
-82
-77
-14
-50 ",1BC,41 - Estadística Unidimensional,p90e05,1,1,1,False,False
+\end{tabular}","En un grupo de personas de 1º de Bachillerato hemos preguntado por el número medio de días que
+                    practican deporte al mes. Las respuestas han sido las siguientes:16 11 17 12 10 5 1 8 10 14 15 20 10 3 8 10 2 5 12 6 16 7 6 16 10 3 3 9 4 12",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
+Realiza un diagrama de barras y un polígono de frecuencias,Realiza un diagrama de barras y un polígono de frecuencias,\\ \includegraphics[width=1\columnwidth]{p089e02},"En un grupo de personas de 1º de Bachillerato hemos preguntado por el número medio de días que
+                    practican deporte al mes. Las respuestas han sido las siguientes:16 11 17 12 10 5 1 8 10 14 15 20 10 3 8 10 2 5 12 6 16 7 6 16 10 3 3 9 4 12",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
+Calcular los parámetros de centralización,Calcular los parámetros de centralización,"{'media': 9.366666666666667, 'mediana': 10.0, 'moda': ModeResult(mode=array([10]), count=array([5]))}","En un grupo de personas de 1º de Bachillerato hemos preguntado por el número medio de días que
+                    practican deporte al mes. Las respuestas han sido las siguientes:16 11 17 12 10 5 1 8 10 14 15 20 10 3 8 10 2 5 12 6 16 7 6 16 10 3 3 9 4 12",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
+"Calcular los parámetros de posición P70, Q1, Q3, D4","Calcular los parámetros de posición P70, Q1, Q3, D4","{'P70': 12.0, 'Q1': 5.25, 'Q3': 12.0, 'D4': 8.0}","En un grupo de personas de 1º de Bachillerato hemos preguntado por el número medio de días que
+                    practican deporte al mes. Las respuestas han sido las siguientes:16 11 17 12 10 5 1 8 10 14 15 20 10 3 8 10 2 5 12 6 16 7 6 16 10 3 3 9 4 12",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
+Calcular los parámetros de dispersión,Calcular los parámetros de dispersión,"{'rango': 19, 'varianza': 24.232222222222227, 'desviación típica': 4.92262351010335, 'coeficiente variación': 0.525546993961212}","En un grupo de personas de 1º de Bachillerato hemos preguntado por el número medio de días que
+                    practican deporte al mes. Las respuestas han sido las siguientes:16 11 17 12 10 5 1 8 10 14 15 20 10 3 8 10 2 5 12 6 16 7 6 16 10 3 3 9 4 12",1BC,41 - Estadística Unidimensional,p089e02,1,1,1,False,False
