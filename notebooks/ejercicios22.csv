@@ -13,3 +13,12 @@ $\overrightarrow z =  - \overrightarrow i - 3\overrightarrow j$
 "\overrightarrow{u}=(4, 12) \, \ \overrightarrow{v}=(2, 6)","Point(4, 12).is_collinear(Point(2, 6), Point(0,0))",True,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,2,1,True,True
 "\overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4)","Point(1, 2).is_collinear(Point(3, 4), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,2,1,True,True
 "\overrightarrow{u}=(1, 1) \, \ \overrightarrow{v}=(-2, -3)","Point(1, 1).is_collinear(Point(-2, -3), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,22 - Producto Escalar,p035e02,1,2,1,True,True
+"\overrightarrow{u}=(2, -3) \, \ \overrightarrow{v}=(5, 4)","['Point(2, -3).dot(Point(5, 4))', ['Point(2, -3).distance(Point(0,0))', 'Point(5, 4).distance(Point(0,0))'], 94.96974072811031]","[-2, [sqrt(13), sqrt(41)], 94.9697407281103]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
+"\overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4)","['Point(1, 2).dot(Point(3, 4))', ['Point(1, 2).distance(Point(0,0))', 'Point(3, 4).distance(Point(0,0))'], 10.304846468766044]","[11, [sqrt(5), 5], 10.3048464687660]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
+"\overrightarrow{u}=(1, 1) \, \ \overrightarrow{v}=(-2, -3)","['Point(1, 1).dot(Point(-2, -3))', ['Point(1, 1).distance(Point(0,0))', 'Point(-2, -3).distance(Point(0,0))'], 168.69006752597977]","[-5, [sqrt(2), sqrt(13)], 168.690067525980]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
