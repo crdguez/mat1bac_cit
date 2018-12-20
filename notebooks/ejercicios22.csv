@@ -22,3 +22,36 @@ y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Esc
 "\overrightarrow{u}=(1, 1) \, \ \overrightarrow{v}=(-2, -3)","['Point(1, 1).dot(Point(-2, -3))', ['Point(1, 1).distance(Point(0,0))', 'Point(-2, -3).distance(Point(0,0))'], 168.69006752597977]","\left [ -5, \quad \left [ \sqrt{2}, \quad \sqrt{13}\right ], \quad 168.69006752598\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
 Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
 y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
+"\overrightarrow{u}=(2, -3) \, \ \overrightarrow{v}=(5, 4)","['Point(2, -3).dot(Point(5, 4))', ['Point(2, -3).distance(Point(0,0))', 'Point(5, 4).distance(Point(0,0))'], 94.96974072811031]","\left [ -2, \quad \left [ \sqrt{13}, \quad \sqrt{41}\right ], \quad 94.9697407281103\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
+"\overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4)","['Point(1, 2).dot(Point(3, 4))', ['Point(1, 2).distance(Point(0,0))', 'Point(3, 4).distance(Point(0,0))'], 10.304846468766044]","\left [ 11, \quad \left [ \sqrt{5}, \quad 5\right ], \quad 10.304846468766\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
+"\overrightarrow{u}=(1, 1) \, \ \overrightarrow{v}=(-2, -3)","['Point(1, 1).dot(Point(-2, -3))', ['Point(1, 1).distance(Point(0,0))', 'Point(-2, -3).distance(Point(0,0))'], 168.69006752597977]","\left [ -5, \quad \left [ \sqrt{2}, \quad \sqrt{13}\right ], \quad 168.69006752598\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e09,1,2,1,True,True
+"\overrightarrow{u}=(3, -5) \, \ \overrightarrow{v}=(x, 2)","Eq(3*x - 10, 7)",\left [ \frac{17}{3}\right ],"Calcula x, de modo que el producto escalar
+de  $\overrightarrow{u}$ y $\overrightarrow{v}$ sea igual a 7, siendo: ",1BC,22 - Producto Escalar,p036e12,1,2,1,True,True
+"\overrightarrow{u}=(3, 1) \, \ \overrightarrow{v}=(2, x)","Eq(x + 6, 7)",\left [ 1\right ],"Calcula x, de modo que el producto escalar
+de  $\overrightarrow{u}$ y $\overrightarrow{v}$ sea igual a 7, siendo: ",1BC,22 - Producto Escalar,p036e12,1,2,1,True,True
+"\overrightarrow{u}=(-5, x) \, \ \overrightarrow{v}=(4, -2)","Eq(-2*x - 20, 0)",\left [ -10\right ],"Dado el vector
+$\overrightarrow{u}$, calcula x de modo que sea ortogonal a $\overrightarrow{v}$ siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
+"\overrightarrow{u}=(2, x) \, \ \overrightarrow{v}=(3, 1)","Eq(x + 6, 0)",\left [ -6\right ],"Dado el vector
+$\overrightarrow{u}$, calcula x de modo que sea ortogonal a $\overrightarrow{v}$ siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
+"\overrightarrow{u}=(-5, x)","Eq(sqrt(x**2 + 25), sqrt(34))","\left [ -3, \quad 3\right ]","Dado el vector
+$\overrightarrow{u}$, calcula x de modo que $|\overrightarrow{u}|=\sqrt{34}$ siendo: ",1BC,22 - Producto Escalar,p036e13b,1,2,1,True,True
+"\overrightarrow{u}=(2, x)","Eq(sqrt(x**2 + 4), sqrt(34))","\left [ - \sqrt{30}, \quad \sqrt{30}\right ]","Dado el vector
+$\overrightarrow{u}$, calcula x de modo que $|\overrightarrow{u}|=\sqrt{34}$ siendo: ",1BC,22 - Producto Escalar,p036e13b,1,2,1,True,True
+"\overrightarrow{u}=\left ( 3, \quad 2\right ) \, \ \overrightarrow{v}=\left ( 1, \quad -5\right )","['Point(3, 2).dot(Point(1, -5))', ['Point(3, 2).distance(Point(0,0))', 'Point(1, -5).distance(Point(0,0))'], 112.38013505195958]","\left [ -7, \quad \left [ \sqrt{13}, \quad \sqrt{26}\right ], \quad 112.38013505196\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e14,1,2,1,True,True
+"\overrightarrow{u}=\left ( 1, \quad 6\right ) \, \ \overrightarrow{v}=\left ( -0.5, \quad -3\right )","['Point(1, 6).dot(Point(-0.5, -3))', ['Point(1, 6).distance(Point(0,0))', 'Point(-0.5, -3).distance(Point(0,0))'], 180.0]","\left [ - \frac{37}{2}, \quad \left [ \sqrt{37}, \quad \frac{\sqrt{37}}{2}\right ], \quad 180.0\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e14,1,2,1,True,True
+"\overrightarrow{u}=(3, x) \, \ \overrightarrow{v}=(5, 2)","Eq(sqrt(29)*(2*x + 15)/(29*sqrt(x**2 + 9)), 1/2)","\left\{\frac{120}{13} + \frac{87 \sqrt{3}}{13}, - \frac{87 \sqrt{3}}{13} + \frac{120}{13}\right\}","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
+"\overrightarrow{u}=(2, x) \, \ \overrightarrow{v}=(3, 1)","Eq(sqrt(10)*(x + 6)/(10*sqrt(x**2 + 4)), 1/2)","\left\{4 + \frac{10 \sqrt{3}}{3}, - \frac{10 \sqrt{3}}{3} + 4\right\}","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
+"\overrightarrow{u}=(1, 0) \, \ \overrightarrow{v}=(1, x)","Eq(1/sqrt(x**2 + 1), 1/2)","\left\{- \sqrt{3}, \sqrt{3}\right\}","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
