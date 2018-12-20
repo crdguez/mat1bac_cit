@@ -57,10 +57,10 @@ $\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Produ
 $\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e15,1,2,1,True,True
 "\overrightarrow{v}=(2, 4)","[Eq(sqrt(5)*(2*x + 4*y)/(10*sqrt(x**2 + y**2)), 1/2), Eq(sqrt(x**2 + y**2), 2*sqrt(5))]","\left [ \left \{ x : - \sqrt{- 4 \sqrt{3} + 13}, \quad y : \sqrt{3} + 2\right \}, \quad \left \{ x : \sqrt{4 \sqrt{3} + 13}, \quad y : - \sqrt{3} + 2\right \}\right ]","Halla las coordenadas de un cierto vector
 $\overrightarrow{u}$, sabiendo que forma un ángulo de 60º con y $\overrightarrow{v}$ y que los 
-módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,2,1,True,True
+módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,1,1,True,True
 "\overrightarrow{v}=(2, 3)","[Eq(sqrt(13)*(2*x + 3*y)/(13*sqrt(x**2 + y**2)), 1/2), Eq(sqrt(x**2 + y**2), sqrt(13))]","\left [ \left \{ x : - \frac{\sqrt{- 12 \sqrt{3} + 31}}{2}, \quad y : \frac{3}{2} + \sqrt{3}\right \}, \quad \left \{ x : \frac{\sqrt{12 \sqrt{3} + 31}}{2}, \quad y : - \sqrt{3} + \frac{3}{2}\right \}\right ]","Halla las coordenadas de un cierto vector
 $\overrightarrow{u}$, sabiendo que forma un ángulo de 60º con y $\overrightarrow{v}$ y que los 
-módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,2,1,True,True
+módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,1,1,True,True
 "\overrightarrow{v}=(1, 0)","[Eq(x/sqrt(x**2 + y**2), 1/2), Eq(sqrt(x**2 + y**2), 1)]","\left [ \left \{ x : \frac{1}{2}, \quad y : - \frac{\sqrt{3}}{2}\right \}, \quad \left \{ x : \frac{1}{2}, \quad y : \frac{\sqrt{3}}{2}\right \}\right ]","Halla las coordenadas de un cierto vector
 $\overrightarrow{u}$, sabiendo que forma un ángulo de 60º con y $\overrightarrow{v}$ y que los 
-módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,2,1,True,True
+módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,1,1,True,True
