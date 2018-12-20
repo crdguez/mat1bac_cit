@@ -49,9 +49,18 @@ y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Esc
 "\overrightarrow{u}=\left ( 1, \quad 6\right ) \, \ \overrightarrow{v}=\left ( -0.5, \quad -3\right )","['Point(1, 6).dot(Point(-0.5, -3))', ['Point(1, 6).distance(Point(0,0))', 'Point(-0.5, -3).distance(Point(0,0))'], 180.0]","\left [ - \frac{37}{2}, \quad \left [ \sqrt{37}, \quad \frac{\sqrt{37}}{2}\right ], \quad 180.0\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
 Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
 y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,22 - Producto Escalar,p036e14,1,2,1,True,True
-"\overrightarrow{u}=(3, x) \, \ \overrightarrow{v}=(5, 2)","Eq(sqrt(29)*(2*x + 15)/(29*sqrt(x**2 + 9)), 1/2)","\left\{\frac{120}{13} + \frac{87 \sqrt{3}}{13}, - \frac{87 \sqrt{3}}{13} + \frac{120}{13}\right\}","Calcula x para que los vectores
-$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
-"\overrightarrow{u}=(2, x) \, \ \overrightarrow{v}=(3, 1)","Eq(sqrt(10)*(x + 6)/(10*sqrt(x**2 + 4)), 1/2)","\left\{4 + \frac{10 \sqrt{3}}{3}, - \frac{10 \sqrt{3}}{3} + 4\right\}","Calcula x para que los vectores
-$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
-"\overrightarrow{u}=(1, 0) \, \ \overrightarrow{v}=(1, x)","Eq(1/sqrt(x**2 + 1), 1/2)","\left\{- \sqrt{3}, \sqrt{3}\right\}","Calcula x para que los vectores
-$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e13,1,2,1,True,True
+"\overrightarrow{u}=(3, x) \, \ \overrightarrow{v}=(5, 2)","Eq(sqrt(29)*(2*x + 15)/(29*sqrt(x**2 + 9)), 1/2)","\left [ \frac{120}{13} + \frac{87 \sqrt{3}}{13}, \quad - \frac{87 \sqrt{3}}{13} + \frac{120}{13}\right ]","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e15,1,2,1,True,True
+"\overrightarrow{u}=(2, x) \, \ \overrightarrow{v}=(3, 1)","Eq(sqrt(10)*(x + 6)/(10*sqrt(x**2 + 4)), 1/2)","\left [ 4 + \frac{10 \sqrt{3}}{3}, \quad - \frac{10 \sqrt{3}}{3} + 4\right ]","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e15,1,2,1,True,True
+"\overrightarrow{u}=(1, 0) \, \ \overrightarrow{v}=(1, x)","Eq(1/sqrt(x**2 + 1), 1/2)","\left [ - \sqrt{3}, \quad \sqrt{3}\right ]","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,22 - Producto Escalar,p036e15,1,2,1,True,True
+"\overrightarrow{v}=(2, 4)","[Eq(sqrt(5)*(2*x + 4*y)/(10*sqrt(x**2 + y**2)), 1/2), Eq(sqrt(x**2 + y**2), 2*sqrt(5))]","\left [ \left \{ x : - \sqrt{- 4 \sqrt{3} + 13}, \quad y : \sqrt{3} + 2\right \}, \quad \left \{ x : \sqrt{4 \sqrt{3} + 13}, \quad y : - \sqrt{3} + 2\right \}\right ]","Halla las coordenadas de un cierto vector
+$\overrightarrow{u}$, sabiendo que forma un ángulo de 60º con y $\overrightarrow{v}$ y que los 
+módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,2,1,True,True
+"\overrightarrow{v}=(2, 3)","[Eq(sqrt(13)*(2*x + 3*y)/(13*sqrt(x**2 + y**2)), 1/2), Eq(sqrt(x**2 + y**2), sqrt(13))]","\left [ \left \{ x : - \frac{\sqrt{- 12 \sqrt{3} + 31}}{2}, \quad y : \frac{3}{2} + \sqrt{3}\right \}, \quad \left \{ x : \frac{\sqrt{12 \sqrt{3} + 31}}{2}, \quad y : - \sqrt{3} + \frac{3}{2}\right \}\right ]","Halla las coordenadas de un cierto vector
+$\overrightarrow{u}$, sabiendo que forma un ángulo de 60º con y $\overrightarrow{v}$ y que los 
+módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,2,1,True,True
+"\overrightarrow{v}=(1, 0)","[Eq(x/sqrt(x**2 + y**2), 1/2), Eq(sqrt(x**2 + y**2), 1)]","\left [ \left \{ x : \frac{1}{2}, \quad y : - \frac{\sqrt{3}}{2}\right \}, \quad \left \{ x : \frac{1}{2}, \quad y : \frac{\sqrt{3}}{2}\right \}\right ]","Halla las coordenadas de un cierto vector
+$\overrightarrow{u}$, sabiendo que forma un ángulo de 60º con y $\overrightarrow{v}$ y que los 
+módulos de ambos vectores, siendo: ",1BC,22 - Producto Escalar,p036e16,1,2,1,True,True
