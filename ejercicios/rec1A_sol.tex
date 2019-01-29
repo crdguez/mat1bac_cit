@@ -1,0 +1,136 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        \printanswers
+            \newcommand{\tipo}{l}\newcommand{\examnum}{Recuperación 1ª evaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question Dados los siguientes conjuntos A, B y C, represéntalos en la recta real. A continuación, calcula $A \cap B$ y $(A \cup B) \cap C$ , 
+y expresa los resultados en forma de Intervalos. 
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ A=\left\{ x \in \mathbb{R}| \left|{x - 3}\right|<10 \right\} \\ B=\left(-10, 5\right) \cup \left(5, \infty\right) \\  C=\left\{ x \in \mathbb{R}| \left|{x - 3}\right|\geq6 \right\} \\ $  \begin{solution}  $ A=\left(-7, 13\right) \ C=\left(-\infty, -3\right] \cup \left[9, \infty\right) \   \\  A \cap B= \left(-7, 5\right) \cup \left(5, 13\right)   \\  (A \cup B) \cap C= \left(-10, -3\right] \cup \left[9, \infty\right) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula, sin hacer todo el desarrollo, el coeficiente del término asociado a:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ P(x)=\left(2 x - \frac{3}{x}\right)^{8} \  \ y \ parte \ literal \ \frac{1}{x^{8}} $  \begin{solution}  $ 6561 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcular:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{( {2\sqrt {7}  + 2\sqrt {3} } )^2}\cdot( {5 - \sqrt {21} })}{(\sqrt{6}+\sqrt{2})\cdot(\sqrt{6}-\sqrt{2})} $  \begin{solution}  $ 8 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Halla:
+        \begin{multicols}{1} 
+        \begin{parts} \part[2] tres números pares consecutivos y negativos sabiendo que 
+                    su producto es igual a cuatro veces su suma  \begin{solution}  $ \left [ -2, \quad 0, \quad 2\right ] \to \left [ -6, \quad -4, \quad -2\right ] \lor \left [ -2, \quad 0, \quad 2\right ] \lor \left [ 2, \quad 4, \quad 6\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Simplifica:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{\frac{x}{{{x^2} - 2x + 1}}}{{\frac{{x + 1}}{{x - 1}} - \frac{{x - 1}}{{x + 1}}}} $  \begin{solution}  $ \frac{x + 1}{4 x - 4} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Resolver :
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \left\{\begin{matrix}\log_{2}(x) + \log_{2}(x + y) = 4\\x + y = 2 \end{matrix}\right. $  \begin{solution}  $ \left [ \left \{ x : 8, \quad y : -6\right \}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    

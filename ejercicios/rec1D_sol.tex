@@ -1,0 +1,136 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        \printanswers
+            \newcommand{\tipo}{l}\newcommand{\examnum}{Recuperación 1ª evaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question Dados los siguientes conjuntos A, B y C, represéntalos en la recta real. A continuación, calcula $A \cap B$ y $(A \cup B) \cap C$ , 
+y expresa los resultados en forma de Intervalos. 
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ A=\left\{ x \in \mathbb{R}| \left|{x - 3}\right|>0 \right\} \\ B=\left(-\infty, -3\right) \cup \left(-3, 3\right] \\  C=\left\{ x \in \mathbb{R}| \left|{x - 3}\right|\leq12 \right\} \\ $  \begin{solution}  $ A=\left(-\infty, 3\right) \cup \left(3, \infty\right) \ C=\left[-9, 15\right] \   \\  A \cap B= \left(-\infty, -3\right) \cup \left(-3, 3\right)   \\  (A \cup B) \cap C= \left[-9, 15\right] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula, sin hacer todo el desarrollo, el coeficiente del término asociado a:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ P(x)=\left(2 x - \frac{3}{x}\right)^{8} \  \ y \ parte \ literal \ \frac{1}{x^{8}} $  \begin{solution}  $ 6561 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcular:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{3\sqrt{ 2 } - 2\sqrt {3} }}{{3\sqrt {2}  + 2\sqrt {3} }} + \frac{12}{4{\sqrt {6 }}} $  \begin{solution}  $ - \frac{3 \sqrt{6}}{2} + 5 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Halla:
+        \begin{multicols}{1} 
+        \begin{parts} \part[2] tres números pares consecutivos y negativos sabiendo que 
+                    su producto es igual a cuatro veces su suma  \begin{solution}  $ \left [ -2, \quad 0, \quad 2\right ] \to \left [ -6, \quad -4, \quad -2\right ] \lor \left [ -2, \quad 0, \quad 2\right ] \lor \left [ 2, \quad 4, \quad 6\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Simplifica:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \frac{{{x^2} - 4}}{{{x^3} - {x^2} + 3x - 3}}:\frac{{{x^2} - 3x + 2}}{{{x^3} + 3x}} $  \begin{solution}  $ \frac{x^{2} + 2 x}{x^{2} - 2 x + 1} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Resuelve:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \left\{\begin{matrix}{5^x} = {5^y} \cdot 625 \\{2^x} \cdot {2^y} = 256\end{matrix}\right. $  \begin{solution}  $ \left [ \left \{ x : 6, \quad y : 2\right \}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
