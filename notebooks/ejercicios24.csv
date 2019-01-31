@@ -56,3 +56,7 @@ i,i,"\left ( 0, \quad 1\right )","Dados los siguientes números complejos, indic
 5_{\frac{3 \pi}{2}},"[5, 3*pi/2]",- 5 i,Escribe en forma binómica los siguientes números complejos:,1BC,24 - Complejos,p046e34,1,2,1,True,True
 1_{\frac{5 \pi}{6}},"[1, 5*pi/6]",- \frac{\sqrt{3}}{2} + \frac{i}{2},Escribe en forma binómica los siguientes números complejos:,1BC,24 - Complejos,p046e34,1,2,1,True,True
 4_{\frac{2 \pi}{3}},"[4, 2*pi/3]",-2 + 2 \sqrt{3} i,Escribe en forma binómica los siguientes números complejos:,1BC,24 - Complejos,p046e34,1,2,1,True,True
+(k-i)^3,(-i + k)**3,"k^{3} - 3 i k^{2} - 3 k + i\to\left [ - \frac{\sqrt{3}}{3}, \quad \frac{\sqrt{3}}{3}\right ]",Determina el valor que debe tener k para que la siguiente expresión sea un número real.,1BC,24 - Complejos,p045e05,1,2,1,True,True
+\frac{a + 2 i}{3+k\cdot i} \ y \sqrt{2}_{\frac{7 \pi}{4}},"['\\frac{a + 2 i}{3+k\\cdot i}', [sqrt(2), 7*pi/4]]","\left [ \left \{ a : 8, \quad k : 5\right \}\right ]",Determina el valor que han de tener a y k para que sean iguales los siguientes números:,1BC,24 - Complejos,p047e40,1,2,1,True,True
+2_{\frac{\pi}{3}} \ y \ 2_{\frac{5 \pi}{3}},"[[2, pi/3], [2, 5*pi/3]]",x^{2} - 2 x + 4=0,Hallar la ecuación de segundo grado cuyas raíces sean los números complejos:,1BC,24 - Complejos,p047e41,1,2,1,True,True
+8\ y \ 10,"[8, 10]",4 - 3 i\land4 + 3 i,Calcula dos números complejos conjugados cuya suma y la suma de sus módulos sea respectivamente,1BC,24 - Complejos,p047e51,1,2,1,True,True
