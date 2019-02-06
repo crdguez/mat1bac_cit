@@ -1,0 +1,31 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+"A(2, 4), B(7, 3), C(-2, 0) y D(3, -1)","[Point2D(2, 4), Point2D(7, 3), Point2D(-2, 0), Point2D(3, -1)]","Point2D(5, -1), Point2D(5, -1): True","¿Son equipolentes los vectores  $\overrightarrow {AB} $  y  $\overrightarrow {CD} $ siendo A, B, C y D los puntos de coordenadas:?",1BC,Autoevaluación 1 ev2,p21e01,1,2,1,False,True
+"Las coordenadas de cada uno de ellos respecto de la base canónica.
+	Las coordenadas de los vectores:$\overrightarrow u + 2\overrightarrow v$, 
+    $5\overrightarrow u - \overrightarrow w$, 
+    $ - 3\overrightarrow v + 4\overrightarrow w$, 
+    $\overrightarrow w - 2\overrightarrow z$","[N.i + (-3)*N.j, (-16)*N.i + 6*N.j, (-2)*N.i + 2*N.j, 3*N.i + 7*N.j]","[[(-3, 1), (2, -2), (1, -1), (-1, -4)], [(1, -3), (6, -16), (2, -2), (3, 7)]]","Sea 
+$\left\lbrace\overrightarrow{ i},\overrightarrow{ j}\right\rbrace$ la base canónica de $V_2$, y los vectores:
+$\overrightarrow u=  - 3\overrightarrow i + \overrightarrow j$, 
+$\overrightarrow v = 2\overrightarrow i - 2\overrightarrow j$, 
+$\overrightarrow w = \overrightarrow i - \overrightarrow j$, 
+$\overrightarrow z =  - \overrightarrow i - 4\overrightarrow j$
+	Calcular:",1BC,Autoevaluación 1 ev2,pa21e02,1,1,1,False,True
+"\overrightarrow{u}=(8, 12) \, \ \overrightarrow{v}=(2, 3)","Point(8, 12).is_collinear(Point(2, 3), Point(0,0))",True,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,Autoevaluación 1 ev2,pa21e03,1,2,1,True,True
+"\overrightarrow{u}=(2, 6) \, \ \overrightarrow{v}=(4, 7)","Point(2, 6).is_collinear(Point(4, 7), Point(0,0))",False,Estudia la dependencia lineal de los siguientes conjuntos de vectores:,1BC,Autoevaluación 1 ev2,pa21e03,1,2,1,True,True
+"\overrightarrow{u}=(2, -5) \, \ \overrightarrow{v}=(6, 2)","['Point(2, -5).dot(Point(6, 2))', ['Point(2, -5).distance(Point(0,0))', 'Point(6, 2).distance(Point(0,0))'], 86.6335393365702]","\left [ 2, \quad \left [ \sqrt{29}, \quad 2 \sqrt{10}\right ], \quad 86.6335393365702\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,Autoevaluación 1 ev2,pa21e04,1,2,1,True,True
+"\overrightarrow{u}=(1, 4) \, \ \overrightarrow{v}=(3, 8)","['Point(1, 4).dot(Point(3, 8))', ['Point(1, 4).distance(Point(0,0))', 'Point(3, 8).distance(Point(0,0))'], 6.519801751656973]","\left [ 35, \quad \left [ \sqrt{17}, \quad \sqrt{73}\right ], \quad 6.51980175165697\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,Autoevaluación 1 ev2,pa21e04,1,2,1,True,True
+"\overrightarrow{u}=(6, x) \, \ \overrightarrow{v}=(10, 2)","Eq(sqrt(26)*(2*x + 60)/(52*sqrt(x**2 + 36)), 1/2)","\left [ \frac{60}{11} + \frac{78 \sqrt{3}}{11}, \quad - \frac{78 \sqrt{3}}{11} + \frac{60}{11}\right ]","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,Autoevaluación 1 ev2,pa21e05,1,2,1,True,True
+\sin{2x}=\frac{\sqrt {3}}{2},"Eq(sin(2*x), sqrt(3)/2)","\left [ \frac{\pi}{6}, \quad \frac{\pi}{3}\right ]",Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:,1BC,Autoevaluación 1 ev2,pa21e06,1,1,1,True,True
+\tan{\frac{x}{2}}=1,"Eq(tan(x/2), 1)",\left [ \frac{\pi}{2}\right ],Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:,1BC,Autoevaluación 1 ev2,pa21e06,1,1,1,True,True
+\sin{(3x-\frac{\pi}{2})}=-\frac{\sqrt{2}}{2},"Eq(sin(-pi/2 + 3*x), -sqrt(2)/2)","\left [ \frac{\pi}{12}, \quad \frac{7 \pi}{12}\right ]",Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:,1BC,Autoevaluación 1 ev2,pa21e06,1,1,1,True,True
+\tan{2x}=\cot{x},"Eq(tan(2*x), cot(x))","\left [ -90, \quad 90, \quad -150, \quad 150, \quad -30, \quad 30\right ]",Resolver las siguientes ecuaciones:,1BC,Autoevaluación 1 ev2,pa21e07,1,1,1,True,True
+\sin{x}\cos{x}=\frac{1}{2},"Eq(sin(x)*cos(x), 1/2)","\left [ -135, \quad 45\right ]",Resolver las siguientes ecuaciones:,1BC,Autoevaluación 1 ev2,pa21e07,1,1,1,True,True
+3\sin{x}+\cos{x}=1,"Eq(3*sin(x) + cos(x), 1)","\left [ 0, \quad \frac{360 \operatorname{atan}{\left (3 \right )}}{\pi}\right ]",Resolver las siguientes ecuaciones:,1BC,Autoevaluación 1 ev2,pa21e07,1,1,1,True,True
+\sqrt{3}-2\sqrt{2}i,-2*sqrt(2)*i + sqrt(3),- \frac{2 \sqrt{6} i}{3},"Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$",1BC,Autoevaluación 1 ev2,pa21e08,1,2,1,True,True
+\sqrt{2}-2\sqrt{5}i,-2*sqrt(5)*i + sqrt(2),- \sqrt{10} i,"Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$",1BC,Autoevaluación 1 ev2,pa21e08,1,2,1,True,True
