@@ -23,13 +23,21 @@ enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_c
 El lado a = 52 y b = 32 y que B = 40.5º.,"[33.77129851316955, True]",distancia_{a recta}=33.77129851316955  \to \mathrm{False},Determina si se puede construir un triángulo ABC sabiendo que,1BC,23 - Trigonometría,p042e03,1,1,1,False,True
 El lado a = 50 y b = 32 y que B = 39.5º.,"[31.803911013888197, False]",distancia_{a recta}=31.803911013888197  \to \mathrm{True},Determina si se puede construir un triángulo ABC sabiendo que,1BC,23 - Trigonometría,p042e03,1,1,1,False,True
 "Los lados a=22, b=17, y c=15","[86.62771331656609, 86.62771331656609, 42.89348304207606]","\left [ 86.62771331656609, \quad 50.47880364135783, \quad 42.89348304207606\right ]º","Calcula los ángulo del triángulo ABC, si se conocen:",1BC,23 - Trigonometría,p042e04,1,1,1,False,True
-"El lado a=8, y los ángulos B=30º, y C=105º","[-x/y + sqrt(3) + 2, -x/(y + 8) + sqrt(3)/3]",8 + 8 \sqrt{3} \to 21.856406460551018,Calcular el área de un triángulo sabiendo que:,1BC,23 - Trigonometría,p042e07,1,1,1,False,True
+"El lado a=8, y los ángulos B=30º, y C=105º","[3150, 12600.0]",2 \sqrt{2} \left(2 \sqrt{2} + 2 \sqrt{6}\right) \to 21.856406460551018,Calcular el área de un triángulo sabiendo que:,1BC,23 - Trigonometría,p042e07,1,1,1,False,True
 "Su área mide=18cm², y los ángulos A=30º, y B=45º","[-sqrt(2)*z + sqrt(2)*(x + y), sqrt(3) + 2 - z/y, z*(x + y)/2 - 18]","6, 6, 6 \sqrt{2}",Calcular los lados de un triángulo sabiendo que:,1BC,23 - Trigonometría,p042e08,1,1,1,False,True
 "La distancia AB es de 6km, la BC es=9km, y el ángulo que forman AB y BC es de 120º",sqrt(s[0]**2+s[1]**2-2*s[0]*s[1]*cos(rad(s[2]))),3 \sqrt{19}=13.076696830622021,"Tres puntos A, B y C están unidos por carreteras rectas y llanas. ¿Cuánto distan A y C?, si:",1BC,23 - Trigonometría,p042e09,1,1,1,False,True
-"a=25km, b=28, y sen(C)=0.96, siendo C < 90º","[26.88, 336.0]",336.0º,Calcular el área de un triángulo ABC sabiendo que,1BC,23 - Trigonometría,p042e10,1,1,1,False,True
+"a=25km, b=28, y sen(C)=0.96, siendo C < 90º","[26.88, 336.0]",336.0,Calcular el área de un triángulo ABC sabiendo que,1BC,23 - Trigonometría,p042e10,1,1,1,False,True
 "Un barco se encuentra a una distancia de 3.5 km del espigón del puerto en el instante en que otro barco se
 encuentra a 3 km del primero. Si ambos son observados desde el espigón bajo un ángulo de 43º, ¿a qué
 distancia se encuentra el segundo barco del puerto?","[0.742526244918245, 4.37694966641595]","b=\left [ 0.742526244918245, \quad 4.37694966641595\right ]",Resuelve,1BC,23 - Trigonometría,p042e11,1,1,1,False,True
+"Las visuales a lo alto de una torre desde dos puntos A y B del plano horizontal,
+    separados 300m entre sí,
+forman con el segmento AB ángulos de 50º y 45º, respectivamente. Calcula la distancia desde lo alto de la
+torre a los dos puntos A y B.","[[150*sqrt(2)/cos(pi/36)], [300*sin(5*pi/18)/cos(pi/36)]]",A:212.9423442649438\ B:230.69118253280297,Resuelve,1BC,23 - Trigonometría,p042e12,1,1,1,False,True
+"Las visuales a lo alto de una torre desde dos puntos A y B del plano horizontal,
+    separados 300m entre sí,
+forman con el segmento AB ángulos de 50º y 45º, respectivamente. Calcula la distancia desde lo alto de la
+torre a los dos puntos A y B.","[[300*sin(5*pi/18)/sin(pi/36)], [150*sqrt(2)/sin(pi/36)]]",A:\left [ \frac{300 \sin{\left (\frac{5 \pi}{18} \right )}}{\sin{\left (\frac{\pi}{36} \right )}}\right ]\ B:2433.9421324209197,Resuelve,1BC,23 - Trigonometría,p042e12,1,1,1,False,True
 45º,45,\frac{\pi}{4},"Expresa en radianes los siguientes ángulos, dados en grados:",1BC,23 - Trigonometría,p039e01,1,3,1,False,True
 75º,75,\frac{5 \pi}{12},"Expresa en radianes los siguientes ángulos, dados en grados:",1BC,23 - Trigonometría,p039e01,1,3,1,False,True
 105º,105,\frac{7 \pi}{12},"Expresa en radianes los siguientes ángulos, dados en grados:",1BC,23 - Trigonometría,p039e01,1,3,1,False,True

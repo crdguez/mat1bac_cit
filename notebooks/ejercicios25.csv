@@ -1,0 +1,12 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+"A(-1, 3) \ y \overrightarrow{u}=(2, 5)","[(-1, 3), (2, 5)]","- 5 x + 2 y - 11 = 0 y Point2D(2*t - 1, 5*t + 3) = \left ( x, \quad y\right )","Hallar las ecuaciones paramétricas, continua, general y explícita de la recta r 
+determinada por:",1BC,25 - Geometría Plana,p050e01,1,2,1,True,True
+3x+2y+8=0,"Eq(y, 5)","(Point2D(1, -3/2), Point2D(3/2, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,25 - Geometría Plana,p050e02,1,2,1,True,True
+\frac{x-1}{3}=\frac{2-y}{1},"Eq(y, 5)","(Point2D(1, -1/3), Point2D(1/3, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,25 - Geometría Plana,p050e02,1,2,1,True,True
+y=5,"Eq(y, 5)","(Point2D(1, 0), Point2D(0, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,25 - Geometría Plana,p050e02,1,2,1,True,True
+"A=(2, 1), \ B=(1, 2),\  y \ C=(3, 3)","[(2, 1), (1, 2), (3, 3)]",True,Comprobar que es isósceles el triángulo de vértices:,1BC,25 - Geometría Plana,p050e04,1,2,1,True,True
+"A=(0, m)\  y \ B=(1, 2)","[(0, m), (1, 2)]",[2],Determinar m con la condición de que disten 1 unidad los siguiente puntos,1BC,25 - Geometría Plana,p050e05,1,2,1,True,True
+r\equiv4x-y-1=0\  y \ s\equiv2x+7y-6=0,"['-x+2y+1=0', '3x+y+5=0']",91.90915243299638,Determinar el ángulo formado por las rectas:,1BC,25 - Geometría Plana,p050e05,1,2,1,True,True
+r\equiv-x+2y+1=0\  y \ s\equiv3x+y+5=0,"['-x+2y+1=0', '3x+y+5=0']",98.13010235415598,Determinar el ángulo formado por las rectas:,1BC,25 - Geometría Plana,p050e05,1,2,1,True,True
+"Pasa \ por \ A(1, -2)\  y \ forma \ 120 \ grados \  con \ s\equiv y=0","[(2, 3), '2x+y-1=0', 45]",\frac{\sqrt{3} x}{2} + \frac{y}{2} - \frac{\sqrt{3}}{2} + 1 = 0,Hallar la recta r que:,1BC,25 - Geometría Plana,p050e07y8,1,2,1,True,True
+"Pasa \ por \ A(2, 3)\  y \ forma \ 45 \ grados \  con \ s\equiv 2x+y-1=0","[(2, 3), '2x+y-1=0', 45]",\frac{\sqrt{2} \left(- x - 3 y + 11\right)}{2} = 0,Hallar la recta r que:,1BC,25 - Geometría Plana,p050e07y8,1,2,1,True,True
