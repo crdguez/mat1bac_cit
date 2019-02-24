@@ -1,0 +1,23 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+"A(2, 3) \ y \overrightarrow{u}=(3, -6)","[(6, 2), (2, -6)]","Point2D(3*t + 2, -6*t + 3) = \left ( x, \quad y\right ) \ y \ 6 x + 3 y - 21 = 0","Hallar las ecuaciones paramétricas y general  de la recta r 
+determinada por:",1BC,Ejercicios de Geometría,a021be01,1,2,1,True,True
+"A(0, 5) \ y \overrightarrow{u}=(5, 0)","[(6, 2), (2, -6)]","Point2D(5*t, 5) = \left ( x, \quad y\right ) \ y \ y - 5 = 0","Hallar las ecuaciones paramétricas y general  de la recta r 
+determinada por:",1BC,Ejercicios de Geometría,a021be01,1,2,1,True,True
+"A(6, 2) \ y \overrightarrow{u}=(2, -6)","[(6, 2), (2, -6)]","Point2D(2*t + 6, -6*t + 2) = \left ( x, \quad y\right ) \ y \ 6 x + 2 y - 40 = 0","Hallar las ecuaciones paramétricas y general  de la recta r 
+determinada por:",1BC,Ejercicios de Geometría,a021be01,1,2,1,True,True
+2x+3y+5=0,"Eq(y, 5*x + 3)","(Point2D(1, -2/3), Point2D(2/3, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,Ejercicios de Geometría,a021be01b,1,2,1,True,True
+\frac{x-2}{4}=\frac{5-y}{1},"Eq(y, 5*x + 3)","(Point2D(1, -1/4), Point2D(1/4, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,Ejercicios de Geometría,a021be01b,1,2,1,True,True
+y=7,"Eq(y, 5*x + 3)","(Point2D(1, 0), Point2D(0, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,Ejercicios de Geometría,a021be01b,1,2,1,True,True
+y=5x+3,"Eq(y, 5*x + 3)","(Point2D(1, 5), Point2D(-5, 1))",Halla un vector direccional y un vector perpendicular a la recta:,1BC,Ejercicios de Geometría,a021be01b,1,2,1,True,True
+"A=(3, 1), \ B=(1, 3),\  y \ C=(4, 4)","[(1, 1), (1, 5), (2, 6)]",True,Comprobar si es isósceles el triángulo de vértices:,1BC,Ejercicios de Geometría,a021be02,1,2,1,True,True
+"A=(1, 1), \ B=(1, 5),\  y \ C=(2, 6)","[(1, 1), (1, 5), (2, 6)]",False,Comprobar si es isósceles el triángulo de vértices:,1BC,Ejercicios de Geometría,a021be02,1,2,1,True,True
+r\equiv4x-2y-1=0\  y \ s\equiv2x+5y-2=0,"['-x+2y+6=0', '-3x+y+1=0']",85.23635830927383,Determinar el ángulo formado por las rectas:,1BC,Ejercicios de Geometría,a021be03,1,2,1,True,True
+r\equiv-x+2y+6=0\  y \ s\equiv-3x+y+1=0,"['-x+2y+6=0', '-3x+y+1=0']",45.0,Determinar el ángulo formado por las rectas:,1BC,Ejercicios de Geometría,a021be03,1,2,1,True,True
+"A=(1, 3)","(-1, 3)",x + y - 4 = 0,Hallar la ecuación de la recta paralela a la bisectriz del segundo cuadrante y que pasar por el punto:,1BC,Ejercicios de Geometría,a021be04,1,1,1,True,True
+"A=(-1, 3)","(-1, 3)",x + y - 2 = 0,Hallar la ecuación de la recta paralela a la bisectriz del segundo cuadrante y que pasar por el punto:,1BC,Ejercicios de Geometría,a021be04,1,1,1,True,True
+" A(1, 3) \ y \   r\equiv x+y=2","[(-1, 1), 'x+2y=2']","\left [ - x + y - 2 = 0, \quad Point2D(0, 2), \quad Point2D(-1, 1)\right ]",Determinar el punto simétrico al punto y respecto de la recta siguientes:,1BC,Ejercicios de Geometría,a021be05,1,1,1,True,True
+" A(-1, 1) \ y \   r\equiv x+2y=2","[(-1, 1), 'x+2y=2']","\left [ - x + \frac{y}{2} - \frac{3}{2} = 0, \quad Point2D(-4/5, 7/5), \quad Point2D(-3/5, 9/5)\right ]",Determinar el punto simétrico al punto y respecto de la recta siguientes:,1BC,Ejercicios de Geometría,a021be05,1,1,1,True,True
+" A(4, 0)\  , \ B=(6, 2) \ y \  C \in r\equiv 3x+y-1=0","[(3, 0), (0, 3), 'x+y+1=0']","\left [ \left \{ x : - \frac{5}{2}, \quad y : \frac{17}{2}\right \}\right ]","Calcula el vértice C de un triángulo isósceles ABC, sabiendo que:",1BC,Ejercicios de Geometría,a021be06,1,1,1,True,True
+" A(3, 0)\  , \ B=(0, 3) \ y \  C \in r\equiv x+y+1=0","[(3, 0), (0, 3), 'x+y+1=0']","\left [ \left \{ x : - \frac{1}{2}, \quad y : - \frac{1}{2}\right \}\right ]","Calcula el vértice C de un triángulo isósceles ABC, sabiendo que:",1BC,Ejercicios de Geometría,a021be06,1,1,1,True,True
+"A=(-1, 0), \ B=(1, 3),\  y \ C=(2, -3)","[(2, 1), (3, 2), (2, -3)]",\frac{15}{2},Calcula el área del triángulo de vértices:,1BC,Ejercicios de Geometría,a021be07,1,1,1,True,True
+"A=(2, 1), \ B=(3, 2),\  y \ C=(2, -3)","[(2, 1), (3, 2), (2, -3)]",2,Calcula el área del triángulo de vértices:,1BC,Ejercicios de Geometría,a021be07,1,1,1,True,True

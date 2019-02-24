@@ -1,0 +1,120 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Ejercicios de Geometría}
+        \begin{document}
+        \begin{questions}
+        \question a021be01 - Hallar las ecuaciones paramétricas y general  de la recta r 
+determinada por:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ A(2, 3) \ y \overrightarrow{u}=(3, -6) $  \begin{solution}  $ Point2D(3*t + 2, -6*t + 3) = \left ( x, \quad y\right ) \ y \ 6 x + 3 y - 21 = 0 $  \end{solution} \part[1]  $ A(0, 5) \ y \overrightarrow{u}=(5, 0) $  \begin{solution}  $ Point2D(5*t, 5) = \left ( x, \quad y\right ) \ y \ y - 5 = 0 $  \end{solution} \part[1]  $ A(6, 2) \ y \overrightarrow{u}=(2, -6) $  \begin{solution}  $ Point2D(2*t + 6, -6*t + 2) = \left ( x, \quad y\right ) \ y \ 6 x + 2 y - 40 = 0 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be01b - Halla un vector direccional y un vector perpendicular a la recta:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ 2x+3y+5=0 $  \begin{solution}  $ (Point2D(1, -2/3), Point2D(2/3, 1)) $  \end{solution} \part[1]  $ \frac{x-2}{4}=\frac{5-y}{1} $  \begin{solution}  $ (Point2D(1, -1/4), Point2D(1/4, 1)) $  \end{solution} \part[1]  $ y=7 $  \begin{solution}  $ (Point2D(1, 0), Point2D(0, 1)) $  \end{solution} \part[1]  $ y=5x+3 $  \begin{solution}  $ (Point2D(1, 5), Point2D(-5, 1)) $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be02 - Comprobar si es isósceles el triángulo de vértices:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ A=(3, 1), \ B=(1, 3),\  y \ C=(4, 4) $  \begin{solution}  $ True $  \end{solution} \part[1]  $ A=(1, 1), \ B=(1, 5),\  y \ C=(2, 6) $  \begin{solution}  $ False $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be03 - Determinar el ángulo formado por las rectas:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ r\equiv4x-2y-1=0\  y \ s\equiv2x+5y-2=0 $  \begin{solution}  $ 85.23635830927383 $  \end{solution} \part[1]  $ r\equiv-x+2y+6=0\  y \ s\equiv-3x+y+1=0 $  \begin{solution}  $ 45.0 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be04 - Hallar la ecuación de la recta paralela a la bisectriz del segundo cuadrante y que pasar por el punto:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ A=(1, 3) $  \begin{solution}  $ x + y - 4 = 0 $  \end{solution} \part[1]  $ A=(-1, 3) $  \begin{solution}  $ x + y - 2 = 0 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be05 - Determinar el punto simétrico al punto y respecto de la recta siguientes:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $  A(1, 3) \ y \   r\equiv x+y=2 $  \begin{solution}  $ \left [ - x + y - 2 = 0, \quad Point2D(0, 2), \quad Point2D(-1, 1)\right ] $  \end{solution} \part[1]  $  A(-1, 1) \ y \   r\equiv x+2y=2 $  \begin{solution}  $ \left [ - x + \frac{y}{2} - \frac{3}{2} = 0, \quad Point2D(-4/5, 7/5), \quad Point2D(-3/5, 9/5)\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be06 - Calcula el vértice C de un triángulo isósceles ABC, sabiendo que:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $  A(4, 0)\  , \ B=(6, 2) \ y \  C \in r\equiv 3x+y-1=0 $  \begin{solution}  $ \left [ \left \{ x : - \frac{5}{2}, \quad y : \frac{17}{2}\right \}\right ] $  \end{solution} \part[1]  $  A(3, 0)\  , \ B=(0, 3) \ y \  C \in r\equiv x+y+1=0 $  \begin{solution}  $ \left [ \left \{ x : - \frac{1}{2}, \quad y : - \frac{1}{2}\right \}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question a021be07 - Calcula el área del triángulo de vértices:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ A=(-1, 0), \ B=(1, 3),\  y \ C=(2, -3) $  \begin{solution}  $ \frac{15}{2} $  \end{solution} \part[1]  $ A=(2, 1), \ B=(3, 2),\  y \ C=(2, -3) $  \begin{solution}  $ 2 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
