@@ -238,6 +238,40 @@
 \end{tabular}   \end{solution} \part[1] Calcula media, la varianza, la desviación típica y el coeficiente de variación  \begin{solution}   {'media': 99.0, 'varianza': 73.95000000000073, 'desviación típica': 8.59941858499752, 'coeficiente de variación': 0.0868628139898739}   \end{solution}
         \end{parts}
         \end{multicols}
+        \question p090e07 - En una consulta médica la distribución de pacientes por su edad ha sido, en la última semana, la siguiente:\\\begin{tabular}{rlr}
+\hline
+    & Duración              &   Cantidad \\
+\hline
+  0 & $\left[15, 23\right)$ &          3 \\
+  1 & $\left[23, 31\right)$ &          4 \\
+  2 & $\left[31, 39\right)$ &          5 \\
+  3 & $\left[39, 47\right)$ &          8 \\
+  4 & $\left[47, 55\right)$ &         10 \\
+  5 & $\left[55, 63\right)$ &         12 \\
+  6 & $\left[63, 71\right)$ &         15 \\
+  7 & $\left[71, 79\right)$ &         12 \\
+  8 & $\left[79, 87\right)$ &          6 \\
+\hline
+\end{tabular}
+        \begin{multicols}{1} 
+        \begin{parts} \part[1] Haz una tabla de frecuencias  \begin{solution}   \begin{tabular}{rrrrrrrrrr}
+\hline
+    &   lim\_inf &   lim\_sup &   x\_i &   f\_i &   F\_i &       h\_i &         H\_i &   x\_if\_i &   x\^{}2\_if\_i \\
+\hline
+  0 &        15 &        23 &    19 &     3 &     3 & 0.04      &   0.04      &       57 &       1083 \\
+  1 &        23 &        31 &    27 &     4 &     7 & 0.0533333 &   0.0933333 &      108 &       2916 \\
+  2 &        31 &        39 &    35 &     5 &    12 & 0.0666667 &   0.16      &      175 &       6125 \\
+  3 &        39 &        47 &    43 &     8 &    20 & 0.106667  &   0.266667  &      344 &      14792 \\
+  4 &        47 &        55 &    51 &    10 &    30 & 0.133333  &   0.4       &      510 &      26010 \\
+  5 &        55 &        63 &    59 &    12 &    42 & 0.16      &   0.56      &      708 &      41772 \\
+  6 &        63 &        71 &    67 &    15 &    57 & 0.2       &   0.76      &     1005 &      67335 \\
+  7 &        71 &        79 &    75 &    12 &    69 & 0.16      &   0.92      &      900 &      67500 \\
+  8 &        79 &        87 &    83 &     6 &    75 & 0.08      &   1         &      498 &      41334 \\
+  9 &       nan &       nan &   nan &    75 &   nan & 1         & nan         &     4305 &     268867 \\
+\hline
+\end{tabular}   \end{solution} \part[1] Calcula media, la varianza, la desviación típica y el coeficiente de variación  \begin{solution}   {'media': 57.4, 'varianza': 290.13333333333367, 'desviación típica': 17.0333007175161, 'coeficiente de variación': 0.296747399259862}   \end{solution} \part[1] La edad mas frecuente de los pacientes  \begin{solution}   {'Intervalo modal': '$\\left[63.0, 71.0\\right)$', 'moda': 67.0}   \end{solution} \part[1] El percentil 47  \begin{solution}   {'k': 47, 'N': 75.0, '$L_i$': 55.0, '$f_i$': 12.0, '$F_{i-1}$': 30.0, '$C_i$': 8.0, 'percentil': 58.5}   \end{solution} \part[1] ¿Qué porcentaje de pacientes tenían una edad superior a 60 años?  \begin{solution}   {'valor': 60, 'N': 75.0, '$L_i$': 55.0, '$f_i$': 12.0, '$F_{i-1}$': 30.0, '$C_i$': 8.0, 'Porcentaje': 50.0000000000000}   \end{solution}
+        \end{parts}
+        \end{multicols}
         \question p90e05 - La realización de una prueba de habilidad motora por parte de 60 niños ha dado los resultados siguientes:15
 76
 29

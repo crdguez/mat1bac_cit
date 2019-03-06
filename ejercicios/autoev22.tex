@@ -1,0 +1,122 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Autoevaluación 2 ev2}
+        \begin{document}
+        \begin{questions}
+        \question pa21e04 - Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ \overrightarrow{u}=(2, -6) \, \ \overrightarrow{v}=(5, 6) $  \begin{solution}  $ \left [ -26, \quad \left [ 2 \sqrt{10}, \quad \sqrt{61}\right ], \quad 121.759480084813\right ] $  \end{solution} \part[1]  $ \overrightarrow{u}=(2, 5) \, \ \overrightarrow{v}=(4, 6) $  \begin{solution}  $ \left [ 38, \quad \left [ \sqrt{29}, \quad 2 \sqrt{13}\right ], \quad 11.888658039628\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa21e05 - Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: 
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ \overrightarrow{u}=(6, x) \, \ \overrightarrow{v}=(10, 2) $  \begin{solution}  $ \left [ \frac{60}{11} + \frac{78 \sqrt{3}}{11}, \quad - \frac{78 \sqrt{3}}{11} + \frac{60}{11}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa21e06 - Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sin{2x}=\frac{\sqrt {2}}{2} $  \begin{solution}  $ \left [ \frac{\pi}{8}, \quad \frac{3 \pi}{8}\right ] $  \end{solution} \part[1]  $ \tan{\frac{x}{2}}=\sqrt{3} $  \begin{solution}  $ \left [ \frac{2 \pi}{3}\right ] $  \end{solution} \part[1]  $ \sin{(3x-\frac{\pi}{2})}=-\frac{\sqrt{2}}{2} $  \begin{solution}  $ \left [ \frac{\pi}{12}, \quad \frac{7 \pi}{12}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa21e07 - Resolver las siguientes ecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \tan{2x}=\cot{x} $  \begin{solution}  $ \left [ -90.0, \quad 90.0, \quad -150.0, \quad 150.0, \quad -30.0, \quad 30.0\right ] $  \end{solution} \part[1]  $ \sin{x}\cos{x}=-\frac{1}{2} $  \begin{solution}  $ \left [ -45.0, \quad 135.0\right ] $  \end{solution} \part[1]  $ \sqrt{3}\sin{x}+\cos{x}=-2 $  \begin{solution}  $ \left [ -120.0\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa22e08 - Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ \sqrt{6}-2\sqrt{4}i $  \begin{solution}  $ - \frac{2 \sqrt{6} i}{3} $  \end{solution} \part[1]  $ \sqrt{4}-2\sqrt{6}i $  \begin{solution}  $ - \sqrt{6} i $  \end{solution} \part[1]  $ \sqrt{6}-2\sqrt{4}i $  \begin{solution}  $ - \frac{2 \sqrt{6} i}{3} $  \end{solution} \part[1]  $ \sqrt{4}-2\sqrt{6}i $  \begin{solution}  $ - \sqrt{6} i $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa22e08b - Calcular el módulo y el argumento (en radianes) de los siguientes números complejos:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ 4 - 2\sqrt {3}i $  \begin{solution}  $ 2 \sqrt{7}_{- \operatorname{atan}{\left (\frac{\sqrt{3}}{2} \right )}} $  \end{solution} \part[1]  $ -1-i $  \begin{solution}  $ \sqrt{2}_{- \frac{3 \pi}{4}} $  \end{solution} \part[1]  $  -6-6i $  \begin{solution}  $ 6 \sqrt{2}_{- \frac{3 \pi}{4}} $  \end{solution} \part[1]  $ -5i $  \begin{solution}  $ 5_{- \frac{\pi}{2}} $  \end{solution} \part[1]  $ 3 $  \begin{solution}  $ 3_{0} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa22e08c - Escribe en forma binómica los siguientes números complejos:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ 3_{\frac{\pi}{4}} $  \begin{solution}  $ \frac{3 \sqrt{2}}{2} + \frac{3 \sqrt{2} i}{2} $  \end{solution} \part[1]  $ 2_{\frac{\pi}{6}} $  \begin{solution}  $ \sqrt{3} + i $  \end{solution} \part[1]  $ 2 \sqrt{2}_{\pi} $  \begin{solution}  $ - 2 \sqrt{2} $  \end{solution} \part[1]  $ 7_{0} $  \begin{solution}  $ 7 $  \end{solution} \part[1]  $ 1_{\frac{\pi}{2}} $  \begin{solution}  $ i $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question pa22e09 - Calcula el área del triángulo de vértices:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ A=(-1, 1), \ B=(1, 6),\  y \ C=(3, -3) $  \begin{solution}  $ 14 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    

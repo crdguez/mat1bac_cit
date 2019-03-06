@@ -1,0 +1,7 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+"i) Francés \\ ii) Inglés \\ iii) Ambos idiomas \\ iv) Francés o Inglés \\ v) Francés, pero no inglés \\ vi) Inglés, pero no francés","i) Francés \\ ii) Inglés \\ iii) Ambos idiomas \\ iv) Francés o Inglés \\ v) Francés, pero no inglés \\ vi) Inglés, pero no francés","\left [ \frac{16}{39}, \quad \frac{9}{13}, \quad \frac{3}{13}, \quad \frac{34}{39}, \quad \frac{7}{39}, \quad \frac{6}{13}\right ]","De los 39 alumnos de una clase, 16 escogieron francés, como idioma y 27 inglés. 9 eligieron ambos idiomas y
+el resto no optó por ninguno de ellos. elegido un alumno al azar, calcula las probabilidades de que escogiera:
+",1BC,43 - Probabilidad,p098e05,1,2,1,False,True
+i) Ser mayor de 30 años y estar casado \\ ii) No estar casado ,i) Ser mayor de 30 años y estar casado \\ ii) No estar casado ,"\left [ \frac{19}{50}, \quad \frac{11}{20}\right ]","En la ciudad, el 53\% de sus habitantes es mayor de 30 años, el 45\% está
+casado y el 60\% está casado o es mayor de 30 años "". 
+Calcula la probabilidad de los siguientes sucesos:",1BC,43 - Probabilidad,p098e06,1,2,1,False,True

@@ -1,0 +1,93 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{43 - Probabilidad}
+        \begin{document}
+        \begin{questions}
+        \question p098e05 - De los 39 alumnos de una clase, 16 escogieron francés, como idioma y 27 inglés. 9 eligieron ambos idiomas y
+el resto no optó por ninguno de ellos. elegido un alumno al azar, calcula las probabilidades de que escogiera:
+
+        \begin{multicols}{2} 
+        \begin{parts} \part[1] i) Francés \\ ii) Inglés \\ iii) Ambos idiomas \\ iv) Francés o Inglés \\ v) Francés, pero no inglés \\ vi) Inglés, pero no francés  \begin{solution}  $ \left [ \frac{16}{39}, \quad \frac{9}{13}, \quad \frac{3}{13}, \quad \frac{34}{39}, \quad \frac{7}{39}, \quad \frac{6}{13}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p098e06 - En la ciudad, el 53\% de sus habitantes es mayor de 30 años, el 45\% está
+casado y el 60\% está casado o es mayor de 30 años ". 
+Calcula la probabilidad de los siguientes sucesos:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1] i) Ser mayor de 30 años y estar casado \\ ii) No estar casado   \begin{solution}  $ \left [ \frac{19}{50}, \quad \frac{11}{20}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    

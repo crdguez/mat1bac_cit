@@ -1,0 +1,30 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+"\overrightarrow{u}=(2, -6) \, \ \overrightarrow{v}=(5, 6)","['Point(2, -6).dot(Point(5, 6))', ['Point(2, -6).distance(Point(0,0))', 'Point(5, 6).distance(Point(0,0))'], 121.75948008481282]","\left [ -26, \quad \left [ 2 \sqrt{10}, \quad \sqrt{61}\right ], \quad 121.759480084813\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,Autoevaluación 2 ev2,pa21e04,1,2,1,True,True
+"\overrightarrow{u}=(2, 5) \, \ \overrightarrow{v}=(4, 6)","['Point(2, 5).dot(Point(4, 6))', ['Point(2, 5).distance(Point(0,0))', 'Point(4, 6).distance(Point(0,0))'], 11.888658039627966]","\left [ 38, \quad \left [ \sqrt{29}, \quad 2 \sqrt{13}\right ], \quad 11.888658039628\right ]","Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:",1BC,Autoevaluación 2 ev2,pa21e04,1,2,1,True,True
+"\overrightarrow{u}=(6, x) \, \ \overrightarrow{v}=(10, 2)","Eq(sqrt(26)*(2*x + 60)/(52*sqrt(x**2 + 36)), 1/2)","\left [ \frac{60}{11} + \frac{78 \sqrt{3}}{11}, \quad - \frac{78 \sqrt{3}}{11} + \frac{60}{11}\right ]","Calcula x para que los vectores
+$\overrightarrow{u}$ y $\overrightarrow{v}$ formen 60º siendo: ",1BC,Autoevaluación 2 ev2,pa21e05,1,2,1,True,True
+\sin{2x}=\frac{\sqrt {2}}{2},"Eq(sin(2*x), sqrt(2)/2)","\left [ \frac{\pi}{8}, \quad \frac{3 \pi}{8}\right ]",Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:,1BC,Autoevaluación 2 ev2,pa21e06,1,1,1,True,True
+\tan{\frac{x}{2}}=\sqrt{3},"Eq(tan(x/2), sqrt(3))",\left [ \frac{2 \pi}{3}\right ],Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:,1BC,Autoevaluación 2 ev2,pa21e06,1,1,1,True,True
+\sin{(3x-\frac{\pi}{2})}=-\frac{\sqrt{2}}{2},"Eq(sin(-pi/2 + 3*x), -sqrt(2)/2)","\left [ \frac{\pi}{12}, \quad \frac{7 \pi}{12}\right ]",Resolver las siguientes ecuaciones para ángulos en el primer cuadrante:,1BC,Autoevaluación 2 ev2,pa21e06,1,1,1,True,True
+\tan{2x}=\cot{x},"Eq(tan(2*x), cot(x))","\left [ -90.0, \quad 90.0, \quad -150.0, \quad 150.0, \quad -30.0, \quad 30.0\right ]",Resolver las siguientes ecuaciones:,1BC,Autoevaluación 2 ev2,pa21e07,1,1,1,True,True
+\sin{x}\cos{x}=-\frac{1}{2},"Eq(sin(x)*cos(x), -1/2)","\left [ -45.0, \quad 135.0\right ]",Resolver las siguientes ecuaciones:,1BC,Autoevaluación 2 ev2,pa21e07,1,1,1,True,True
+\sqrt{3}\sin{x}+\cos{x}=-2,"Eq(sqrt(3)*sin(x) + cos(x), -2)",\left [ -120.0\right ],Resolver las siguientes ecuaciones:,1BC,Autoevaluación 2 ev2,pa21e07,1,1,1,True,True
+\sqrt{6}-2\sqrt{4}i,-4*i + sqrt(6),- \frac{2 \sqrt{6} i}{3},"Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$",1BC,Autoevaluación 2 ev2,pa22e08,1,2,1,True,True
+\sqrt{4}-2\sqrt{6}i,-2*sqrt(6)*i + 2,- \sqrt{6} i,"Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$",1BC,Autoevaluación 2 ev2,pa22e08,1,2,1,True,True
+\sqrt{6}-2\sqrt{4}i,-4*i + sqrt(6),- \frac{2 \sqrt{6} i}{3},"Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$",1BC,Autoevaluación 2 ev2,pa22e08,1,2,1,True,True
+\sqrt{4}-2\sqrt{6}i,-2*sqrt(6)*i + 2,- \sqrt{6} i,"Dado el siguiente número $z$, calcula el valor de $\frac{z-\overline{z}}{z+\overline{z}}$",1BC,Autoevaluación 2 ev2,pa22e08,1,2,1,True,True
+4 - 2\sqrt {3}i,-2*sqrt(3)*i + 4,2 \sqrt{7}_{- \operatorname{atan}{\left (\frac{\sqrt{3}}{2} \right )}},Calcular el módulo y el argumento (en radianes) de los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08b,1,2,1,True,True
+-1-i,-i - 1,\sqrt{2}_{- \frac{3 \pi}{4}},Calcular el módulo y el argumento (en radianes) de los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08b,1,2,1,True,True
+ -6-6i,-6*i - 6,6 \sqrt{2}_{- \frac{3 \pi}{4}},Calcular el módulo y el argumento (en radianes) de los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08b,1,2,1,True,True
+-5i,-5*i,5_{- \frac{\pi}{2}},Calcular el módulo y el argumento (en radianes) de los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08b,1,2,1,True,True
+3,3,3_{0},Calcular el módulo y el argumento (en radianes) de los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08b,1,2,1,True,True
+3_{\frac{\pi}{4}},"[3, pi/4]",\frac{3 \sqrt{2}}{2} + \frac{3 \sqrt{2} i}{2},Escribe en forma binómica los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08c,1,2,1,True,True
+2_{\frac{\pi}{6}},"[2, pi/6]",\sqrt{3} + i,Escribe en forma binómica los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08c,1,2,1,True,True
+2 \sqrt{2}_{\pi},"[2*sqrt(2), pi]",- 2 \sqrt{2},Escribe en forma binómica los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08c,1,2,1,True,True
+7_{0},"[7, 0]",7,Escribe en forma binómica los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08c,1,2,1,True,True
+1_{\frac{\pi}{2}},"[1, pi/2]",i,Escribe en forma binómica los siguientes números complejos:,1BC,Autoevaluación 2 ev2,pa22e08c,1,2,1,True,True
+"A=(-1, 1), \ B=(1, 6),\  y \ C=(3, -3)","[(-1, 1), (1, 6), (3, -3)]",14,Calcula el área del triángulo de vértices:,1BC,Autoevaluación 2 ev2,pa22e09,1,1,1,True,True
