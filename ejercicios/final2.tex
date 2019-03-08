@@ -1,0 +1,115 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Final 2ª Ev.}
+        \begin{document}
+        \begin{questions}
+        \question ex12e01 - Justifica si los siguientes pares de vectores forman base de $\mathbb{R}^2$:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ \overrightarrow{u}=(4, 12) \, \ \overrightarrow{v}=(2, 6) $  \begin{solution}  $ False $  \end{solution} \part[1]  $ \overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4) $  \begin{solution}  $ True $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex12e02 - Determinar el ángulo formado por las rectas:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ r\equiv2x-y-2=0\  y \ s\equiv3x+2y-4=0 $  \begin{solution}  $ 119.74488129694222 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex12e03 - Calcula el vértice C de un triángulo isósceles ABC, sabiendo que:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $  A(2, -3)\  , \ B=(5, 2) \ y \  C \in r\equiv -x+3y-16=0 $  \begin{solution}  $ \left [ \left \{ x : -4, \quad y : 4\right \}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex12e04 - Dado el triángulo ABC, hallar: \\ 
+\begin{itemize} \item la mediana correspondiente al vértice A \item la mediatriz correspondiente al lado AB \item y el área \end{itemize} Siendo:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ A=(2, 1), \ B=(4, 3),\  y \ C=(6, -1) $  \begin{solution}  $ \left [ y - 1 = 0, \quad - 2 x - 2 y + 10 = 0, \quad \left [ 3 \sqrt{2}, \quad 6\right ]\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex12e05 - Resolver las siguientes ecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ 2\cos^2{x}-\sqrt{3}\cos{x}=0 $  \begin{solution}  $ \left [ 30, \quad 90, \quad 270, \quad 330\right ] $  \end{solution} \part[1]  $ \cos{2x}-3\cos{x}+1=0 $  \begin{solution}  $ \left [ -90, \quad 90\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex12e06 - Calcula:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ \frac{(1+2i)i^7}{(3-2i)-(2+i)} $  \begin{solution}  $ \frac{1}{2} + \frac{i}{2} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex12e07 - Escribe los siguientes números complejos en forma polar con el argumento en radianes:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $ 2 - 2\sqrt {3}i $  \begin{solution}  $ 4_{- \frac{\pi}{3}} $  \end{solution} \part[1]  $ 2i $  \begin{solution}  $ 2_{\frac{\pi}{2}} $  \end{solution} \part[1]  $ -4 $  \begin{solution}  $ 4_{\pi} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
