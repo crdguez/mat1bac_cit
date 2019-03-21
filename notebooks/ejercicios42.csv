@@ -1,0 +1,47 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+Haz una tabla de frecuencias con los datos que necesites para hace el resto de apartados,Haz una tabla de frecuencias con los datos que necesites para hace el resto de apartados,"\begin{tabular}{rrrrrr}
+\hline
+    &   x &   y &   xy &   x2 &    y2 \\
+\hline
+  0 &  10 & 150 & 1500 &  100 & 22500 \\
+  1 &  12 & 120 & 1440 &  144 & 14400 \\
+  2 &  14 & 102 & 1428 &  196 & 10404 \\
+  3 &  16 &  90 & 1440 &  256 &  8100 \\
+  4 &  52 & 462 & 5808 &  696 & 55404 \\
+\hline
+\end{tabular}","La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
+calefacción ha sido\\\begin{tabular}{lrrrr}
+\hline
+                      &   0 &   1 &   2 &   3 \\
+\hline
+ Temperatura (grados) &  10 &  12 &  14 &  16 \\
+ Gasto (euros)        & 150 & 120 & 102 &  90 \\
+\hline
+\end{tabular}",1BC,42 - Estadística Bidimensional,p093e05,1,1,1,False,False
+Calcula el gasto medio,Calcula el gasto medio,{'media': 115.5},"La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
+calefacción ha sido\\\begin{tabular}{lrrrr}
+\hline
+                      &   0 &   1 &   2 &   3 \\
+\hline
+ Temperatura (grados) &  10 &  12 &  14 &  16 \\
+ Gasto (euros)        & 150 & 120 & 102 &  90 \\
+\hline
+\end{tabular}",1BC,42 - Estadística Bidimensional,p093e05,1,1,1,False,False
+Halla el coeficiente de correlación lineal e interprétalo,Halla el coeficiente de correlación lineal e interprétalo,"{'media de x': 13.0, 'desviación de x': 2.23606797749979, 'media de y': 115.5, 'desviación de y': 22.599778759979046, 'covarianza': -49.5, 'coeficiente de correlación': -0.9795260923726159}","La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
+calefacción ha sido\\\begin{tabular}{lrrrr}
+\hline
+                      &   0 &   1 &   2 &   3 \\
+\hline
+ Temperatura (grados) &  10 &  12 &  14 &  16 \\
+ Gasto (euros)        & 150 & 120 & 102 &  90 \\
+\hline
+\end{tabular}",1BC,42 - Estadística Bidimensional,p093e05,1,1,1,False,False
+Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 11ºC,Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 11ºC,$y = - 9.9 x + 244.2$ \\\resizebox {0.5\textwidth}{!}{\input{p093e05.pgf}}\\La estimación para x=11 es: 135.3,"La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
+calefacción ha sido\\\begin{tabular}{lrrrr}
+\hline
+                      &   0 &   1 &   2 &   3 \\
+\hline
+ Temperatura (grados) &  10 &  12 &  14 &  16 \\
+ Gasto (euros)        & 150 & 120 & 102 &  90 \\
+\hline
+\end{tabular}",1BC,42 - Estadística Bidimensional,p093e05,1,1,1,False,False

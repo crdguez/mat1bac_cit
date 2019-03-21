@@ -29,6 +29,7 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
 
         \usepackage{graphicx}
         \graphicspath{{../img/}}
+        \usepackage{pgf}
 
 
 
@@ -80,17 +81,17 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
         \runningheadrule
 
         """
-        
+
         middle=r"""
         \begin{document}
         \begin{questions}
         """
-        
+
     else:
         start=r"""
         \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
         %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-        
+
         \pointpoints{punto}{puntos}
         \hpword{Puntos:}
         \vpword{Puntos:}
@@ -118,6 +119,7 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
 
         \usepackage{graphicx}
         \graphicspath{{../img/}}
+        \usepackage{pgf}
 
 
 
@@ -157,31 +159,31 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
         \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
         \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
         \runningheadrule
-        
+
         \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
         \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
         \marginpointname{ \emph{\points}}
 
         """
-        
+
         if soluciones == True :
             start = start + r"""\printanswers
             """ + r'\newcommand{\tipo}{' + letra + '}'
         else :
             start = start + r"""%\printanswers
             """ + r'\newcommand{\tipo}{' + letra + '}'
-        
+
         middle=r"""
         \begin{document}
         \noindent
         \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
         \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
          & \\
-        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo
         \end{tabular*}
         \rule[2ex]{\textwidth}{2pt}
-        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
-        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints.
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima.
 
         \begin{center}
 
@@ -196,13 +198,13 @@ def doc_ejer(title="", tipo = 'ejercicios', letra = 'A', soluciones = False):
 
         \begin{questions}
         """
-    
-    
+
+
     if title:
         start = start + "\\newcommand{\\examnum}{%s}" % title
-    
-    
-   
+
+
+
 
     end=r"""
     \end{questions}
@@ -221,7 +223,7 @@ def doc_parts(title="", author=""):
     if title:
         start = start + "\\title{%s} \n \date{\\vspace{-5ex}} \n \maketitle" % title
 
-    
+
 
     end="""
     \end{document}
@@ -422,29 +424,29 @@ def escribir_ejercicios(df_ejercicios, fichero = 'prueba3', tipo = 'ejercicios')
     f = open(fichero,'a')
     f.write(r'\question %s' % txt)
     f.write(r"""
-        \begin{multicols}{%s} 
+        \begin{multicols}{%s}
         \begin{parts}""" % n_columnas)
-    
+
     for s in df_ejercicios.index :
         if df_ejercicios.loc[s].enun_tex == True :
             f.write(r' \part[%s]  $ %s $ '  % (str(df_ejercicios.loc[s].puntos),df_ejercicios.loc[s].enunciado_latex))
         else :
             f.write(r' \part[%s] %s '  % (str(df_ejercicios.loc[s].puntos),df_ejercicios.loc[s].enunciado_latex))
-            
+
         if df_ejercicios.loc[s].sol_tex == True :
             f.write(r' \begin{solution}  $ %s $  \end{solution}'  % df_ejercicios.loc[s].solucion)
         else :
             f.write(r' \begin{solution}   %s   \end{solution}'  % df_ejercicios.loc[s].solucion)
-        
+
 
     f.write(r"""
         \end{parts}
         \end{multicols}
         """)
-    
+
     f.close()
-    
-    
+
+
 def escribir_fin(fichero = 'prueba3') :
     fichero = fichero
     f = open(fichero + '.tex','a')
@@ -455,32 +457,37 @@ def escribir_fin(fichero = 'prueba3') :
     os.system("pdflatex %s.tex" % fichero)
     os.rename(cwd+'/'+fichero+'.pdf','../ejercicios/build/'+fichero+'.pdf')
     os.rename(cwd+'/'+fichero+'.tex','../ejercicios/'+fichero+'.tex')
+    for fic_imagen in os.listdir("."):
+        #if fic_imagen.split(".")[-1] == 'pgf':
+        if fic_imagen.endswith('pgf'):
+            os.rename(cwd+'/'+fic_imagen,'../ejercicios/'+fic_imagen)
+
     os.remove("%s.log" % fichero)
     os.remove("%s.aux" % fichero)
     #os.remove("%s.tex" % fichero)
 
-    
+
 def generar_tex(df_ejercicios, fichero, titulo, tipo = 'ejercicios') :
     fichero = fichero + '.tex'
     escribir_preambulo(fichero, titulo, tipo)
-    for s in df_ejercicios.groupby('n_ejercicio').count().index : 
+    for s in df_ejercicios.groupby('n_ejercicio').count().index :
         escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero, tipo)
     escribir_fin(fichero)
-    
-    
-def exportar_pdf(df_ejercicios,fichero, titulo, tipo, letra = 'A', soluciones = False) : 
+
+
+def exportar_pdf(df_ejercicios,fichero, titulo, tipo, letra = 'A', soluciones = False) :
     # titulo = titulo + letra
-    
-    
-    if tipo != 'ejercicios' : 
+
+
+    if tipo != 'ejercicios' :
         df_ejercicios.n_columnas = 1 # para los exámenes
         fichero = fichero + letra
-        
+
     if soluciones == True : fichero=fichero + '_sol'
 
     escribir_preambulo(fichero, titulo, tipo, soluciones)
     #for s in df_ejercicios.groupby('n_ejercicio',sort=False).count().index
-    for s in df_ejercicios.groupby('n_ejercicio').count().index : 
+    for s in df_ejercicios.groupby('n_ejercicio').count().index :
         display(md("**Ejercicio: **" + s ))
         display(df_ejercicios[df_ejercicios.n_ejercicio == s])
         escribir_ejercicios(df_ejercicios[df_ejercicios.n_ejercicio == s],fichero, tipo)

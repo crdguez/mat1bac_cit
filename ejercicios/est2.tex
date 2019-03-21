@@ -1,0 +1,103 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{42 - Estadística Bidimensional}
+        \begin{document}
+        \begin{questions}
+        \question p093e05 - La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
+calefacción ha sido\\\begin{tabular}{lrrrr}
+\hline
+                      &   0 &   1 &   2 &   3 \\
+\hline
+ Temperatura (grados) &  10 &  12 &  14 &  16 \\
+ Gasto (euros)        & 150 & 120 & 102 &  90 \\
+\hline
+\end{tabular}
+        \begin{multicols}{1}
+        \begin{parts} \part[1] Haz una tabla de frecuencias con los datos que necesites para hace el resto de apartados  \begin{solution}   \begin{tabular}{rrrrrr}
+\hline
+    &   x &   y &   xy &   x2 &    y2 \\
+\hline
+  0 &  10 & 150 & 1500 &  100 & 22500 \\
+  1 &  12 & 120 & 1440 &  144 & 14400 \\
+  2 &  14 & 102 & 1428 &  196 & 10404 \\
+  3 &  16 &  90 & 1440 &  256 &  8100 \\
+  4 &  52 & 462 & 5808 &  696 & 55404 \\
+\hline
+\end{tabular}   \end{solution} \part[1] Calcula el gasto medio  \begin{solution}   {'media': 115.5}   \end{solution} \part[1] Halla el coeficiente de correlación lineal e interprétalo  \begin{solution}   {'media de x': 13.0, 'desviación de x': 2.23606797749979, 'media de y': 115.5, 'desviación de y': 22.599778759979046, 'covarianza': -49.5, 'coeficiente de correlación': -0.9795260923726159}   \end{solution} \part[1] Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 11ºC  \begin{solution}   $y = - 9.9 x + 244.2$ \\\resizebox {0.5\textwidth}{!}{\input{p093e05.pgf}}\\La estimación para x=11 es: 135.3   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
