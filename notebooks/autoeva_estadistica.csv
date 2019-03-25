@@ -22,45 +22,6 @@ Haz una tabla de frecuencias,Haz una tabla de frecuencias,"\begin{tabular}{rrrrr
 \hline
     &   lim\_inf &   lim\_sup &   x\_i &   f\_i &   F\_i &       h\_i &         H\_i &   x\_if\_i &   x\^{}2\_if\_i \\
 \hline
-  0 &      79.5 &      85.5 &  82.5 &     4 &     4 & 0.0666667 &   0.0666667 &    330   &    27225   \\
-  1 &      85.5 &      91.5 &  88.5 &     8 &    12 & 0.133333  &   0.2       &    708   &    62658   \\
-  2 &      91.5 &      97.5 &  94.5 &    12 &    24 & 0.2       &   0.4       &   1134   &   107163   \\
-  3 &      97.5 &     103.5 & 100.5 &    20 &    44 & 0.333333  &   0.733333  &   2010   &   202005   \\
-  4 &     103.5 &     109.5 & 106.5 &     9 &    53 & 0.15      &   0.883333  &    958.5 &   102080   \\
-  5 &     109.5 &     115.5 & 112.5 &     5 &    58 & 0.0833333 &   0.966667  &    562.5 &    63281.2 \\
-  6 &     115.5 &     121.5 & 118.5 &     2 &    60 & 0.0333333 &   1         &    237   &    28084.5 \\
-  7 &     nan   &     nan   & nan   &    60 &   nan & 1         & nan         &   5940   &   592497   \\
-\hline
-\end{tabular}","La medida del tórax de una muestra de varones se distribuye: \\\begin{tabular}{rlr}
-\hline
-    & Duración                    &   Cantidad \\
-\hline
-  0 & $\left[79.5, 85.5\right)$   &          4 \\
-  1 & $\left[85.5, 91.5\right)$   &          8 \\
-  2 & $\left[91.5, 97.5\right)$   &         12 \\
-  3 & $\left[97.5, 103.5\right)$  &         20 \\
-  4 & $\left[103.5, 109.5\right)$ &          9 \\
-  5 & $\left[109.5, 115.5\right)$ &          5 \\
-  6 & $\left[115.5, 121.5\right)$ &          2 \\
-\hline
-\end{tabular}",1BC,Autoevaluación de Estadística,au1p090e06,1,1,1,False,False
-"Calcula media, la varianza, la desviación típica y el coeficiente de variación","Calcula media, la varianza, la desviación típica y el coeficiente de variación","{'media': 99.0, 'varianza': 73.95000000000073, 'desviación típica': 8.59941858499752, 'coeficiente de variación': 0.0868628139898739}","La medida del tórax de una muestra de varones se distribuye: \\\begin{tabular}{rlr}
-\hline
-    & Duración                    &   Cantidad \\
-\hline
-  0 & $\left[79.5, 85.5\right)$   &          4 \\
-  1 & $\left[85.5, 91.5\right)$   &          8 \\
-  2 & $\left[91.5, 97.5\right)$   &         12 \\
-  3 & $\left[97.5, 103.5\right)$  &         20 \\
-  4 & $\left[103.5, 109.5\right)$ &          9 \\
-  5 & $\left[109.5, 115.5\right)$ &          5 \\
-  6 & $\left[115.5, 121.5\right)$ &          2 \\
-\hline
-\end{tabular}",1BC,Autoevaluación de Estadística,au1p090e06,1,1,1,False,False
-Haz una tabla de frecuencias,Haz una tabla de frecuencias,"\begin{tabular}{rrrrrrrrrr}
-\hline
-    &   lim\_inf &   lim\_sup &   x\_i &   f\_i &   F\_i &       h\_i &         H\_i &   x\_if\_i &   x\^{}2\_if\_i \\
-\hline
   0 &        15 &        23 &    19 &     3 &     3 & 0.04      &   0.04      &       57 &       1083 \\
   1 &        23 &        31 &    27 &     4 &     7 & 0.0533333 &   0.0933333 &      108 &       2916 \\
   2 &        31 &        39 &    35 &     5 &    12 & 0.0666667 &   0.16      &      175 &       6125 \\
@@ -147,6 +108,65 @@ El percentil 47,El percentil 47,"{'k': 47, 'N': 75.0, '$L_i$': 55.0, '$f_i$': 12
   8 & $\left[79, 87\right)$ &          6 \\
 \hline
 \end{tabular}",1BC,Autoevaluación de Estadística,au2p090e07,1,1,1,False,False
+Realizar una tabla de frecuencias con los datos que vayas a necesitar para resolver el ejercicio,Realizar una tabla de frecuencias con los datos que vayas a necesitar para resolver el ejercicio,"\begin{tabular}{rrrrrrrrrr}
+\hline
+    &   lim\_inf &   lim\_sup &   x\_i &   f\_i &   F\_i &   h\_i &    H\_i &   x\_if\_i &   x\^{}2\_if\_i \\
+\hline
+  0 &         0 &        40 &    20 &    40 &    40 &  0.4  &   0.4  &      800 &      16000 \\
+  1 &        40 &        80 &    60 &    35 &    75 &  0.35 &   0.75 &     2100 &     126000 \\
+  2 &        80 &       120 &   100 &    25 &   100 &  0.25 &   1    &     2500 &     250000 \\
+  3 &       nan &       nan &   nan &   100 &   nan &  1    & nan    &     5400 &     392000 \\
+\hline
+\end{tabular}","Una oficina bancaría ha tabulado las cantidades de dinero que retiran de sus cuentas 100 clientes jóvenes en
+un determinado día:\\\begin{tabular}{rlr}
+\hline
+    & Duración               &   Cantidad \\
+\hline
+  0 & $\left[0, 40\right)$   &         40 \\
+  1 & $\left[40, 80\right)$  &         35 \\
+  2 & $\left[80, 120\right)$ &         25 \\
+\hline
+\end{tabular}",1BC,Autoevaluación de Estadística,au3e1,1,1,1,False,False
+"Calcula media, la varianza, la desviación típica y el coeficiente de variación","Calcula media, la varianza, la desviación típica y el coeficiente de variación","{'media': 54.0, 'varianza': 1004.0, 'desviación típica': 31.6859590355097, 'coeficiente de variación': 0.586777019176106}","Una oficina bancaría ha tabulado las cantidades de dinero que retiran de sus cuentas 100 clientes jóvenes en
+un determinado día:\\\begin{tabular}{rlr}
+\hline
+    & Duración               &   Cantidad \\
+\hline
+  0 & $\left[0, 40\right)$   &         40 \\
+  1 & $\left[40, 80\right)$  &         35 \\
+  2 & $\left[80, 120\right)$ &         25 \\
+\hline
+\end{tabular}",1BC,Autoevaluación de Estadística,au3e1,1,1,1,False,False
+La mediana,La mediana,"{'k': 50, 'N': 100.0, '$L_i$': 40.0, '$f_i$': 35.0, '$F_{i-1}$': 40.0, '$C_i$': 40.0, 'percentil': 51.42857142857143}","Una oficina bancaría ha tabulado las cantidades de dinero que retiran de sus cuentas 100 clientes jóvenes en
+un determinado día:\\\begin{tabular}{rlr}
+\hline
+    & Duración               &   Cantidad \\
+\hline
+  0 & $\left[0, 40\right)$   &         40 \\
+  1 & $\left[40, 80\right)$  &         35 \\
+  2 & $\left[80, 120\right)$ &         25 \\
+\hline
+\end{tabular}",1BC,Autoevaluación de Estadística,au3e1,1,1,1,False,False
+El percentil 70,El percentil 70,"{'k': 70, 'N': 100.0, '$L_i$': 40.0, '$f_i$': 35.0, '$F_{i-1}$': 40.0, '$C_i$': 40.0, 'percentil': 74.28571428571428}","Una oficina bancaría ha tabulado las cantidades de dinero que retiran de sus cuentas 100 clientes jóvenes en
+un determinado día:\\\begin{tabular}{rlr}
+\hline
+    & Duración               &   Cantidad \\
+\hline
+  0 & $\left[0, 40\right)$   &         40 \\
+  1 & $\left[40, 80\right)$  &         35 \\
+  2 & $\left[80, 120\right)$ &         25 \\
+\hline
+\end{tabular}",1BC,Autoevaluación de Estadística,au3e1,1,1,1,False,False
+¿Qué porcentaje de clientes ha retirado menos de 60 \euro?,¿Qué porcentaje de clientes ha retirado menos de 60 \euro?,"{'valor': 60, 'N': 100.0, '$L_i$': 40.0, '$f_i$': 35.0, '$F_{i-1}$': 40.0, '$C_i$': 40.0, 'Porcentaje': 57.5000000000000}","Una oficina bancaría ha tabulado las cantidades de dinero que retiran de sus cuentas 100 clientes jóvenes en
+un determinado día:\\\begin{tabular}{rlr}
+\hline
+    & Duración               &   Cantidad \\
+\hline
+  0 & $\left[0, 40\right)$   &         40 \\
+  1 & $\left[40, 80\right)$  &         35 \\
+  2 & $\left[80, 120\right)$ &         25 \\
+\hline
+\end{tabular}",1BC,Autoevaluación de Estadística,au3e1,1,1,1,False,False
 Haz una tabla de frecuencias con los datos que necesites para hace el resto de apartados,Haz una tabla de frecuencias con los datos que necesites para hace el resto de apartados,"\begin{tabular}{rrrrrr}
 \hline
     &   x &   y &   xy &   x2 &    y2 \\
@@ -167,7 +187,7 @@ calefacción ha sido\\\begin{tabular}{lrrrrrr}
  Temperatura (grados) &  10 &  12 &  14 &  15 &  17 &  20 \\
  Gasto (euros)        & 150 & 120 & 102 &  90 &  50 &  18 \\
 \hline
-\end{tabular}",1BC,Autoevaluación de Estadística,au3p093e05,1,1,1,False,False
+\end{tabular}",1BC,Autoevaluación de Estadística,au4p093e05,1,1,1,False,False
 Calcula el gasto medio,Calcula el gasto medio,{'media': 88.33333333333333},"La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
 calefacción ha sido\\\begin{tabular}{lrrrrrr}
 \hline
@@ -176,7 +196,7 @@ calefacción ha sido\\\begin{tabular}{lrrrrrr}
  Temperatura (grados) &  10 &  12 &  14 &  15 &  17 &  20 \\
  Gasto (euros)        & 150 & 120 & 102 &  90 &  50 &  18 \\
 \hline
-\end{tabular}",1BC,Autoevaluación de Estadística,au3p093e05,1,1,1,False,False
+\end{tabular}",1BC,Autoevaluación de Estadística,au4p093e05,1,1,1,False,False
 Halla el coeficiente de correlación lineal e interprétalo,Halla el coeficiente de correlación lineal e interprétalo,"{'media de x': 14.666666666666666, 'desviación de x': 3.2489314482696545, 'media de y': 88.33333333333333, 'desviación de y': 43.61065109453067, 'covarianza': -140.88888888888889, 'coeficiente de correlación': -0.9943599539663297}","La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
 calefacción ha sido\\\begin{tabular}{lrrrrrr}
 \hline
@@ -185,8 +205,8 @@ calefacción ha sido\\\begin{tabular}{lrrrrrr}
  Temperatura (grados) &  10 &  12 &  14 &  15 &  17 &  20 \\
  Gasto (euros)        & 150 & 120 & 102 &  90 &  50 &  18 \\
 \hline
-\end{tabular}",1BC,Autoevaluación de Estadística,au3p093e05,1,1,1,False,False
-Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 8ºC,Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 8ºC,$y = - 13.3473684210526 x + 284.094736842105$ \\\resizebox {0.5\textwidth}{!}{\input{au3p093e05.pgf}}\\La estimación para x=8 es: 177.315789473684,"La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
+\end{tabular}",1BC,Autoevaluación de Estadística,au4p093e05,1,1,1,False,False
+Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 8ºC,Estima el gasto medio por habitante de una ciudad si la temperatura media hubiera sido 8ºC,$y = - 13.3473684210526 x + 284.094736842105$ \\\resizebox {0.5\textwidth}{!}{\input{au4p093e05.pgf}}\\La estimación para x=8 es: 177.315789473684,"La temperatura media en los meses de invierno en varias ciudades y el gasto medio por habitante en
 calefacción ha sido\\\begin{tabular}{lrrrrrr}
 \hline
                       &   0 &   1 &   2 &   3 &   4 &   5 \\
@@ -194,4 +214,4 @@ calefacción ha sido\\\begin{tabular}{lrrrrrr}
  Temperatura (grados) &  10 &  12 &  14 &  15 &  17 &  20 \\
  Gasto (euros)        & 150 & 120 & 102 &  90 &  50 &  18 \\
 \hline
-\end{tabular}",1BC,Autoevaluación de Estadística,au3p093e05,1,1,1,False,False
+\end{tabular}",1BC,Autoevaluación de Estadística,au4p093e05,1,1,1,False,False
