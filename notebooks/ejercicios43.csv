@@ -3,5 +3,20 @@ enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_c
 el resto no optó por ninguno de ellos. elegido un alumno al azar, calcula las probabilidades de que escogiera:
 ",1BC,43 - Probabilidad,p098e05,1,2,1,False,True
 i) Ser mayor de 30 años y estar casado \\ ii) No estar casado ,i) Ser mayor de 30 años y estar casado \\ ii) No estar casado ,"\left [ \frac{19}{50}, \quad \frac{11}{20}\right ]","En la ciudad, el 53\% de sus habitantes es mayor de 30 años, el 45\% está
-casado y el 60\% está casado o es mayor de 30 años "". 
+casado y el 60\% está casado o es mayor de 30 años. 
 Calcula la probabilidad de los siguientes sucesos:",1BC,43 - Probabilidad,p098e06,1,2,1,False,True
+"i) Con devolución a la urna de la primera bola extraída ii) Sin devolución
+","i) Con devolución a la urna de la primera bola extraída ii) Sin devolución
+","\left [ \frac{4}{25}, \quad \frac{3}{20}\right ]","Se tiene una urna con 15 bolas negras y 10 blancas, y se realizan dos extracciones 
+sucesivas de una bola. 
+Halla la probabilidad de que las dos bolas sean blancas en los siguientes casos:",1BC,43 - Probabilidad,p098e08,1,2,1,False,True
+"i) Que las dos bolas sean rojas
+ii) Que haya alguna bola azul
+iii) que no haya ninguna bola verde
+iv) que las dos bolas sean del mismo color
+","i) Que las dos bolas sean rojas
+ii) Que haya alguna bola azul
+iii) que no haya ninguna bola verde
+iv) que las dos bolas sean del mismo color
+","\left [ \frac{1}{4}, \quad \frac{11}{36}, \quad \frac{4}{9}, \quad \frac{4}{9}\right ]","Una urna contiene 3 bolas rojas, 2 verdes y 1 azul. Extraemos una bola, anotamos su color, la devolvemos a
+la urna, sacamos otra bola y anotamos su color. Halla las siguientes probabilidades:",1BC,43 - Probabilidad,p098e09,1,2,1,False,True
