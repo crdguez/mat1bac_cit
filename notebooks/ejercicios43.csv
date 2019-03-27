@@ -18,5 +18,25 @@ iv) que las dos bolas sean del mismo color
 ii) Que haya alguna bola azul
 iii) que no haya ninguna bola verde
 iv) que las dos bolas sean del mismo color
-","\left [ \frac{1}{4}, \quad \frac{11}{36}, \quad \frac{4}{9}, \quad \frac{4}{9}\right ]","Una urna contiene 3 bolas rojas, 2 verdes y 1 azul. Extraemos una bola, anotamos su color, la devolvemos a
+","\left [ \frac{1}{4}, \quad \frac{11}{36}, \quad \frac{4}{9}, \quad \frac{7}{18}\right ]","Una urna contiene 3 bolas rojas, 2 verdes y 1 azul. Extraemos una bola, anotamos su color, la devolvemos a
 la urna, sacamos otra bola y anotamos su color. Halla las siguientes probabilidades:",1BC,43 - Probabilidad,p098e09,1,2,1,False,True
+"i) Si se elige al azar una persona y resulta ser rubia, ¿cuál es la probabilidad de que sea mujer?
+ii) ¿Cuál es la probabilidad de que una persona elegida al azar sea hombre y no sea rubia?","i) Si se elige al azar una persona y resulta ser rubia, ¿cuál es la probabilidad de que sea mujer?
+ii) ¿Cuál es la probabilidad de que una persona elegida al azar sea hombre y no sea rubia?","\left [ \frac{5}{6}, \quad \frac{3}{10}\right ]","En una población hay el doble de mujeres que de hombres. 
+El 25% de las mujeres y el  10% de los hombres
+son rubios
+",1BC,43 - Probabilidad,p099e16,1,2,1,False,True
+"Calcula la probabilidad de que las tarjetas elegidas lleven escritos
+números impares.","Calcula la probabilidad de que las tarjetas elegidas lleven escritos
+números impares.",\left [ \frac{5}{18}\right ],"Se eligen al azar 2 tarjetas de un total de 9. Cada una lleva escrito un número del 1 al 9. Se sabe que la suma
+de los dígitos de las tarjetas es par.
+",1BC,43 - Probabilidad,p099e17,1,2,1,False,True
+"i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el marcapasos es defectuoso, calcula la probabilidad de que haya sido producido por la
+máquina A.","i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el marcapasos es defectuoso, calcula la probabilidad de que haya sido producido por la
+máquina A.","\left [ \frac{1}{80}, \quad \frac{3}{5}\right ]","Dos máquinas se usan para producir marcapasos. La máquina A produce el 75% de todos los marcapasos.
+El 1% de todos los marcapasos producidos por la máquina A son defectuosos, mientras que el 2% de los
+marcapasos producidos por la máquina B son defectuosos. Se selecciona un marcapasos al azar de entre
+todos los producidos
+",1BC,43 - Probabilidad,p099e18,1,2,1,False,True
