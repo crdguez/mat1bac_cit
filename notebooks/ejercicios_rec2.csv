@@ -1,0 +1,22 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+El área del triángulo,"[(2, 1), (6, 5), (5, 1)]",\\La base mide: $4 \sqrt{2}$ \\La altura mide: $\frac{3 \sqrt{2}}{2}$ \\El área es: $6$,"Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(5, 1), hallar: 
+    ",1BC,Recuperación 2ª Ev.,ex13e01-0,5,1,1,False,False
+El ángulo $\widehat{A}$.,"[(2, 1), (6, 5), (5, 1)]",El ángulo mide: $45$,"Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(5, 1), hallar: 
+    ",1BC,Recuperación 2ª Ev.,ex13e01-0,5,1,1,False,False
+El punto simétrico de C respecto a AB,"[(2, 1), (6, 5), (5, 1)]","$r_{AB} \equiv - 4 x + 4 y + 4=0$, \\ $t_{C}\bot r_{AB} \equiv - 4 x - 4 y + 24=0$, \\  $r\bot t \equiv Point2D(7/2, 5/2)$, \\ El punto simétrico: $Point2D(2, 4)$","Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(5, 1), hallar: 
+    ",1BC,Recuperación 2ª Ev.,ex13e01-0,5,1,1,False,False
+El área del triángulo,"[(2, 1), (6, 5), (2, 4)]",\\La base mide: $4 \sqrt{2}$ \\La altura mide: $\frac{3 \sqrt{2}}{2}$ \\El área es: $6$,"Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(2, 4), hallar: 
+    ",1BC,Recuperación 2ª Ev.,ex13e01-1,5,1,1,False,False
+El ángulo $\widehat{A}$.,"[(2, 1), (6, 5), (2, 4)]",El ángulo mide: $45$,"Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(2, 4), hallar: 
+    ",1BC,Recuperación 2ª Ev.,ex13e01-1,5,1,1,False,False
+El punto simétrico de C respecto a AB,"[(2, 1), (6, 5), (2, 4)]","$r_{AB} \equiv - 4 x + 4 y + 4=0$, \\ $t_{C}\bot r_{AB} \equiv - 4 x - 4 y + 24=0$, \\  $r\bot t \equiv Point2D(7/2, 5/2)$, \\ El punto simétrico: $Point2D(5, 1)$","Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(2, 4), hallar: 
+    ",1BC,Recuperación 2ª Ev.,ex13e01-1,5,1,1,False,False
+2\sin^2{x}+\cos{2x}=4\cos^2{x},"Eq(2*sin(x)**2 + cos(2*x), 4*cos(x)**2)","\left [ -120, \quad 120, \quad -60, \quad 60\right ]",Resuelve:,1BC,Recuperación 2ª Ev.,ex03e01b,1,1,1,True,True
+\cos^2{2x}=\frac{1}{4}+\sin{2x},"Eq(cos(2*x)**2, sin(2*x) + 1/4)","\left [ 15, \quad 75, \quad \frac{180 \left(- \frac{98174770424681}{125000000000000} - \frac{481211825059603 i}{1000000000000000}\right)}{\pi}, \quad \frac{180 \left(- \frac{98174770424681}{125000000000000} + \frac{481211825059603 i}{1000000000000000}\right)}{\pi}\right ]",Resuelve:,1BC,Recuperación 2ª Ev.,ex03e01b,1,1,1,True,True
+(k+2i)^2+(5+2i),2*i + 5 + (2*i + k)**2,k^{2} + 4 i k + 1 + 2 i\to\left [ - \frac{1}{2}\right ],Determina el valor que debe tener k ($k \in \mathbb{R}$)para que la siguiente expresión sea un número real.,1BC,Recuperación 2ª Ev.,ex13e02-0,1,2,1,True,True
+(k-2i)^2+(-5+2i),(-2*i + k)**2 + 2*i - 5,"k^{2} - 4 i k - 9 + 2 i\to\left [ -3, \quad 3\right ]",Determina el valor que debe tener k ($k \in \mathbb{R}$)para que la siguiente expresión sea un número imaginario puro.,1BC,Recuperación 2ª Ev.,ex13e02-1,1,2,1,True,True
+" A(2, 2)\  , \ B=(-2, 4) \ y \  C \in r\equiv 2x+y+1=0","[(2, 2), (-2, 4), '2x+y+1=0']","\left [ \left \{ x : - \frac{y}{2} - \frac{1}{2}, \quad x : \frac{y}{2} - \frac{3}{2}\right \}\right ]","Halla el punto de la recta que equidista de los puntos A y B, siendo:",1BC,Recuperación 2ª Ev.,ex13e03,2,1,1,True,True
+2_{\frac{\pi}{4}},"[2, pi/4]",\sqrt{2} + \sqrt{2} i,Escribe en forma binómica los siguientes números complejos:,1BC,Recuperación 2ª Ev.,ex13e04,1,2,1,True,True
+3_{\frac{\pi}{6}},"[3, pi/6]",\frac{3 \sqrt{3}}{2} + \frac{3 i}{2},Escribe en forma binómica los siguientes números complejos:,1BC,Recuperación 2ª Ev.,ex13e04,1,2,1,True,True
+\sqrt{2}_{\pi},"[sqrt(2), pi]",- \sqrt{2},Escribe en forma binómica los siguientes números complejos:,1BC,Recuperación 2ª Ev.,ex13e04,1,2,1,True,True
+3_{- \frac{\pi}{2}},"[3, -pi/2]",- 3 i,Escribe en forma binómica los siguientes números complejos:,1BC,Recuperación 2ª Ev.,ex13e04,1,2,1,True,True

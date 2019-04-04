@@ -1,0 +1,117 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Recuperación 2ª Ev.}
+        \begin{document}
+        \begin{questions}
+        \question ex03e01b - Resuelve:
+        \begin{multicols}{1}
+        \begin{parts} \part[1]  $ 2\sin^2{x}+\cos{2x}=4\cos^2{x} $  \begin{solution}  $ \left [ -120, \quad 120, \quad -60, \quad 60\right ] $  \end{solution} \part[1]  $ \cos^2{2x}=\frac{1}{4}+\sin{2x} $  \begin{solution}  $ \left [ 15, \quad 75, \quad \frac{180 \left(- \frac{98174770424681}{125000000000000} - \frac{481211825059603 i}{1000000000000000}\right)}{\pi}, \quad \frac{180 \left(- \frac{98174770424681}{125000000000000} + \frac{481211825059603 i}{1000000000000000}\right)}{\pi}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex13e01-0 - Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(5, 1), hallar: 
+    
+        \begin{multicols}{1}
+        \begin{parts} \part[1] El área del triángulo  \begin{solution}   \\La base mide: $4 \sqrt{2}$ \\La altura mide: $\frac{3 \sqrt{2}}{2}$ \\El área es: $6$   \end{solution} \part[1] El ángulo $\widehat{A}$.  \begin{solution}   El ángulo mide: $45$   \end{solution} \part[1] El punto simétrico de C respecto a AB  \begin{solution}   $r_{AB} \equiv - 4 x + 4 y + 4=0$, \\ $t_{C}\bot r_{AB} \equiv - 4 x - 4 y + 24=0$, \\  $r\bot t \equiv Point2D(7/2, 5/2)$, \\ El punto simétrico: $Point2D(2, 4)$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex13e01-1 - Dado el triángulo ABC de coordenadas A=(2, 1), B=(6, 5),  y C=(2, 4), hallar: 
+    
+        \begin{multicols}{1}
+        \begin{parts} \part[1] El área del triángulo  \begin{solution}   \\La base mide: $4 \sqrt{2}$ \\La altura mide: $\frac{3 \sqrt{2}}{2}$ \\El área es: $6$   \end{solution} \part[1] El ángulo $\widehat{A}$.  \begin{solution}   El ángulo mide: $45$   \end{solution} \part[1] El punto simétrico de C respecto a AB  \begin{solution}   $r_{AB} \equiv - 4 x + 4 y + 4=0$, \\ $t_{C}\bot r_{AB} \equiv - 4 x - 4 y + 24=0$, \\  $r\bot t \equiv Point2D(7/2, 5/2)$, \\ El punto simétrico: $Point2D(5, 1)$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Determina el valor que debe tener k ($k \in \mathbb{R}$)para que la siguiente expresión sea un número real.
+        \begin{multicols}{1}
+        \begin{parts} \part[1]  $ (k+2i)^2+(5+2i) $  \begin{solution}  $ k^{2} + 4 i k + 1 + 2 i\to\left [ - \frac{1}{2}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex13e02-1 - Determina el valor que debe tener k ($k \in \mathbb{R}$)para que la siguiente expresión sea un número imaginario puro.
+        \begin{multicols}{2}
+        \begin{parts} \part[1]  $ (k-2i)^2+(-5+2i) $  \begin{solution}  $ k^{2} - 4 i k - 9 + 2 i\to\left [ -3, \quad 3\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex13e03 - Halla el punto de la recta que equidista de los puntos A y B, siendo:
+        \begin{multicols}{1}
+        \begin{parts} \part[1]  $  A(2, 2)\  , \ B=(-2, 4) \ y \  C \in r\equiv 2x+y+1=0 $  \begin{solution}  $ \left [ \left \{ x : - \frac{y}{2} - \frac{1}{2}, \quad x : \frac{y}{2} - \frac{3}{2}\right \}\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex13e04 - Escribe en forma binómica los siguientes números complejos:
+        \begin{multicols}{2}
+        \begin{parts} \part[1]  $ 2_{\frac{\pi}{4}} $  \begin{solution}  $ \sqrt{2} + \sqrt{2} i $  \end{solution} \part[1]  $ 3_{\frac{\pi}{6}} $  \begin{solution}  $ \frac{3 \sqrt{3}}{2} + \frac{3 i}{2} $  \end{solution} \part[1]  $ \sqrt{2}_{\pi} $  \begin{solution}  $ - \sqrt{2} $  \end{solution} \part[1]  $ 3_{- \frac{\pi}{2}} $  \begin{solution}  $ - 3 i $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
