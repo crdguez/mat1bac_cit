@@ -4,16 +4,62 @@ Calcula sus parámetros,"{0: 0.1, 1: 0.2, 2: 0.1, 3: 0.4, 4: 0.1, 5: 0.1}",\\La 
 "Calcula $P\left(X < 4.5\right)$: , $P\left( X \geqslant 3 \right)$, $P\left(3\leqslant X < 4.5 \right)$ ","{0: 0.1, 1: 0.2, 2: 0.1, 3: 0.4, 4: 0.1, 5: 0.1}"," $\left [ 0.9, \quad 0.6, \quad 0.5\right ]$","Sea X una variable aleatoria discreta cuya función de probabilidad es ($x_i:p_i$):\\{0: 0.1, 1: 0.2, 2: 0.1, 3: 0.4, 4: 0.1, 5: 0.1} 
     ",1BC,44 - Variables aleatorias,p105e02-0,5,1,1,False,False
 $P\left(X > 3\right)$,"[[9, 0.2], ['X > 3', 'X >= 7', 'X>0', 'X<=9']]", $0.085641728$,"En una distribución binomial B(9 , 0.2) calcula:\\ 
-    ",1BC,44 - Variables aleatorias,p105e08-0,5,1,1,False,False
+    ",1BC,44 - Variables aleatorias,p105e08-0,5,2,1,False,False
 $P\left(X \geq 7\right)$,"[[9, 0.2], ['X > 3', 'X >= 7', 'X>0', 'X<=9']]", $0.000313856$,"En una distribución binomial B(9 , 0.2) calcula:\\ 
-    ",1BC,44 - Variables aleatorias,p105e08-0,5,1,1,False,False
+    ",1BC,44 - Variables aleatorias,p105e08-0,5,2,1,False,False
 $P\left(X > 0\right)$,"[[9, 0.2], ['X > 3', 'X >= 7', 'X>0', 'X<=9']]", $0.865782272$,"En una distribución binomial B(9 , 0.2) calcula:\\ 
-    ",1BC,44 - Variables aleatorias,p105e08-0,5,1,1,False,False
+    ",1BC,44 - Variables aleatorias,p105e08-0,5,2,1,False,False
 $P\left(X \leq 9\right)$,"[[9, 0.2], ['X > 3', 'X >= 7', 'X>0', 'X<=9']]", $1.0$,"En una distribución binomial B(9 , 0.2) calcula:\\ 
-    ",1BC,44 - Variables aleatorias,p105e08-0,5,1,1,False,False
+    ",1BC,44 - Variables aleatorias,p105e08-0,5,2,1,False,False
 Describe la variable que indica el número de individuos del grupo que han leído la novela,"P(Eq(X,2))","$\left \{ 0 : 0.0016, \quad 1 : 0.0256, \quad 2 : 0.1536, \quad 3 : 0.4096, \quad 4 : 0.4096\right \}$","La última novela de cierto afamado autor ha tenido un importante éxito, hasta el punto de que el
 80\% de los lectores ya la han leído. Un grupo de 4 amigos son aficionados a la lectura\\ 
     ",1BC,44 - Variables aleatorias,p105e09-0,5,1,1,False,False
 ¿Cuál es la probabilidad de que en el grupo hayan leído la obra 2 personas? ¿Y al menos 2?,P(X>1),$0.1536$ y $0.9728$,"La última novela de cierto afamado autor ha tenido un importante éxito, hasta el punto de que el
 80\% de los lectores ya la han leído. Un grupo de 4 amigos son aficionados a la lectura\\ 
     ",1BC,44 - Variables aleatorias,p105e09-0,5,1,1,False,False
+Describe la variable del ejercicio,density(X).dict,"$\left \{ 0 : 0.004096, \quad 1 : 0.036864, \quad 2 : 0.13824, \quad 3 : 0.27648, \quad 4 : 0.31104, \quad 5 : 0.186624, \quad 6 : 0.046656\right \}$","La probabilidad de que un jugador de baloncesto enceste una canasta de 3 puntos es 0.6. Si tira 6
+veces:\\ 
+    ",1BC,44 - Variables aleatorias,p105e10-0,5,1,1,False,False
+Calcula la probabilidad de que enceste 3,"P(Eq(X,3))",$P{\left (X = 3 \right )}=0.27648$,"La probabilidad de que un jugador de baloncesto enceste una canasta de 3 puntos es 0.6. Si tira 6
+veces:\\ 
+    ",1BC,44 - Variables aleatorias,p105e10-0,5,1,1,False,False
+Calcula la probabilidad de que enceste al menos 1,P(X>=1),$P{\left (X \geq 1 \right )}=0.995904$,"La probabilidad de que un jugador de baloncesto enceste una canasta de 3 puntos es 0.6. Si tira 6
+veces:\\ 
+    ",1BC,44 - Variables aleatorias,p105e10-0,5,1,1,False,False
+Calcula la probabilidad de que enceste más de 3,P(X>3),$P{\left (X > 3 \right )}=0.54432$,"La probabilidad de que un jugador de baloncesto enceste una canasta de 3 puntos es 0.6. Si tira 6
+veces:\\ 
+    ",1BC,44 - Variables aleatorias,p105e10-0,5,1,1,False,False
+Calcula la probabilidad de que al menos 18 lleguen a la hora,P(X>=18),$P{\left (X \geq 18 \right )}=0.924516326211503$,"En una estación de ferrocarril se sabe que la probabilidad de que un tren llegue a la hora es del
+95\%. Un determinado día en el que llegan 20 trenes a la estación:
+    ",1BC,44 - Variables aleatorias,p105e18-0,5,1,1,False,False
+¿Y la de que como máximo 1 no llegue a la hora?,P(X>=19),$P{\left (X \geq 19 \right )}=0.735839524943849$,"En una estación de ferrocarril se sabe que la probabilidad de que un tren llegue a la hora es del
+95\%. Un determinado día en el que llegan 20 trenes a la estación:
+    ",1BC,44 - Variables aleatorias,p105e18-0,5,1,1,False,False
+$P\left(Z \leq 1.83\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.966375030580372$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq 0.27\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.39358012680196$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \leq 0.78\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.782304562414267$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq -2.4\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.991802464075404$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z = 1.6\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq -2.71 \wedge Z \leq -1.83\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.0302608090129591$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq 1.5 \wedge Z \leq 2.5\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.0605975359430819$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq -1.87 \wedge Z \leq 1.25\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.863608317403679$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq 1.32\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.0934175089934718$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq -1.32\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.906582491006528$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \leq -2.17\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.0150034229737322$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq 1.52 \wedge Z \leq 2.05\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.0440732724132314$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \geq -2.03 \wedge Z \leq -1.52\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.0430772181762636$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z \leq 0\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.5$,"En una distribución Normal Z(0 , 1) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
