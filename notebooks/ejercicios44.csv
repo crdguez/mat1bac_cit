@@ -63,3 +63,25 @@ $P\left(Z \geq -2.03 \wedge Z \leq -1.52\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0
     ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
 $P\left(Z \leq 0\right)$,"[[0, 1], ['Z <= 1.83', 'Z >= 0.27', 'Z <= 0.78', 'Z >= -2.4', 'Eq(Z,1.6)', 'And(Z >= -2.71,Z <= -1.83)', 'And(Z >= 1.5,Z <= 2.5)', 'And(Z >= -1.87,Z <= 1.25)', 'Z >= 1.32', 'Z >= -1.32', 'Z <= -2.17', 'And(Z >= 1.52,Z <= 2.05)', 'And(Z >= -2.03,Z <= -1.52)', 'Z <= 0']]", $0.5$,"En una distribución Normal Z(0 , 1) calcula:\\ 
     ",1BC,44 - Variables aleatorias,p106e19-0,5,2,1,False,False
+$P\left(Z < k\right)=0.8635$,"[[0, 1], [['Z < k', 0.8635], ['Z < k', 0.1894]]]", $1.1$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e20-0,5,2,1,False,False
+$P\left(Z < k\right)=0.1894$,"[[0, 1], [['Z < k', 0.8635], ['Z < k', 0.1894]]]", $-0.88$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e20-0,5,2,1,False,False
+$P\left(Z > k\right)=0.8635$,"[[0, 1], [['Z > k', 0.8635]]]", $-1.1$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e20-0,5,2,1,False,False
+$P\left(Z > - k \wedge Z < k\right)=0.95$,"[[0, 1], [['And(Z<k,Z>-k)', 0.95]]]", $-1.96$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e20-0,5,2,1,False,False
+$P\left(X \leq 6\right)$,"[[5, 2], ['X <= 6', 'X >= 4.5', 'X <= 7.2', 'And(X >= 3,X <= 6)']]", $0.691462461274013$,"En una distribución Normal N(5 , 2) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e22-0,5,2,1,False,False
+$P\left(X \geq 4.5\right)$,"[[5, 2], ['X <= 6', 'X >= 4.5', 'X <= 7.2', 'And(X >= 3,X <= 6)']]", $0.598706325682924$,"En una distribución Normal N(5 , 2) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e22-0,5,2,1,False,False
+$P\left(X \leq 7.2\right)$,"[[5, 2], ['X <= 6', 'X >= 4.5', 'X <= 7.2', 'And(X >= 3,X <= 6)']]", $0.864333939053617$,"En una distribución Normal N(5 , 2) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e22-0,5,2,1,False,False
+$P\left(X \geq 3 \wedge X \leq 6\right)$,"[[5, 2], ['X <= 6', 'X >= 4.5', 'X <= 7.2', 'And(X >= 3,X <= 6)']]", $0.532807207342556$,"En una distribución Normal N(5 , 2) calcula:\\ 
+    ",1BC,44 - Variables aleatorias,p106e22-0,5,2,1,False,False
+$P\left(X \geq k\right)=0.8106$,"[[5, 2], [['X >= k', 0.8106], ['X >= k', 0.4801]]]", $3.24$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e23-0,5,2,1,False,False
+$P\left(X \geq k\right)=0.4801$,"[[5, 2], [['X >= k', 0.8106], ['X >= k', 0.4801]]]", $5.1$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e23-0,5,2,1,False,False
+$P\left(Z > - k + 5 \wedge X < k + 5\right)=0.5934$,"[[5, 2], [['And(X<5+k,Z>5-k)', 0.5934]]]", $1.66$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+    ",1BC,44 - Variables aleatorias,p106e23-0,5,2,1,False,False
