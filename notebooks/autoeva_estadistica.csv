@@ -44,7 +44,7 @@ Haz una tabla de frecuencias,Haz una tabla de frecuencias,"\begin{tabular}{rrrrr
   3 & $\left[90, 120\right)$ &          3 \\
 \hline
 \end{tabular}",1BC,Autoevaluación de Estadística y Probabilidad,au31e02,1,1,1,False,False
-La edad mas frecuente de los pacientes,La edad mas frecuente de los pacientes,"{'Intervalo modal': '$\\left[60.0, 90.0\\right)$', 'moda': 65.55555555555556}","En una consulta médica la distribución de pacientes por su edad ha sido, en la última semana, la siguiente:\\\begin{tabular}{rlr}
+La edad más frecuente de los pacientes,La edad más frecuente de los pacientes,"{'Intervalo modal': '$\\left[60.0, 90.0\\right)$', 'moda': 65.55555555555556}","En una consulta médica la distribución de pacientes por su edad ha sido, en la última semana, la siguiente:\\\begin{tabular}{rlr}
 \hline
     & Duración               &   Cantidad \\
 \hline
