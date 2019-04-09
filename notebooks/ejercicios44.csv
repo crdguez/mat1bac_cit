@@ -83,5 +83,25 @@ $P\left(X \geq k\right)=0.8106$,"[[5, 2], [['X >= k', 0.8106], ['X >= k', 0.4801
     ",1BC,44 - Variables aleatorias,p106e23-0,5,2,1,False,False
 $P\left(X \geq k\right)=0.4801$,"[[5, 2], [['X >= k', 0.8106], ['X >= k', 0.4801]]]", $5.1$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
     ",1BC,44 - Variables aleatorias,p106e23-0,5,2,1,False,False
-$P\left(Z > - k + 5 \wedge X < k + 5\right)=0.5934$,"[[5, 2], [['And(X<5+k,Z>5-k)', 0.5934]]]", $1.66$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
+$P\left(X > - k + 5 \wedge X < k + 5\right)=0.5934$,"[[5, 2], [['And(X<5+k,X>5-k)', 0.5934]]]", $1.66$,"Calcula el valor de k en cada uno de los siguientes casos:\\ 
     ",1BC,44 - Variables aleatorias,p106e23-0,5,2,1,False,False
+"Halla la probabilidad de que al comprar
+un lavavajillas, este dure más de 16 años",P(X>=16),$P{\left (X \geq 16 \right )}=0.0227501319481792$,"La duración media de un lavavajillas es de 15 años, con una desviación típica igual a 0.5 años. Si la
+vida útil del electrodoméstico se distribuye normalmente: 
+    ",1BC,44 - Variables aleatorias,p106e24-0,5,1,1,False,False
+"Calcula cuántos recién nacidos cabe esperar con tallas comprendidas entre 47
+y 52 cm","P(And(X>=47,X<=52))","$P{\left (X \geq 47 \wedge X \leq 52 \right )}=0.381168623860251$, luego $305$ recién nacidos","Las tallas de 800 recién nacidos se distribuyen normalmente con una media de 50 cm y una
+desviación típica de 5: 
+    ",1BC,44 - Variables aleatorias,p106e26-0,5,1,1,False,False
+"Suponiendo que se contesta al azar, calcula la probabilidad de aprobar el examen",P(X>(110+0.5)),"La media: $100.0$, la desviación: $7.07106781186548$, $P{\left (X > 110.5 \right )}=0.0687819469549518$","En un examen tipo test de 200 preguntas de elección múltiple, cada pregunta tiene una
+respuesta correcta y una incorrecta. Se aprueba si se contestan más de 110 respuestas correctas: 
+    ",1BC,44 - Variables aleatorias,p107e39-0,5,1,1,False,False
+"¿Cuántas habrá defectuosas por término medio?, ¿Cuál será la desviación típica?","[E(X),variance(X)]","La media: $120.0$, la desviación: $10.6207344378814$","La probabilidad de que determinadas piezas de una máquina sean defectuosas es del 6\%. En un
+almacén se han recibido 2000 piezas.: 
+    ",1BC,44 - Variables aleatorias,p107e41-0,5,1,1,False,False
+La probabilidad de que haya más de 5 personas que han leído más de 3 libros,P(X>(5+0.5)),"La media: $9.0$, la desviación: $2.76586333718787$, $P{\left (X > 5.5 \right )}=0.897140969367886$","Se ha realizado una encuesta sobre una población de escasa cultura, de la que solo un 15\% ha leído
+más de tres libros. Elegida al azar una muestra de 60 personas, calcula: 
+    ",1BC,44 - Variables aleatorias,p107e41-0,5,1,1,False,False
+La probabilidad de que como máximo haya 6 personas que han leído más de tres libros,P(X<(6+0.5)),$P{\left (X < 6.5 \right )}=0.183030337628131$,"Se ha realizado una encuesta sobre una población de escasa cultura, de la que solo un 15\% ha leído
+más de tres libros. Elegida al azar una muestra de 60 personas, calcula: 
+    ",1BC,44 - Variables aleatorias,p107e41-0,5,1,1,False,False
