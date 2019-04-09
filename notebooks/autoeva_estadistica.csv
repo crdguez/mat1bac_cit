@@ -132,8 +132,8 @@ Halla la probabilidad de que las dos bolas sean blancas en los siguientes casos:
 ii) Si sabemos que el marcapasos es defectuoso, calcula la probabilidad de que haya sido producido por la
 máquina A.","i) calcular la probabilidad de que sea defectuoso
 ii) Si sabemos que el marcapasos es defectuoso, calcula la probabilidad de que haya sido producido por la
-máquina A.","\left [ \frac{7}{250}, \quad \frac{3}{7}\right ]","Dos máquinas se usan para producir marcapasos. La máquina A produce el 60% de todos los marcapasos.
-El 2% de todos los marcapasos producidos por la máquina A son defectuosos, mientras que el 4% de los
+máquina A.","\left [ \frac{7}{250}, \quad \frac{3}{7}\right ]","Dos máquinas se usan para producir marcapasos. La máquina A produce el 60\% de todos los marcapasos.
+El 2\% de todos los marcapasos producidos por la máquina A son defectuosos, mientras que el 4\% de los
 marcapasos producidos por la máquina B son defectuosos. Se selecciona un marcapasos al azar de entre
 todos los producidos
 ",1BC,Autoevaluación de Estadística y Probabilidad,au31e06,1,2,1,False,True
