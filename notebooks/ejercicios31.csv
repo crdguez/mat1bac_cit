@@ -15,9 +15,16 @@ $f(x)=\sqrt {{x^2} - 9}$,sqrt(x**2 - 9),"$Dom\left(f \right)=\left(-\infty, -3\r
     ",1BC,31 - Funciones,p65e06-0,5,1,1,False,False
 $f(x)=\sqrt {x+3}$,sqrt(x + 3),"$Dom\left(f \right)=\left[-3, \infty\right)$","Halla el dominio de las siguientes funciones: 
     ",1BC,31 - Funciones,p65e06-0,5,1,1,False,False
-$g \circ f$,g(f(x)),$g{\left (f{\left (x \right )} \right )}=\frac{x^{2} + 4}{x^{2} + 8}$,"Dadas las funciones $f(x)= x^2+5$, $g(x)= \frac{{x - 1}}{{x + 3}}$ y $h(x)= \sqrt x$. Calcula: 
+$g \circ f$,g(f(x)),$g{\left (f{\left (x \right )} \right )}=\frac{x^{2} + 4}{x^{2} + 8}$,"Dadas las funciones $f(x)= x^2+5$, $g(x)= \frac{{x - 1}}{{x + 3}}$ y $h(x)= \sqrt{x}$. Calcula: 
     ",1BC,31 - Funciones,p65e17-0,5,1,1,False,False
-$f \circ g$,f(g(x)),$f{\left (g{\left (x \right )} \right )}=\frac{\left(x - 1\right)^{2}}{\left(x + 3\right)^{2}} + 5$,"Dadas las funciones $f(x)= x^2+5$, $g(x)= \frac{{x - 1}}{{x + 3}}$ y $h(x)= \sqrt x$. Calcula: 
+$f \circ g$,f(g(x)),$f{\left (g{\left (x \right )} \right )}=\frac{\left(x - 1\right)^{2}}{\left(x + 3\right)^{2}} + 5$,"Dadas las funciones $f(x)= x^2+5$, $g(x)= \frac{{x - 1}}{{x + 3}}$ y $h(x)= \sqrt{x}$. Calcula: 
     ",1BC,31 - Funciones,p65e17-0,5,1,1,False,False
-$h \circ g \circ f$,h(g(f(x))),$h{\left (g{\left (f{\left (x \right )} \right )} \right )}=\frac{\sqrt{x^{2} + 4}}{\sqrt{x^{2} + 8}}$,"Dadas las funciones $f(x)= x^2+5$, $g(x)= \frac{{x - 1}}{{x + 3}}$ y $h(x)= \sqrt x$. Calcula: 
+$h \circ g \circ f$,h(g(f(x))),$h{\left (g{\left (f{\left (x \right )} \right )} \right )}=\frac{\sqrt{x^{2} + 4}}{\sqrt{x^{2} + 8}}$,"Dadas las funciones $f(x)= x^2+5$, $g(x)= \frac{{x - 1}}{{x + 3}}$ y $h(x)= \sqrt{x}$. Calcula: 
     ",1BC,31 - Funciones,p65e17-0,5,1,1,False,False
+$f(x)=3 x - 2$,3x-2,$f^{-1}(x)=\frac{x}{3} + \frac{2}{3}$ \\ $f^{-1} \circ f(x)=x=x$ \\\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p66e23y24-0}},"Halla la función inversa de $f(x)$, y comprueba el resultado, siendo:",1BC,31 - Funciones,p66e23y24,5,1,1,False,False
+$f(x)=\frac{x + 2}{- x + 1}$,\frac{{2 + x}}{{1 - x}},$f^{-1}(x)=\frac{x - 2}{x + 1}$ \\ $f^{-1} \circ f(x)=\frac{-2 + \frac{x + 2}{- x + 1}}{1 + \frac{x + 2}{- x + 1}}=x$ \\\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p66e23y24-1}},"Halla la función inversa de $f(x)$, y comprueba el resultado, siendo:",1BC,31 - Funciones,p66e23y24,5,1,1,False,False
+$y=-5x$,-5x,\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p68e28-0}},Representa gráficamente las siguientes funciones:,1BC,31 - Funciones,p68e28,5,1,1,False,False
+$y=-5x+3$,-5x+3,\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p68e28-1}},Representa gráficamente las siguientes funciones:,1BC,31 - Funciones,p68e28,5,1,1,False,False
+$y=x^2-2x-3$,x^2-2x-3,\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p68e28-2}},Representa gráficamente las siguientes funciones:,1BC,31 - Funciones,p68e28,5,1,1,False,False
+$y=4x^2-8x-21$,4x^2-8x-21,\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p68e28-3}},Representa gráficamente las siguientes funciones:,1BC,31 - Funciones,p68e28,5,1,1,False,False
+$y=\left|{x + 1}\right|$,Abs(x + 1),\\ \resizebox{0.4\textwidth}{!}{\includegraphics[width=1\columnwidth]{p68e35-0}},Representa gráficamente las siguientes funciones:,1BC,31 - Funciones,p68e35,5,1,1,False,False
