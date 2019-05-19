@@ -1,0 +1,86 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Repaso de límites}
+        \begin{document}
+        \begin{questions}
+        \question Ejercicios:  - Calcula los siguientes límites:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $$\lim_{x \to \infty}\left(\frac{2 x^{2} - 14 x + 12}{x^{2} - 10 x + 4}\right)$$  \begin{solution}   $2$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(\frac{\left(5 x - 4\right) \left(2 x^{2} - 3\right)}{2 x^{3} - 4 x + 1}\right)$$  \begin{solution}   $5$   \end{solution} \part[1] $$\lim_{x \to -1}\left(\frac{x^{3} + 1}{x^{2} + 2 x + 1}\right)$$  \begin{solution}   No existe el límite   \end{solution} \part[1] $$\lim_{x \to -1}\left(\frac{x^{2} - 1}{x^{2} + 3 x + 2}\right)$$  \begin{solution}   $-2$   \end{solution} \part[1] $$\lim_{x \to a}\left(\frac{- a^{2} - 2 a x + 3 x^{2}}{a^{2} - 3 a x + 2 x^{2}}\right)$$  \begin{solution}   $4$   \end{solution} \part[1] $$\lim_{x \to 1}\left(- \frac{3}{1 - x^{2}} + \frac{1}{1 - x}\right)$$  \begin{solution}   No existe el límite   \end{solution} \part[1] $$\lim_{x \to 0}\left(\frac{2 x^{3} + 6 x^{2} - 3 x}{2 x^{2} + 5 x}\right)$$  \begin{solution}   $- \frac{3}{5}$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(\frac{2 x^{3} + 6 x^{2} - 3 x}{2 x^{2} + 5 x}\right)$$  \begin{solution}   $\infty$   \end{solution} \part[1] $$\lim_{x \to -\infty}\left(\frac{2 x^{3} + 6 x^{2} - 3 x}{2 x^{2} + 5 x}\right)$$  \begin{solution}   $-\infty$   \end{solution} \part[1] $$\lim_{x \to -\infty} \left(\frac{4 x^{2} - x + 3}{3 x^{2} + x - 3}\right)^{\frac{x}{1 - x}}$$  \begin{solution}   $\frac{3}{4}$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(- x + \sqrt{x^{3} + x + 1}\right)$$  \begin{solution}   $\infty$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(- x + \sqrt{x^{2} + x + 1}\right)$$  \begin{solution}   $\frac{1}{2}$   \end{solution} \part[1] $$\lim_{x \to \infty} \left(\frac{x^{2} + 3}{3 x^{2} - 5}\right)^{\frac{x^{2}}{2 - x}}$$  \begin{solution}   $\infty$   \end{solution} \part[1] $$\lim_{x \to 1} \left(\frac{x^{3} + 1}{x^{2} + 1}\right)^{\frac{3}{x - 1}}$$  \begin{solution}   $e^{\frac{3}{2}}$   \end{solution} \part[1] $$\lim_{x \to 2} \left(x - 1\right)^{\frac{1}{x - 2}}$$  \begin{solution}   $e$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    

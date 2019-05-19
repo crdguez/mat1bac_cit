@@ -1,0 +1,41 @@
+enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
+i) Ser mayor de 60 años y fumar \\ ii) No fumar,i) Ser mayor de 60 años y fumar \\ ii) No fumar,"\left[ \frac{3}{10}, \  \frac{3}{5}\right]","En Utebo, el 50\% de sus habitantes es mayor de 60 años, el 40\% fuma y el 60\% 
+fuma o es mayor de 60 años. 
+Calcula la probabilidad de los siguientes sucesos:",1BC,Parcial 3ª Evaluación,ex21e02,1,2,1,False,True
+"i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el televisor es defectuoso, calcula la probabilidad de que haya sido producido por la
+planta A.","i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el televisor es defectuoso, calcula la probabilidad de que haya sido producido por la
+planta A.","\left[ \frac{7}{500}, \  \frac{3}{7}\right]","Dos fábricas producen el mismo televisor. La fábrica A produce el 60% de todos los televisore.
+El 1% de todos los televisores producidos por la fábrica A salen defectuosos, mientras que el 2% de los
+televisores producidos por la fábrica B son defectuosos. Se selecciona un televisor al azar de entre
+todos los fabricados:
+",1BC,Parcial 3ª Evaluación,ex21e03,1,2,1,False,True
+Describe la variable del ejercicio,density(X).dict,"$\left\{ 0 : 0.00243, \  1 : 0.02835, \  2 : 0.1323, \  3 : 0.3087, \  4 : 0.36015, \  5 : 0.16807\right\}$","Un jugador de baloncesto tiene un porcentaje de acierto en tiros de 2 del 70 \%. Si tira 5
+veces:\\ 
+    ",1BC,Parcial 3ª Evaluación,ex21e04-0,5,1,1,False,False
+Calcula la probabilidad de que enceste 4,"P(Eq(X,4))",$P{\left(X = 4 \right)}=0.36015$,"Un jugador de baloncesto tiene un porcentaje de acierto en tiros de 2 del 70 \%. Si tira 5
+veces:\\ 
+    ",1BC,Parcial 3ª Evaluación,ex21e04-0,5,1,1,False,False
+Calcula la probabilidad de que enceste al menos 1,P(X>=1),$P{\left(X \geq 1 \right)}=0.99757$,"Un jugador de baloncesto tiene un porcentaje de acierto en tiros de 2 del 70 \%. Si tira 5
+veces:\\ 
+    ",1BC,Parcial 3ª Evaluación,ex21e04-0,5,1,1,False,False
+Calcula la probabilidad de que enceste más de 4,P(X>4),$P{\left(X > 4 \right)}=0.16807$,"Un jugador de baloncesto tiene un porcentaje de acierto en tiros de 2 del 70 \%. Si tira 5
+veces:\\ 
+    ",1BC,Parcial 3ª Evaluación,ex21e04-0,5,1,1,False,False
+ este dure más de 12 años,P(X>=12),$P{\left(X \geq 12 \right)}=0.158655253931457$,"La duración media de un televisor es de 10 años, con una desviación típica igual a 2 años. Si la
+vida útil del electrodoméstico se distribuye normalmente. Halla la probabilidad de que al comprar
+un televisor: 
+    ",1BC,Parcial 3ª Evaluación,ex21e05-0,5,1,1,False,False
+ este dure entre 8 y 12 años,"P(And(X>=8,X<=12))",$P{\left(X \geq 8 \wedge X \leq 12 \right)}=0.682689492137086$,"La duración media de un televisor es de 10 años, con una desviación típica igual a 2 años. Si la
+vida útil del electrodoméstico se distribuye normalmente. Halla la probabilidad de que al comprar
+un televisor: 
+    ",1BC,Parcial 3ª Evaluación,ex21e05-0,5,1,1,False,False
+ este dure más de 12 años,P(X>=12),$P{\left(X \geq 12 \right)}=0.158655253931457$,"La duración media de un televisor es de 10 años, con una desviación típica igual a 2 años. Si la
+vida útil del electrodoméstico se distribuye normalmente. Halla la probabilidad de que al comprar
+un televisor: 
+    ",1BC,Parcial 3ª Evaluación,ex21e05-0,5,1,1,False,False
+ este dure entre 8 y 12 años,"P(And(X>=8,X<=12))",$P{\left(X \geq 8 \wedge X \leq 12 \right)}=0.682689492137086$,"La duración media de un televisor es de 10 años, con una desviación típica igual a 2 años. Si la
+vida útil del electrodoméstico se distribuye normalmente. Halla la probabilidad de que al comprar
+un televisor: 
+    ",1BC,Parcial 3ª Evaluación,ex21e05-0,5,1,1,False,False

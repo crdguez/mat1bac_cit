@@ -1,0 +1,113 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Parcial 3ª Evaluación}
+        \begin{document}
+        \begin{questions}
+        \question ex21e02 - En Utebo, el 50\% de sus habitantes es mayor de 60 años, el 40\% fuma y el 60\% 
+fuma o es mayor de 60 años. 
+Calcula la probabilidad de los siguientes sucesos:
+        \begin{multicols}{2}
+        \begin{parts} \part[1] i) Ser mayor de 60 años y fumar \\ ii) No fumar  \begin{solution}  $ \left[ \frac{3}{10}, \  \frac{3}{5}\right] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex21e03 - Dos fábricas producen el mismo televisor. La fábrica A produce el 60\% de todos los televisore.
+El 1\% de todos los televisores producidos por la fábrica A salen defectuosos, mientras que el 2\% de los
+televisores producidos por la fábrica B son defectuosos. Se selecciona un televisor al azar de entre
+todos los fabricados:
+
+        \begin{multicols}{2}
+        \begin{parts} \part[1] i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el televisor es defectuoso, calcula la probabilidad de que haya sido producido por la
+planta A.  \begin{solution}  $ \left[ \frac{7}{500}, \  \frac{3}{7}\right] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex21e04-0 - Un jugador de baloncesto tiene un porcentaje de acierto en tiros de 2 del 70 \%. Si tira 5
+veces:\\ 
+    
+        \begin{multicols}{1}
+        \begin{parts} \part[1] Describe la variable del ejercicio  \begin{solution}   $\left\{ 0 : 0.00243, \  1 : 0.02835, \  2 : 0.1323, \  3 : 0.3087, \  4 : 0.36015, \  5 : 0.16807\right\}$   \end{solution} \part[1] Calcula la probabilidad de que enceste 4  \begin{solution}   $P{\left(X = 4 \right)}=0.36015$   \end{solution} \part[1] Calcula la probabilidad de que enceste al menos 1  \begin{solution}   $P{\left(X \geq 1 \right)}=0.99757$   \end{solution} \part[1] Calcula la probabilidad de que enceste más de 4  \begin{solution}   $P{\left(X > 4 \right)}=0.16807$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ex21e05-0 - La duración media de un televisor es de 10 años, con una desviación típica igual a 2 años. Si la
+vida útil del electrodoméstico se distribuye normalmente. Halla la probabilidad de que al comprar
+un televisor: 
+    
+        \begin{multicols}{1}
+        \begin{parts} \part[1]  este dure más de 12 años  \begin{solution}   $P{\left(X \geq 12 \right)}=0.158655253931457$   \end{solution} \part[1]  este dure entre 8 y 12 años  \begin{solution}   $P{\left(X \geq 8 \wedge X \leq 12 \right)}=0.682689492137086$   \end{solution} \part[1]  este dure más de 12 años  \begin{solution}   $P{\left(X \geq 12 \right)}=0.158655253931457$   \end{solution} \part[1]  este dure entre 8 y 12 años  \begin{solution}   $P{\left(X \geq 8 \wedge X \leq 12 \right)}=0.682689492137086$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
