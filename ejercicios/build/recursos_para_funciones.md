@@ -5,3 +5,7 @@
 ## Libro de geogebra con diferentes tipos de funciones:
 
 [funciones en geogebra](https://www.geogebra.org/m/aabgby5a)
+
+## Libro de Geogebra para entender la definición e interpretación gráfica de la derivada
+
+[derivada en geogebra](https://www.geogebra.org/m/ajyxckhn)

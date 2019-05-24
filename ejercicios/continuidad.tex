@@ -1,0 +1,104 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Continuidad}
+        \begin{document}
+        \begin{questions}
+        \question p076e10:  - Hallar el dominio de continuidad de las siguientes funciones:
+
+        \begin{multicols}{1}
+        \begin{parts} \part[1] $$f(x)=\frac{x + 1}{x^{2} + 1}$$  \begin{solution}   $$\mathbb{R}$$   \end{solution} \part[1] $$f(x)=\frac{2 x - 1}{2 x^{2} - 5 x + 2}$$  \begin{solution}   $$\left(-\infty, \frac{1}{2}\right) \cup \left(\frac{1}{2}, 2\right) \cup \left(2, \infty\right)$$   \end{solution} \part[1] $$f(x)=\frac{x - 1}{x^{4} - 3 x^{3} + 6 x - 4}$$  \begin{solution}   $$\left(-\infty, - \sqrt{2}\right) \cup \left(- \sqrt{2}, 1\right) \cup \left(1, \sqrt{2}\right) \cup \left(\sqrt{2}, 2\right) \cup \left(2, \infty\right)$$   \end{solution} \part[1] $$f(x)=\sqrt{2 x^{2} - 5 x + 2}$$  \begin{solution}   $$\left(-\infty, \frac{1}{2}\right] \cup \left[2, \infty\right)$$   \end{solution} \part[1] $$f(x)=\sqrt{\frac{x + 1}{x - 3}}$$  \begin{solution}   $$\left(-\infty, -1\right] \cup \left(3, \infty\right)$$   \end{solution} \part[1] $$f(x)=\frac{2}{\left|{x}\right| - 2}$$  \begin{solution}   $$\left(-\infty, -2\right) \cup \left(-2, 2\right) \cup \left(2, \infty\right)$$   \end{solution} \part[1] $$f(x)=\frac{2}{\left|{x - 2}\right| - 2}$$  \begin{solution}   $$\left(-\infty, 0\right) \cup \left(0, 4\right) \cup \left(4, \infty\right)$$   \end{solution} \part[1] $$f(x)=x e^{x^{2}}$$  \begin{solution}   $$\mathbb{R}$$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p076e14:  - Estudia la continuidad de las siguientes funciones:
+
+        \begin{multicols}{1}
+        \begin{parts} \part[1] $$f(x)=\begin{cases} e^{x} & \text{for}\: x < 1 \\\log{\left(x \right)} & \text{otherwise} \end{cases}$$  \begin{solution}   Singularidades de las expresiones analíticas: $\emptyset$.\\ Posibles discontinuidades en los extremos de los trozos:1.\\En 1 no es continua porque no existe límite. Límites laterales: $e$ y $0$   \end{solution} \part[1] $$f(x)=\begin{cases} \frac{1}{x} & \text{for}\: x < 1 \\x^{2} - 1 & \text{otherwise} \end{cases}$$  \begin{solution}   Singularidades de las expresiones analíticas: $\left\{0\right\}$.\\ Posibles discontinuidades en los extremos de los trozos:1.\\En 1 no es continua porque no existe límite. Límites laterales: $1$ y $0$   \end{solution} \part[1] $$f(x)=\begin{cases} \left|{x + 2}\right| & \text{for}\: x < -1 \\x^{2} & \text{for}\: x < 1 \\2 x + 1 & \text{for}\: x > 1 \end{cases}$$  \begin{solution}   Singularidades de las expresiones analíticas: $\emptyset$.\\ Posibles discontinuidades en los extremos de los trozos:-1, 1.\\En -1 es continua ya que hay límite y $\lim = f(-1)=1$. \\En 1 no es continua porque no existe límite. Límites laterales: $1$ y $3$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p076e15:  - Calcula el valor de k para que las siguientes funciones sean continuas:
+
+        \begin{multicols}{1}
+        \begin{parts} \part[1] $$f(x)=\begin{cases} x + 1 & \text{for}\: x \leq 2 \\k - x & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{5\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} k + x & \text{for}\: x \leq 0 \\x^{2} - 1 & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{-1\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} \frac{x^{4} - 1}{x - 1} & \text{for}\: x < 1 \\k & \text{for}\: x \leq 1 \\\frac{x^{4} - 1}{x - 1} & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{4\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} \frac{\sqrt{x} - 1}{x - 1} & \text{for}\: x \leq 1 \\k & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{\frac{1}{2}\right\}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question p076e16:  - Halla a y b de modo que las siguientes funciones sean continuas:
+
+        \begin{multicols}{1}
+        \begin{parts} \part[1] $$f(x)=\begin{cases} x^{2} & \text{for}\: x < 0 \\a x + b & \text{for}\: x < 1 \\2 & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{ a : 2, \  b : 0\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} a \left(x - 1\right)^{2} & \text{for}\: x < 0 \\\sin{\left(b + x \right)} & \text{for}\: x < \pi \\\frac{\pi}{x} & \text{otherwise} \end{cases}$$  \begin{solution}   $\left[ \left\{ a : -1, \  b : - \frac{\pi}{2}\right\}, \  \left\{ a : -1, \  b : \frac{3 \pi}{2}\right\}\right]$   \end{solution} \part[1] $$f(x)=\begin{cases} \log{\left(x \right)} & \text{for}\: x < 1 \\a x^{2} + b & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{- b\right\}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
