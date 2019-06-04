@@ -1,0 +1,126 @@
+
+        \documentclass[spanish, 11pt]{exam}
+
+        %These tell TeX which packages to use.
+        \usepackage{array,epsfig}
+        \usepackage{amsmath, textcomp}
+        \usepackage{amsfonts}
+        \usepackage{amssymb}
+        \usepackage{amsxtra}
+        \usepackage{amsthm}
+        \usepackage{mathrsfs}
+        \usepackage{color}
+        \usepackage{multicol, xparse}
+        \usepackage{verbatim}
+
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+        \usepackage{pgf}
+
+
+
+        \printanswers
+        \nopointsinmargin
+        \pointformat{}
+
+        %Pagination stuff.
+        %\setlength{\topmargin}{-.3 in}
+        %\setlength{\oddsidemargin}{0in}
+        %\setlength{\evensidemargin}{0in}
+        %\setlength{\textheight}{9.in}
+        %\setlength{\textwidth}{6.5in}
+        %\pagestyle{empty}
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        \newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+
+        \newcommand{\examnum}{Autoevaluación }
+        \begin{document}
+        \begin{questions}
+        \question ae01-0 - Halla analíticamente el dominio de las siguientes funciones:
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $f(x)=\frac{x+1}{\sqrt{x^2+1}}$  \begin{solution}   $Dom\left(f \right)=\left(-\infty, \infty\right)$   \end{solution} \part[1] $f(x)=\sqrt{\frac{x-1}{x}}$  \begin{solution}   $Dom\left(f \right)=\left(-\infty, 0\right) \cup \left[1, \infty\right)$   \end{solution} \part[1] $f(x)=\frac{1}{4x^2-1}$  \begin{solution}   $Dom\left(f \right)=\left(-\infty, - \frac{1}{2}\right) \cup \left(- \frac{1}{2}, \frac{1}{2}\right) \cup \left(\frac{1}{2}, \infty\right)$   \end{solution} \part[1] $f(x)=\ln{x^2-3}$  \begin{solution}   $Dom\left(f \right)=\left(-\infty, - \sqrt{3}\right) \cup \left(\sqrt{3}, \infty\right)$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae02-0 - Dadas las funciones $f(x)= x^3+2$, $g(x)= \frac{{x + 1}}{{x - 3}}$ y $h(x)= \sqrt{x-1}$. Calcula: 
+    
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $g \circ f$  \begin{solution}   $g{\left(f{\left(x \right)} \right)}=\frac{x^{3} + 3}{x^{3} - 1}$   \end{solution} \part[1] $f \circ g$  \begin{solution}   $f{\left(g{\left(x \right)} \right)}=2 + \frac{\left(x + 1\right)^{3}}{\left(x - 3\right)^{3}}$   \end{solution} \part[1] $h \circ g \circ f$  \begin{solution}   $h{\left(g{\left(f{\left(x \right)} \right)} \right)}=2 \sqrt{\frac{1}{x^{3} - 1}}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae03 - Halla la función inversa de $f(x)$, siendo:
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $f(x)=- \frac{1}{x + 4}$  \begin{solution}   $f^{-1}(x)=-4 - \frac{1}{x}$ \\ $f^{-1} \circ f(x)=x=x$ \\   \end{solution} \part[1] $f(x)=\frac{2 x - 1}{3 x + 4}$  \begin{solution}   $f^{-1}(x)=- \frac{4 x + 1}{3 x - 2}$ \\ $f^{-1} \circ f(x)=\frac{- \frac{4 \left(2 x - 1\right)}{3 x + 4} - 1}{\frac{3 \left(2 x - 1\right)}{3 x + 4} - 2}=x$ \\   \end{solution} \part[1] $f(x)=E^{2 x} + 5$  \begin{solution}   $f^{-1}(x)=\log{\left(- \sqrt{x - 5} \right)}$ \\ $f^{-1} \circ f(x)=\log{\left(- e^{x} \right)}=x + i \pi$ \\   \end{solution} \part[1] $f(x)=\log{\left(3 x + 1 \right)}$  \begin{solution}   $f^{-1}(x)=\frac{e^{x}}{3} - \frac{1}{3}$ \\ $f^{-1} \circ f(x)=x=x$ \\   \end{solution} \part[1] $f(x)=\sqrt{x^{2} - 3}$  \begin{solution}   $f^{-1}(x)=- \sqrt{x^{2} + 3}$ \\ $f^{-1} \circ f(x)=- \left|{x}\right|=- \left|{x}\right|$ \\   \end{solution} \part[1] $f(x)=\sqrt{x^{2} - 3}$  \begin{solution}   $f^{-1}(x)=- \sqrt{x^{2} + 3}$ \\ $f^{-1} \circ f(x)=- \left|{x}\right|=- \left|{x}\right|$ \\   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae04 - Calcula los siguientes límites:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $$\lim_{x \to \infty}\left(\frac{2 x^{2} - 14 x + 12}{x^{2} - 10 x + 4}\right)$$  \begin{solution}   $2$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(\frac{\left(5 x - 4\right) \left(2 x^{2} - 3\right)}{2 x^{3} - 4 x + 1}\right)$$  \begin{solution}   $5$   \end{solution} \part[1] $$\lim_{x \to -1}\left(\frac{x^{2} - 1}{x^{2} + 3 x + 2}\right)$$  \begin{solution}   $-2$   \end{solution} \part[1] $$\lim_{x \to 0}\left(\frac{2 x^{3} + 6 x^{2} - 3 x}{2 x^{2} + 5 x}\right)$$  \begin{solution}   $- \frac{3}{5}$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(\frac{2 x^{3} + 6 x^{2} - 3 x}{2 x^{2} + 5 x}\right)$$  \begin{solution}   $\infty$   \end{solution} \part[1] $$\lim_{x \to -\infty}\left(\frac{2 x^{3} + 6 x^{2} - 3 x}{2 x^{2} + 5 x}\right)$$  \begin{solution}   $-\infty$   \end{solution} \part[1] $$\lim_{x \to -\infty} \left(\frac{4 x^{2} - x + 3}{3 x^{2} + x - 3}\right)^{\frac{x}{1 - x}}$$  \begin{solution}   $\frac{3}{4}$   \end{solution} \part[1] $$\lim_{x \to \infty}\left(- x + \sqrt{x^{3} + x + 1}\right)$$  \begin{solution}   $\infty$   \end{solution} \part[1] $$\lim_{x \to \infty} \left(\frac{x^{2} + 3}{3 x^{2} - 5}\right)^{\frac{x^{2}}{2 - x}}$$  \begin{solution}   $\infty$   \end{solution} \part[1] $$\lim_{x \to 3} \left(x - 2\right)^{\frac{1}{x - 3}}$$  \begin{solution}   $e$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae05:  - Halla a y b de modo que las siguientes funciones sean continuas:
+
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $$f(x)=\begin{cases} 1 - 2 x & \text{for}\: x < -2 \\a x + 2 & \text{for}\: x < 2 \\b + x^{2} & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{ a : - \frac{3}{2}, \  b : -5\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} \log{\left(x \right)} & \text{for}\: x < 1 \\a x^{2} + b & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{- b\right\}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae06:  - Calcula el valor de k para que las siguientes funciones sean continuas:
+
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $$f(x)=\begin{cases} \frac{e^{k x}}{x^{2} + 2} & \text{for}\: x < 0 \\2 k x + k + x^{2} & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{\frac{1}{2}\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} \log{\left(x \right)} & \text{for}\: x \leq 1 \\k x^{2} + 2 & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{-2\right\}$   \end{solution} \part[1] $$f(x)=\begin{cases} k x + x^{2} & \text{for}\: x \leq -2 \\k - x^{2} & \text{otherwise} \end{cases}$$  \begin{solution}   $\left\{\frac{8}{3}\right\}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae07 - Calcula las asíntotas de las funciones:
+
+        \begin{multicols}{3}
+        \begin{parts} \part[1] $\frac{2 x - 4}{x + 2}$  \begin{solution}   Asíntotas:\\$x=-2$\\$y=2$\\$y=2$\\$y=2$ \\$y=2$ \\   \end{solution} \part[1] $\frac{x^{2} - 3}{x - 2}$  \begin{solution}   Asíntotas:\\$x=2$\\$y=x + 2$ \\$y=x + 2$ \\   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question ae08 - Calcula las siguientes derivadas:
+
+        \begin{multicols}{2}
+        \begin{parts} \part[1] $y=2 x^{5} - x^{2} + 5 x + 2$  \begin{solution}   $y'=10 x^{4} - 2 x + 5$   \end{solution} \part[1] $y=x \left(x + 2\right) \left(x + 3\right)$  \begin{solution}   $y'=x \left(x + 2\right) + x \left(x + 3\right) + \left(x + 2\right) \left(x + 3\right)$   \end{solution} \part[1] $y=\frac{x^{3}}{\sqrt{x^{2} - x}}$  \begin{solution}   $y'=\frac{x^{3} \left(\frac{1}{2} - x\right)}{\left(x^{2} - x\right)^{\frac{3}{2}}} + \frac{3 x^{2}}{\sqrt{x^{2} - x}}$   \end{solution} \part[1] $y=x^{4} x^{\frac{1}{4}}$  \begin{solution}   $y'=\frac{17 x^{\frac{13}{4}}}{4}$   \end{solution} \part[1] $y=\frac{\sqrt{x^{3}}}{x}$  \begin{solution}   $y'=\frac{\sqrt{x^{3}}}{2 x^{2}}$   \end{solution} \part[1] $y=\left(1 - x^{2}\right)^{4}$  \begin{solution}   $y'=- 8 x \left(1 - x^{2}\right)^{3}$   \end{solution} \part[1] $y=\sqrt[3]{2 x^{2} + 5 x + 7}$  \begin{solution}   $y'=\frac{\frac{4 x}{3} + \frac{5}{3}}{\left(2 x^{2} + 5 x + 7\right)^{\frac{2}{3}}}$   \end{solution} \part[1] $y=\sqrt{\frac{2 - x}{x + 2}}$  \begin{solution}   $y'=\frac{\sqrt{\frac{2 - x}{x + 2}} \left(x + 2\right) \left(- \frac{2 - x}{2 \left(x + 2\right)^{2}} - \frac{1}{2 \left(x + 2\right)}\right)}{2 - x}$   \end{solution} \part[1] $y=e^{\sin{\left(x \right)}}$  \begin{solution}   $y'=e^{\sin{\left(x \right)}} \cos{\left(x \right)}$   \end{solution} \part[1] $y=2^{5 \cos{\left(x \right)}}$  \begin{solution}   $y'=- 5 \cdot 2^{5 \cos{\left(x \right)}} \log{\left(2 \right)} \sin{\left(x \right)}$   \end{solution} \part[1] $y=8^{3 \tan^{2}{\left(x \right)} - 1}$  \begin{solution}   $y'=3 \cdot 8^{3 \tan^{2}{\left(x \right)} - 1} \left(2 \tan^{2}{\left(x \right)} + 2\right) \log{\left(8 \right)} \tan{\left(x \right)}$   \end{solution} \part[1] $y=\log{\left(\frac{2 x - 1}{2 x + 1} \right)}$  \begin{solution}   $y'=\frac{\left(2 x + 1\right) \left(- \frac{2 \left(2 x - 1\right)}{\left(2 x + 1\right)^{2}} + \frac{2}{2 x + 1}\right)}{2 x - 1}$   \end{solution} \part[1] $y=\cos^{3}{\left(x^{3} + 1 \right)}$  \begin{solution}   $y'=- 9 x^{2} \sin{\left(x^{3} + 1 \right)} \cos^{2}{\left(x^{3} + 1 \right)}$   \end{solution} \part[1] $y=\tan^{3}{\left(5 x \right)}$  \begin{solution}   $y'=\left(15 \tan^{2}{\left(5 x \right)} + 15\right) \tan^{2}{\left(5 x \right)}$   \end{solution} \part[1] $y=\log{\left(- \sin{\left(x - 1 \right)} \right)}$  \begin{solution}   $y'=\frac{\cos{\left(x - 1 \right)}}{\sin{\left(x - 1 \right)}}$   \end{solution} \part[1] $y=\sqrt[3]{\sin{\left(x \right)}}$  \begin{solution}   $y'=\frac{\cos{\left(x \right)}}{3 \sin^{\frac{2}{3}}{\left(x \right)}}$   \end{solution} \part[1] $y=\sin^{4}{\left(x \right)} \cos{\left(x \right)}$  \begin{solution}   $y'=- \sin^{5}{\left(x \right)} + 4 \sin^{3}{\left(x \right)} \cos^{2}{\left(x \right)}$   \end{solution} \part[1] $y=2^{\log{\left(\cos{\left(x \right)} \right)}}$  \begin{solution}   $y'=- \frac{2^{\log{\left(\cos{\left(x \right)} \right)}} \log{\left(2 \right)} \sin{\left(x \right)}}{\cos{\left(x \right)}}$   \end{solution} \part[1] $y=\left(x^{2}\right)^{\log{\left(\cos{\left(x \right)} \right)}}$  \begin{solution}   $y'=\left(- \frac{\log{\left(x^{2} \right)} \sin{\left(x \right)}}{\cos{\left(x \right)}} + \frac{2 \log{\left(\cos{\left(x \right)} \right)}}{x}\right) \left(x^{2}\right)^{\log{\left(\cos{\left(x \right)} \right)}}$   \end{solution} \part[1] $y=\cos^{e^{x}}{\left(x \right)}$  \begin{solution}   $y'=\left(e^{x} \log{\left(\cos{\left(x \right)} \right)} - \frac{e^{x} \sin{\left(x \right)}}{\cos{\left(x \right)}}\right) \cos^{e^{x}}{\left(x \right)}$   \end{solution} \part[1] $y=x^{\tan{\left(x \right)}}$  \begin{solution}   $y'=x^{\tan{\left(x \right)}} \left(\left(\tan^{2}{\left(x \right)} + 1\right) \log{\left(x \right)} + \frac{\tan{\left(x \right)}}{x}\right)$   \end{solution} \part[1] $y=\cos^{\frac{1}{x}}{\left(x \right)}$  \begin{solution}   $y'=\left(- \frac{\sin{\left(x \right)}}{x \cos{\left(x \right)}} - \frac{\log{\left(\cos{\left(x \right)} \right)}}{x^{2}}\right) \cos^{\frac{1}{x}}{\left(x \right)}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
