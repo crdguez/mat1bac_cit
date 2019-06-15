@@ -1,5 +1,0 @@
-\babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}\IeC {\'A}lgebra}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Geometr\IeC {\'\i }a}{55}{chapter.2}
-\contentsline {chapter}{\numberline {3}Estad\IeC {\'\i }stica}{83}{chapter.3}
-\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis}{123}{chapter.4}
