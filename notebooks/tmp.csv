@@ -1,3 +1,10 @@
 enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
-"A=(-2, -1), \ B=(0, -3),\  y \ C=(2, 1)","[(-2, -1), (0, -3), (2, 1)]","\left[ y + 1 = 0, \  - 2 x + 2 y + 2 = 0, \  \left[ 3 \sqrt{2}, \  6\right]\right]","Dado el triángulo ABC, hallar: \\ 
-\begin{itemize} \item la mediana correspondiente al vértice A \item la mediatriz correspondiente al lado AB \item y el área \end{itemize} Siendo:",1BC,Final 2ª Ev.,ex12e04,5,1,1,True,True
+"i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el tornillo es defectuoso, calcula la probabilidad de que haya sido producido por la
+máquina A.","i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el tornillo es defectuoso, calcula la probabilidad de que haya sido producido por la
+máquina A.","\left[ \frac{23}{1000}, \  \frac{14}{23}\right]","Dos máquinas se usan para producir tornillos. La máquina A produce el 70% de todos los tornillos.
+El 2% de todos los tornillos producidos por la máquina A son defectuosos, mientras que el 3% de los
+ producidos por la máquina B son defectuosos. Se selecciona un tornillo al azar de entre
+todos los producidos
+",1BC,43 - Probabilidad,p099e18,1,2,1,False,True
