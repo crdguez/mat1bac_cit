@@ -1,0 +1,131 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{50 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        %\printanswers
+            \newcommand{\tipo}{B}\newcommand{\examnum}{Parcial 2ª evaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        \question Respecto de una base ortonormal tenemos dos vectores $\overrightarrow{u}$ y $\overrightarrow{v}$.
+Calcular $\overrightarrow{u}\cdot\overrightarrow{v}$, $|\overrightarrow{u}| \ y \ |\overrightarrow{v}|$ 
+y $\angle(\overrightarrow{u},\overrightarrow{v})$ siendo:
+        \begin{multicols}{1} 
+        \begin{parts} \part[2]  $ \overrightarrow{u}=(8, 2) \, \ \overrightarrow{v}=(-3, 4) $  \begin{solution}  $ \left [ -16, \quad \left [ 2 \sqrt{17}, \quad 5\right ], \quad 112.833654177918\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Si $\sin\alpha=-\frac{3}{5}\land \alpha \in III$, calcula (sin usar la calculadora, con identidades trigonométricas y reducción al primer cuadrante):
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $ \sin(2\alpha) $  \begin{solution}  $ \frac{24}{25} $  \end{solution} \part[1]  $ \cos\alpha $  \begin{solution}  $ - \frac{4}{5} $  \end{solution} \part[1]  $ \tan\alpha $  \begin{solution}  $ \frac{3}{4} $  \end{solution} \part[1]  $ \cos(\pi+\alpha) $  \begin{solution}  $ \frac{3}{5} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Resolver las siguientes ecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} \part[3]  $ \sin{x}+\cos{x}=\sqrt{2} $  \begin{solution}  $ \left [ 45.0\right ] $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcular el área de un triángulo sabiendo que:
+        \begin{multicols}{1} 
+        \begin{parts} \part[3] El lado a=20, y los ángulos B=30º, y C=105º  \begin{solution}  $ 5 \sqrt{2} \left(5 \sqrt{2} + 5 \sqrt{6}\right) \to 136.60254037844388 $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Dado el siguiente número $z$, calcula $\frac{z+\overline{z}}{z-\overline{z}}$ dando el resultado en forma compleja binómica:
+        \begin{multicols}{1} 
+        \begin{parts} \part[2]  $ 12\sqrt{3}-3i $  \begin{solution}  $ 4 \sqrt{3} i $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
