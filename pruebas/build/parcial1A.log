@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.5)  11 FEB 2020 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.5)  29 SEP 2021 06:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cie_sep.tex
-(./cie_sep.tex
+**parcial1A.tex
+(./parcial1A.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 12 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
@@ -597,17 +597,180 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box55
 \mc@col@check@num=\count154
 )
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count155
+\l_tmpa_int=\count156
+\l_tmpb_int=\count157
+\g_tmpa_int=\count158
+\g_tmpb_int=\count159
+\g__intarray_font_int=\count160
+\g__prg_map_int=\count161
+\c_log_iow=\count162
+\l_iow_line_count_int=\count163
+\l__iow_line_target_int=\count164
+\l__iow_one_indent_int=\count165
+\l__iow_indent_int=\count166
+\c_zero_dim=\dimen133
+\c_max_dim=\dimen134
+\l_tmpa_dim=\dimen135
+\l_tmpb_dim=\dimen136
+\g_tmpa_dim=\dimen137
+\g_tmpb_dim=\dimen138
+\c_zero_skip=\skip73
+\c_max_skip=\skip74
+\l_tmpa_skip=\skip75
+\l_tmpb_skip=\skip76
+\g_tmpa_skip=\skip77
+\g_tmpb_skip=\skip78
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count167
+\c__fp_leading_shift_int=\count168
+\c__fp_middle_shift_int=\count169
+\c__fp_trailing_shift_int=\count170
+\c__fp_big_leading_shift_int=\count171
+\c__fp_big_middle_shift_int=\count172
+\c__fp_big_trailing_shift_int=\count173
+\c__fp_Bigg_leading_shift_int=\count174
+\c__fp_Bigg_middle_shift_int=\count175
+\c__fp_Bigg_trailing_shift_int=\count176
+\c__fp_rand_size_int=\count177
+\c__fp_rand_four_int=\count178
+\c__fp_rand_eight_int=\count179
+\l__sort_length_int=\count180
+\l__sort_min_int=\count181
+\l__sort_top_int=\count182
+\l__sort_max_int=\count183
+\l__sort_true_max_int=\count184
+\l__sort_block_int=\count185
+\l__sort_begin_int=\count186
+\l__sort_end_int=\count187
+\l__sort_A_int=\count188
+\l__sort_B_int=\count189
+\l__sort_C_int=\count190
+\l__tl_build_start_index_int=\count191
+\l__tl_build_index_int=\count192
+\l__tl_analysis_normal_int=\count193
+\l__tl_analysis_index_int=\count194
+\l__tl_analysis_nesting_int=\count195
+\l__tl_analysis_type_int=\count196
+\l__regex_internal_a_int=\count197
+\l__regex_internal_b_int=\count198
+\l__regex_internal_c_int=\count199
+\l__regex_balance_int=\count266
+\l__regex_group_level_int=\count267
+\l__regex_mode_int=\count268
+\c__regex_cs_in_class_mode_int=\count269
+\c__regex_cs_mode_int=\count270
+\l__regex_catcodes_int=\count271
+\l__regex_default_catcodes_int=\count272
+\c__regex_catcode_D_int=\count273
+\c__regex_catcode_S_int=\count274
+\c__regex_catcode_L_int=\count275
+\c__regex_catcode_O_int=\count276
+\c__regex_catcode_A_int=\count277
+\c__regex_all_catcodes_int=\count278
+\l__regex_show_lines_int=\count279
+\l__regex_min_state_int=\count280
+\l__regex_max_state_int=\count281
+\l__regex_left_state_int=\count282
+\l__regex_right_state_int=\count283
+\l__regex_capturing_group_int=\count284
+\l__regex_min_pos_int=\count285
+\l__regex_max_pos_int=\count286
+\l__regex_curr_pos_int=\count287
+\l__regex_start_pos_int=\count288
+\l__regex_success_pos_int=\count289
+\l__regex_curr_char_int=\count290
+\l__regex_curr_catcode_int=\count291
+\l__regex_last_char_int=\count292
+\l__regex_case_changed_char_int=\count293
+\l__regex_curr_state_int=\count294
+\l__regex_step_int=\count295
+\l__regex_min_active_int=\count296
+\l__regex_max_active_int=\count297
+\l__regex_replacement_csnames_int=\count298
+\l__regex_match_count_int=\count299
+\l__regex_min_submatch_int=\count300
+\l__regex_submatch_int=\count301
+\l__regex_zeroth_submatch_int=\count302
+\g__regex_trace_regex_int=\count303
+\c_empty_box=\box56
+\l_tmpa_box=\box57
+\l_tmpb_box=\box58
+\g_tmpa_box=\box59
+\g_tmpb_box=\box60
+\l__box_top_dim=\dimen139
+\l__box_bottom_dim=\dimen140
+\l__box_left_dim=\dimen141
+\l__box_right_dim=\dimen142
+\l__box_top_new_dim=\dimen143
+\l__box_bottom_new_dim=\dimen144
+\l__box_left_new_dim=\dimen145
+\l__box_right_new_dim=\dimen146
+\l__box_internal_box=\box61
+\l__coffin_internal_box=\box62
+\l__coffin_internal_dim=\dimen147
+\l__coffin_offset_x_dim=\dimen148
+\l__coffin_offset_y_dim=\dimen149
+\l__coffin_x_dim=\dimen150
+\l__coffin_y_dim=\dimen151
+\l__coffin_x_prime_dim=\dimen152
+\l__coffin_y_prime_dim=\dimen153
+\c_empty_coffin=\box63
+\l__coffin_aligned_coffin=\box64
+\l__coffin_aligned_internal_coffin=\box65
+\l_tmpa_coffin=\box66
+\l_tmpb_coffin=\box67
+\l__coffin_display_coffin=\box68
+\l__coffin_display_coord_coffin=\box69
+\l__coffin_display_pole_coffin=\box70
+\l__coffin_display_offset_dim=\dimen154
+\l__coffin_display_x_dim=\dimen155
+\l__coffin_display_y_dim=\dimen156
+\l__coffin_bounding_shift_dim=\dimen157
+\l__coffin_left_corner_dim=\dimen158
+\l__coffin_right_corner_dim=\dimen159
+\l__coffin_bottom_corner_dim=\dimen160
+\l__coffin_top_corner_dim=\dimen161
+\l__coffin_scaled_total_height_dim=\dimen162
+\l__coffin_scaled_width_dim=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count304
+\l__driver_tmp_box=\box71
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count305
+\g__xparse_grabber_int=\count306
+\l__xparse_m_args_int=\count307
+\l__xparse_mandatory_args_int=\count308
+\l__xparse_v_nesting_int=\count309
+)
 (/usr/share/texlive/texmf-dist/tex/latex/yhmath/yhmath.sty
 Package: yhmath 
 \symyhlargesymbols=\mathgroup6
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 13.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 14.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -622,35 +785,33 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)))
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen133
-\Gin@req@width=\dimen134
-)
-(build/cie_sep.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-)
-\openout1 = `cie_sep.aux'.
+.................................................
+. LaTeX info: "xparse/redefine-environment"
+. 
+. Redefining environment 'multicols' with sig. 'mO{}' on line 51.
+.................................................
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+No file parcial1A.aux.
+\openout1 = `parcial1A.aux'.
 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -687,17 +848,17 @@ LaTeX Info: Redefining \% on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen135
-\scratchbox=\box56
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen136
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count310
+\scratchdimen=\dimen166
+\scratchbox=\box72
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen167
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -750,17 +911,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMX+yhex on input line 52.
+LaTeX Font Info:    Try loading font information for OMX+yhex on input line 80.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/yhmath/OMXyhex.fd
@@ -768,137 +929,82 @@ File: OMXyhex.fd
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 80.
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 80.
 
-Overfull \hbox (4.53383pt too wide) in paragraph at lines 77--77
-\OT1/cmr/bx/n/12 Soluci^^Son:$\OML/cmm/m/it/12 a[]$ 
+Overfull \hbox (38.5127pt too wide) in alignment at lines 80--84
+[] []
  []
 
 
-Overfull \hbox (10.87999pt too wide) in paragraph at lines 78--78
-\OT1/cmr/bx/n/12 Soluci^^Son:$[]$ 
+Class exam Warning: You must run LaTeX again to produce the table.
+(exam)               on input line 94.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+
  []
 
 
-Overfull \hbox (92.62639pt too wide) detected at line 79
-[]\OT1/cmr/m/n/12 ([]) + []([]) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 3 [] 3
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+
  []
-
-
-Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 101.
 
 <../img/header_left.png, id=1, 856.19875pt x 332.24126pt>
 File: ../img/header_left.png Graphic file (type png)
 <use ../img/header_left.png>
-Package pdftex.def Info: ../img/header_left.png  used on input line 102.
+Package pdftex.def Info: ../img/header_left.png  used on input line 136.
 (pdftex.def)             Requested size: 76.9351pt x 29.84972pt.
 <../img/header_right.jpeg, id=2, 197.73875pt x 181.67876pt>
 File: ../img/header_right.jpeg Graphic file (type jpg)
 <use ../img/header_right.jpeg>
-Package pdftex.def Info: ../img/header_right.jpeg  used on input line 102.
+Package pdftex.def Info: ../img/header_right.jpeg  used on input line 136.
 (pdftex.def)             Requested size: 38.47049pt x 35.34543pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <../img/header_left.png> <../img/header_right.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\OT1/cmr/bx/n/12 Soluci^^Son:$\OT1/cmr/m/n/12 2[]$, $2[]$,
- []
-
-
-Overfull \hbox (39.5155pt too wide) in paragraph at lines 112--112
-\OT1/cmr/bx/n/12 Soluci^^Son:$\OMS/cmsy/m/n/12 ^^@[]$ 
- []
-
-
-Overfull \hbox (30.18214pt too wide) in paragraph at lines 113--113
-\OT1/cmr/bx/n/12 Soluci^^Son:$[]$ 
- []
-
-
-Overfull \hbox (30.18214pt too wide) in paragraph at lines 114--114
-\OT1/cmr/bx/n/12 Soluci^^Son:$[]$ 
- []
-
-
-Overfull \hbox (34.4322pt too wide) in paragraph at lines 115--115
-\OT1/cmr/bx/n/12 Soluci^^Son:$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
-
- []
-
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-
- []
-
-[4]
-This exam contains 10 questions with 22 parts, 0 subparts, and 0 subsubparts.
-This exam has a total of 20 points.
+This exam contains 6 questions with 7 parts, 0 subparts, and 0 subsubparts.
+This exam has a total of 11 points.
 This exam has a total of 0 bonus points.
 
 Class exam Warning: Point totals have changed. Rerun to get point totals right.
 
 
-(build/cie_sep.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+(build/parcial1A.aux
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
 )
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5455 strings out of 494747
- 72657 string characters out of 6176208
- 166296 words of memory out of 5000000
- 8685 multiletter control sequences out of 15000+600000
- 9762 words of font info for 37 fonts, out of 8000000 for 9000
+ 13626 strings out of 494747
+ 244435 string characters out of 6176208
+ 305559 words of memory out of 5000000
+ 16845 multiletter control sequences out of 15000+600000
+ 536277 words of font info for 44 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 41i,13n,33p,480b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,32p,10360b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on build/cie_sep.pdf (4 pages, 150989 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on build/parcial1A.pdf (1 page, 129855 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
