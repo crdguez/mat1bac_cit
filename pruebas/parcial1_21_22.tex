@@ -1,7 +1,7 @@
 
         \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
         %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-        
+        % \printanswers
         \pointpoints{punto}{puntos}
         \hpword{Puntos:}
         \vpword{Puntos:}
@@ -59,7 +59,7 @@
         %\newcommand{\tipo}{A}
 
 
-        \newcommand{\timelimit}{50 minutos}
+        \newcommand{\timelimit}{45 minutos}
 
         \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
 
@@ -74,7 +74,7 @@
         \marginpointname{ \emph{\points}}
 
         %\printanswers
-            \newcommand{\tipo}{E}\newcommand{\examnum}{Parcial 1ª evaluación}
+            \newcommand{\tipo}{B}\newcommand{\examnum}{Parcial 1ª evaluación}
         \begin{document}
         \noindent
         \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
@@ -98,39 +98,42 @@
         \rule[2ex]{\textwidth}{2pt}
 
         \begin{questions}
-        \question Dados los siguientes conjuntos A, B y C, represéntalos en la recta real. A continuación, calcula $A \cup  B$ , $A \cap B$ y $A \cap B \cap C$ , 
-y expresa los resultados en forma de Intervalos. 
-Encuentra, si existe, el supremo y el ínfimo de cada uno de los
-conjuntos anteriores
+        \question Dados los siguientes conjuntos:
+        $$A=\left\{ x \in \mathbb{R}| -1 \leq x < 5 \right\}$$
+        $$ B=\left(-\infty, -2\right) \cup \left(2, \infty\right) $$
+        $$C=\left\{ x \in \mathbb{R}| \left|{x + 4}\right|\geq7 \right\}$$ 
+        \begin{solution}
+        $\rightarrow Solución:  C=\left(-\infty, -11\right] \cup \left[3, \infty\right) \ \ A \cup  B = \left(-\infty, -2\right) \cup \left[-1, \infty\right)  \\  A \cap B= \left(2, 5\right)   \\  A \cap B  \cap C= \left[3, 5\right)$
+        \end{solution}
+
         \begin{multicols}{1} 
-        \begin{parts} \part[2]  $ A=\left\{ x \in \mathbb{R}| -2 \leq x \wedge x \leq 5 \right\}, \\ B=\left(-\infty, -1\right) \cup \left(1, \infty\right)  y \\  C=\left\{ x \in \mathbb{R}| \left|{x - 2}\right|\leq3 \right\} \\ $  \begin{solution}  $ A \cup  B = \left(-\infty, \infty\right)  \\  A \cap B= \left[-2, -1\right) \cup \left(1, 5\right]   \\  A \cap B  \cap C= \left(1, 5\right] $  \end{solution}
+        \begin{parts}
+        \part[2] Representa en la recta real y en forma de intervalos el conjunto $C$
+        \part[1] Calcula $A \cup  B$ , $A \cap B$ y $A \cap B \cap C$
+        \part[1] Encuentra, si existen, el supremo, el ínfimo, el máximo y el mínimo de cada uno de los conjuntos $A$, $B$ y $C$
+       
         \end{parts}
         \end{multicols}
-        \question Usando la definición y las propiedades de los números combinatorios, resolver las ecuaciones:
-        \begin{multicols}{1} 
-        \begin{parts} \part[1]  $ {\binom{23}{x}} = \binom{23}{3x-1} $  \begin{solution}  $ \left\{6\right\} $  \end{solution}
+        
+        
+        
+        \question[1] Usando la definición y las propiedades de los números combinatorios, resolver la ecuación:
+$$ {\binom{23}{x}} = \binom{23}{3x-1} $$  \begin{solution}  $ \left\{6\right\} $  \end{solution}
+        \question[2] Calcula, sin hacer todo el desarrollo, el coeficiente del término asociado a:
+  $$ P(x)=\left(3 x^{2} + \frac{1}{x}\right)^{7} \  \ y \ parte \ literal \ x^{5} $$  \begin{solution}  $ 2835 $  \end{solution}
+
+        \question[2] Efectúa:
+        \begin{multicols}{2} 
+        \begin{parts} \part  $$ \frac{{2 - \sqrt {3} }}{{1 - \sqrt {3} }}-\frac{1}{2\sqrt {3}}+ \frac{3}{2-\sqrt{3} } $$  \begin{solution}  $ \frac{14 \sqrt{3} + 39}{6}\to\frac{7 \sqrt{3}}{3} + \frac{13}{2} $  \end{solution} \part  $$ \frac{\sqrt{7}-\sqrt{5}}{\sqrt{7}+\sqrt{5}}-\frac{\sqrt{7}+\sqrt{5}}{\sqrt{7}-\sqrt{5}} $$  \begin{solution}  $ \frac{-12 - 2 \sqrt{35} + \left(- \sqrt{7} + \sqrt{5}\right)^{2}}{2}\to- 2 \sqrt{35} $  \end{solution}
         \end{parts}
         \end{multicols}
-        \question Calcula, sin hacer todo el desarrollo, el coeficiente del término asociado a:
-        \begin{multicols}{1} 
-        \begin{parts} \part[2]  $ P(x)=\left(3 x^{2} + \frac{1}{x}\right)^{7} \  \ y \ parte \ literal \ \frac{1}{x^{4}} $  \begin{solution}  $ 21 $  \end{solution}
-        \end{parts}
-        \end{multicols}
-        \question Efectúa:
-        \begin{multicols}{1} 
-        \begin{parts} \part[1]  $ 3\sqrt [3] {16} - 2\sqrt [3] {250} + 5\sqrt [3] {250} - 4\sqrt [3] { 2}  $  \begin{solution}  $ 17 \sqrt[3]{2}\to17 \sqrt[3]{2} $  \end{solution} \part[1]  $ \frac{{2 - \sqrt {3} }}{{1 - \sqrt {3} }}-\frac{1}{2\sqrt {3}}+ \frac{3}{2-\sqrt{3} } $  \begin{solution}  $ \frac{14 \sqrt{3} + 39}{6}\to\frac{7 \sqrt{3}}{3} + \frac{13}{2} $  \end{solution}
-        \end{parts}
-        \end{multicols}
-        \question Calcula el valor de $k$ para que:
-        \begin{multicols}{1} 
-        \begin{parts} \part[1]  $ El \ resto \ de \ dividir \ P(x)=x^{25}-kx+3k-4 \ entre\  x-1 \ sea \ 3  $  \begin{solution}  $ 3 $  \end{solution}
-        \end{parts}
-        \end{multicols}
-        \question Halla el m.c.d. y el m.c.m. de los polinomios: 
-        \begin{multicols}{1} 
-        \begin{parts} \part[3]  $  A(x)= x^5+x^4-7x^3+x^2+10x-6\  y \\  B(x)= x^5+5x^4+x^3-19x^2-6x+18 \\  $  \begin{solution}  $ Descomposici \acute on:(\left(x - 1\right)^{2} \left(x + 3\right) \left(x^{2} - 2\right) \ y  \ \left(x - 1\right) \left(x + 3\right)^{2} \left(x^{2} - 2\right))\\x^{4} + 2 x^{3} - 5 x^{2} - 4 x + 6= \left(x - 1\right) \left(x + 3\right) \left(x^{2} - 2\right) \ MCD\ y \\ x^{6} + 4 x^{5} - 4 x^{4} - 20 x^{3} + 13 x^{2} + 24 x - 18= \left(x - 1\right)^{2} \left(x + 3\right)^{2} \left(x^{2} - 2\right) \ MCM $  \end{solution}
-        \end{parts}
-        \end{multicols}
+        \question[2] Calcula el valor de $k$ para que el resto de dividir
+   $P(x)=x^{27}-kx+3k-4$  entre  $x+1$  sea $11$    \begin{solution}  $ 4 $  \end{solution}
+        % \question Halla el m.c.d. y el m.c.m. de los polinomios: 
+        % \begin{multicols}{1} 
+        % \begin{parts} \part[3]  $  A(x)= x^{5} - 6 x^{3} + 2 x^{2} + 9 x - 6\  y \\  B(x)= x^{5} + 3 x^{4} - 3 x^{3} - 13 x^{2} + 12 \\  $  \begin{solution}  $ Descomposici \acute on:(\left(x - 1\right)^{2} \left(x + 2\right) \left(x^{2} - 3\right) \ y  \ \left(x - 1\right) \left(x + 2\right)^{2} \left(x^{2} - 3\right))\\x^{4} + x^{3} - 5 x^{2} - 3 x + 6= \left(x - 1\right) \left(x + 2\right) \left(x^{2} - 3\right) \ MCD\ y \\ x^{6} + 2 x^{5} - 6 x^{4} - 10 x^{3} + 13 x^{2} + 12 x - 12= \left(x - 1\right)^{2} \left(x + 2\right)^{2} \left(x^{2} - 3\right) \ MCM $  \end{solution}
+        % \end{parts}
+        % \end{multicols}
         
     \end{questions}
     \end{document}
