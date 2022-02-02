@@ -1,13 +1,25 @@
 enunciado_latex,enunciado,solucion,texto,curso,titulo,n_ejercicio,dificultad,n_columnas,puntos,enun_tex,sol_tex
-"i) Francés \\ ii) Inglés \\ iii) Ambos idiomas \\ iv) Francés o Inglés \\ v) Francés, pero no inglés \\ vi) Inglés, pero no francés","i) Francés \\ ii) Inglés \\ iii) Ambos idiomas \\ iv) Francés o Inglés \\ v) Francés, pero no inglés \\ vi) Inglés, pero no francés","\left [ \frac{16}{39}, \quad \frac{9}{13}, \quad \frac{3}{13}, \quad \frac{34}{39}, \quad \frac{7}{39}, \quad \frac{6}{13}\right ]","De los 39 alumnos de una clase, 16 escogieron francés, como idioma y 27 inglés. 9 eligieron ambos idiomas y
+"i) Francés \\ \
+ii) Inglés \\ \
+iii) Ambos idiomas \\ \
+iv) Francés o Inglés \\ \
+v) Francés, pero no inglés \\ \
+vi) Inglés, pero no francés","i) Francés \\ \
+ii) Inglés \\ \
+iii) Ambos idiomas \\ \
+iv) Francés o Inglés \\ \
+v) Francés, pero no inglés \\ \
+vi) Inglés, pero no francés","\left[ \frac{16}{39}, \  \frac{9}{13}, \  \frac{3}{13}, \  \frac{34}{39}, \  \frac{7}{39}, \  \frac{6}{13}\right]","De los 39 alumnos de una clase, 16 escogieron francés, como idioma y 27 inglés. 9 eligieron ambos idiomas y
 el resto no optó por ninguno de ellos. elegido un alumno al azar, calcula las probabilidades de que escogiera:
 ",1BC,43 - Probabilidad,p098e05,1,2,1,False,True
-i) Ser mayor de 30 años y estar casado \\ ii) No estar casado ,i) Ser mayor de 30 años y estar casado \\ ii) No estar casado ,"\left [ \frac{19}{50}, \quad \frac{11}{20}\right ]","En la ciudad, el 53\% de sus habitantes es mayor de 30 años, el 45\% está
+"i) Ser mayor de 30 años y estar casado \\ \
+ii) No estar casado ","i) Ser mayor de 30 años y estar casado \\ \
+ii) No estar casado ","\left[ \frac{19}{50}, \  \frac{11}{20}\right]","En la ciudad, el 53\% de sus habitantes es mayor de 30 años, el 45\% está
 casado y el 60\% está casado o es mayor de 30 años. 
 Calcula la probabilidad de los siguientes sucesos:",1BC,43 - Probabilidad,p098e06,1,2,1,False,True
 "i) Con devolución a la urna de la primera bola extraída ii) Sin devolución
 ","i) Con devolución a la urna de la primera bola extraída ii) Sin devolución
-","\left [ \frac{4}{25}, \quad \frac{3}{20}\right ]","Se tiene una urna con 15 bolas negras y 10 blancas, y se realizan dos extracciones 
+","\left[ \frac{4}{25}, \  \frac{3}{20}\right]","Se tiene una urna con 15 bolas negras y 10 blancas, y se realizan dos extracciones 
 sucesivas de una bola. 
 Halla la probabilidad de que las dos bolas sean blancas en los siguientes casos:",1BC,43 - Probabilidad,p098e08,1,2,1,False,True
 "i) Que las dos bolas sean rojas
@@ -18,25 +30,34 @@ iv) que las dos bolas sean del mismo color
 ii) Que haya alguna bola azul
 iii) que no haya ninguna bola verde
 iv) que las dos bolas sean del mismo color
-","\left [ \frac{1}{4}, \quad \frac{11}{36}, \quad \frac{4}{9}, \quad \frac{7}{18}\right ]","Una urna contiene 3 bolas rojas, 2 verdes y 1 azul. Extraemos una bola, anotamos su color, la devolvemos a
+","\left[ \frac{1}{4}, \  \frac{11}{36}, \  \frac{4}{9}, \  \frac{7}{18}\right]","Una urna contiene 3 bolas rojas, 2 verdes y 1 azul. Extraemos una bola, anotamos su color, la devolvemos a
 la urna, sacamos otra bola y anotamos su color. Halla las siguientes probabilidades:",1BC,43 - Probabilidad,p098e09,1,2,1,False,True
 "i) Si se elige al azar una persona y resulta ser rubia, ¿cuál es la probabilidad de que sea mujer?
 ii) ¿Cuál es la probabilidad de que una persona elegida al azar sea hombre y no sea rubia?","i) Si se elige al azar una persona y resulta ser rubia, ¿cuál es la probabilidad de que sea mujer?
-ii) ¿Cuál es la probabilidad de que una persona elegida al azar sea hombre y no sea rubia?","\left [ \frac{5}{6}, \quad \frac{3}{10}\right ]","En una población hay el doble de mujeres que de hombres. 
-El 25% de las mujeres y el  10% de los hombres
+ii) ¿Cuál es la probabilidad de que una persona elegida al azar sea hombre y no sea rubia?","\left[ \frac{5}{6}, \  \frac{3}{10}\right]","En una población hay el doble de mujeres que de hombres. 
+El 25\% de las mujeres y el  10\% de los hombres
 son rubios
 ",1BC,43 - Probabilidad,p099e16,1,2,1,False,True
 "Calcula la probabilidad de que las tarjetas elegidas lleven escritos
 números impares.","Calcula la probabilidad de que las tarjetas elegidas lleven escritos
-números impares.",\left [ \frac{5}{18}\right ],"Se eligen al azar 2 tarjetas de un total de 9. Cada una lleva escrito un número del 1 al 9. Se sabe que la suma
+números impares.",\left[ \frac{5}{18}\right],"Se eligen al azar 2 tarjetas de un total de 9. Cada una lleva escrito un número del 1 al 9. Se sabe que la suma
 de los dígitos de las tarjetas es par.
 ",1BC,43 - Probabilidad,p099e17,1,2,1,False,True
 "i) calcular la probabilidad de que sea defectuoso
 ii) Si sabemos que el marcapasos es defectuoso, calcula la probabilidad de que haya sido producido por la
 máquina A.","i) calcular la probabilidad de que sea defectuoso
 ii) Si sabemos que el marcapasos es defectuoso, calcula la probabilidad de que haya sido producido por la
-máquina A.","\left [ \frac{1}{80}, \quad \frac{3}{5}\right ]","Dos máquinas se usan para producir marcapasos. La máquina A produce el 75% de todos los marcapasos.
-El 1% de todos los marcapasos producidos por la máquina A son defectuosos, mientras que el 2% de los
+máquina A.","\left[ \frac{1}{80}, \  \frac{3}{5}\right]","Dos máquinas se usan para producir marcapasos. La máquina A produce el 75\% de todos los marcapasos.
+El 1\% de todos los marcapasos producidos por la máquina A son defectuosos, mientras que el 2\% de los
 marcapasos producidos por la máquina B son defectuosos. Se selecciona un marcapasos al azar de entre
+todos los producidos
+",1BC,43 - Probabilidad,p099e18,1,2,1,False,True
+"i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el tornillo es defectuoso, calcula la probabilidad de que haya sido producido por la
+máquina A.","i) calcular la probabilidad de que sea defectuoso
+ii) Si sabemos que el tornillo es defectuoso, calcula la probabilidad de que haya sido producido por la
+máquina A.","\left[ \frac{23}{1000}, \  \frac{14}{23}\right]","Dos máquinas se usan para producir tornillos. La máquina A produce el 70\% de todos los tornillos.
+El 2\% de todos los tornillos producidos por la máquina A son defectuosos, mientras que el 3\% de los
+ producidos por la máquina B son defectuosos. Se selecciona un tornillo al azar de entre
 todos los producidos
 ",1BC,43 - Probabilidad,p099e18,1,2,1,False,True
