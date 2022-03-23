@@ -1,0 +1,192 @@
+
+        \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+        %\documentclass[answers, spanish, 12pt,a4paper]{exam}
+        
+        % \printanswers
+        
+        \pointpoints{punto}{puntos}
+        \hpword{Puntos:}
+        \vpword{Puntos:}
+        \htword{Total}
+        \vtword{Total}
+        \hsword{Resultado:}
+        \hqword{Ejercicio:}
+        \vqword{Ejercicio:}
+
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{eurosym}
+        %\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+        \usepackage[margin=1in]{geometry}
+        \usepackage{amsmath,amssymb}
+        \usepackage{multicol, xparse}
+
+        \usepackage{yhmath}
+
+        \usepackage{verbatim}
+        %\usepackage{pstricks}
+
+
+        \usepackage{graphicx}
+        \graphicspath{{../img/}}
+
+
+
+
+        \let\multicolmulticols\multicols
+        \let\endmulticolmulticols\endmulticols
+        \RenewDocumentEnvironment{multicols}{mO{}}
+         {%
+          \ifnum#1=1
+            #2%
+          \else % More than 1 column
+            \multicolmulticols{#1}[#2]
+          \fi
+         }
+         {%
+          \ifnum#1=1
+          \else % More than 1 column
+            \endmulticolmulticols
+          \fi
+         }
+        \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+        \newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+        \newcommand{\class}{1º Bachillerato}
+        \newcommand{\examdate}{\today}
+
+        %\newcommand{\tipo}{A}
+
+
+        \newcommand{\timelimit}{80 minutos}
+
+        \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+        \pagestyle{head}
+        \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+        \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+        \runningheadrule
+        
+        \pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+        \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+        \marginpointname{ \emph{\points}}
+
+        \newcommand{\tipo}{A}\newcommand{\examnum}{Final 2ª evaluación}
+        \begin{document}
+        \noindent
+        \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+        \textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+         & \\
+        \textbf{Tiempo: \timelimit} & Tipo: \tipo 
+        \end{tabular*}
+        \rule[2ex]{\textwidth}{2pt}
+        Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+        La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
+
+        \begin{center}
+
+
+        \addpoints
+             %\gradetable[h][questions]
+            \pointtable[h][questions]
+        \end{center}
+
+        \noindent
+        \rule[2ex]{\textwidth}{2pt}
+
+        \begin{questions}
+        % \question[1] Justifica si los siguientes pares de vectores forman base de $\mathbb{R}^2$:
+        % \begin{multicols}{2} 
+        % \begin{parts} \part  $ \overrightarrow{u}=(1, 2) \, \ \overrightarrow{v}=(3, 4) $  \begin{solution}  $ True $  \end{solution} \part  $ \overrightarrow{u}=(4, 12) \, \ \overrightarrow{v}=(2, 6) $  \begin{solution}  $ False $  \end{solution}
+        % \end{parts}
+        % \end
+        
+              \question Dados los vectores $\overrightarrow{a}=(-2, -3)$, $\overrightarrow{b}=(9, -6)$ y $\overrightarrow{c}=(-7, -17)$ expresados en la base canónica:
+        \begin{parts}
+        \part[1] Demuestra que $B=\left\{\overrightarrow{a},\overrightarrow{b}\right\}$ es una base del plano. ¿Es ortogonal?¿Y ortonormal?
+        \begin{solution}
+        % Point(-2,-3).dot(Point(9,-6))
+        % Point(-2,-3).distance(Point(0,0)
+        $\overrightarrow{a}\cdot\overrightarrow{b}=0 \to $ ortogonal y $|\overrightarrow{a}|=\sqrt{13} \to $ no ortonormal
+        \end{solution}
+        \part[1] Calcula las coordenadas de $\overrightarrow{c}$ respecto de la base $B=\left\{\overrightarrow{a},\overrightarrow{b}\right\}$\begin{solution}
+        $(5,\frac{1}{3}$
+        \end{solution}
+        \end{parts}
+
+        
+        \question[2] Desde un punto del suelo se ve la copa de un pino bajo un ángulo de 42°. Si nos alejamos 2,5 m hacia otro punto del suelo, alineado con el anterior y con el pie del pino, vemos la copa bajo un ángulo de 24°. Calcula la altura del pino. \begin{solution}
+        $2,2 m$
+        \end{solution}
+
+        % \question[1] Calcula el área del paralelogramo cuyos lados miden 10 y 15 cm, respectivamente, si uno de sus ángulos mide $35^\circ$\begin{solution}$\frac{1}{2}\cdot 10 \cdot 15 \cdot \sen 35 = 86,04 \  cm^2$ \end{solution}
+        
+        \question[2] Calcula el área de un triángulo sabiendo que $a=16$ cm, $b=25$ cm y $c=15$ cm.\begin{solution}
+        $\sen(A)=0,6105$ y $A=114,17cm^2$
+        \end{solution}
+        
+          
+        % \question Dado el triángulo de vértices A ( 2 , 1 ) , B ( 6 , 5 ) y C ( 5 , 1 ) , calcula:
+        % El área del triángulo. El ángulo A \begin{solution}
+        % $14 ud^2$
+        % \end{solution}
+        
+
+%         \question Determinar el ángulo formado por las rectas:
+%         \begin{multicols}{1} 
+%         \begin{parts} \part[1]  $ r\equiv2x-y-2=0\  y \ s\equiv3x+2y-4=0 $  \begin{solution}  $ 119.74488129694222 $  \end{solution}
+%         \end{parts}
+%         \end{multicols}
+%         \question Calcula el vértice C de un triángulo isósceles ABC, sabiendo que:
+%         \begin{multicols}{1} 
+%         \begin{parts} \part[2]  $  A(2, -3)\  , \ B=(5, 2) \ y \  C \in r\equiv -x+3y-16=0 $  \begin{solution}  $ \left [ \left \{ x : -4, \quad y : 4\right \}\right ] $  \end{solution}
+%         \end{parts}
+%         \end{multicols}
+%         \question[3] Dado el triángulo ABC, siendo $ A=(2, 1), \ B=(4, 3),\  y \ C=(6, -1) $, hallar: 
+
+%         \begin{multicols}{1} 
+%         \begin{parts} \part  la mediana correspondiente al vértice A  
+%         \part la mediatriz correspondiente al lado AB
+%         \part el área del triángulo
+%         \end{parts}
+% \begin{solution}  $ \left [ y - 1 = 0, \quad - 2 x - 2 y + 10 = 0, \quad \left [ 3 \sqrt{2}, \quad 6\right ]\right ] $  \end{solution}
+%         \end{multicols}
+        \question Resolver las siguientes ecuaciones:
+        \begin{multicols}{1} 
+        \begin{parts} 
+        % \part[2]  $ \cos{2x}-3\cos{x}+1=0 $  \begin{solution}  $ \left [ -90, \quad 90\right ] $  \end{solution} 
+        % \part[2] $\sin{\left(x \right)} + \cos{\left(x \right)} = - \sqrt{2}$ \begin{solution}     $\left[ - \frac{3 \pi}{4}\right]$ \end{solution}
+        \part[2]  $ 2\cos^2{x}-\sqrt{3}\cos{x}=0 $  \begin{solution}  $ \left [ 30, \quad 90, \quad 270, \quad 330\right ] $  \end{solution}
+        
+        \part[2]        $\sen x + \cos 2x = 1 $
+        \begin{solution}
+        % map(deg,solve(sin(x)+cos(2*x)-1))
+        $[0, 30, 150, 180]$
+        \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula:
+        \begin{multicols}{1} 
+        \begin{parts} \part[2]  $ \dfrac{(1+2i)i^7}{(3-2i)-(2+i)} $  \begin{solution}  $ \frac{1}{2} + \frac{i}{2} $  \end{solution}
+
+
+        \end{parts}
+        \end{multicols}
+        \question[1] Escribe los siguientes números complejos en forma polar 
+        % con el argumento en radianes
+        :
+        \begin{multicols}{3} 
+        \begin{parts} 
+        % \part  $ -4 $\begin{solution}  $ 4_{\pi} $\end{solution} 
+         \part $ 2 - 2\sqrt {3}i $  \begin{solution}  $ 4_{- \frac{\pi}{3}} $  \end{solution}
+         \part  $ 2i $  \begin{solution}  $ 2_{\frac{\pi}{2}} $  \end{solution}
+        \end{parts}
+        \end{multicols}
+        
+    \end{questions}
+    \end{document}
+    
