@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "name": "1BACH_CIT",
+  "section": "2021-2022",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dc_classroom148b84a5@group.calendar.google.com",
+  "courseFolder": {
+    "id": "1wfGljJgvXVJJNjIe_aT1ym5WboUjO-0l-BakEPkEl8A7QoCrznvFCMhGROVritGDTmCBh9rs",
+    "name": "1BACH_CIE 2021-2022",
+    "openUrl": "https://drive.google.com/drive/folders/1wfGljJgvXVJJNjIe_aT1ym5WboUjO-0l-BakEPkEl8A7QoCrznvFCMhGROVritGDTmCBh9rs"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/img_breakfast.jpg",
+  "subject": "Matemáticas",
+  "courseState": "ACTIVE",
+  "owner": {
+    "name": {
+      "fullName": "CARLOS RODRÍGUEZ JASO"
+    },
+    "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+  },
+  "teachers": [{
+    "profile": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    }
+  }],
+  "students": [{
+    "profile": {
+      "name": {
+        "fullName": "Ada Mateo Trejo"
+      },
+      "emailAddress": "mateotrejoa@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Ibai Marín Gómez"
+      },
+      "emailAddress": "maringomezi@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Daniel Allueva Ruiz"
+      },
+      "emailAddress": "alluevaruizd@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Daniel Sánchez Paz"
+      },
+      "emailAddress": "sanchezpazd@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Adrián Pérez"
+      },
+      "emailAddress": "perezjallea@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Lucía Martínez Ruiz"
+      },
+      "emailAddress": "martinezruizl@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Nuria Pulido Ruiz"
+      },
+      "emailAddress": "pulidoruizn@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Marta Fatás Cantín"
+      },
+      "emailAddress": "fatascantinm@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Ian Lucas Quilcate Gómez"
+      },
+      "emailAddress": "quilcategomezi@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Alejandra Fabrega Mata"
+      },
+      "emailAddress": "fabregamataa@iespedrocerrada.org"
+    }
+  }],
+  "topics": [{
+    "name": "Recursos"
+  }],
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    },
+    "creationTime": "2021-09-08T04:02:55.160Z",
+    "updateTime": "2021-09-22T10:41:12.844Z",
+    "publicationTime": "2021-09-22T10:41:12.705Z",
+    "state": "PUBLISHED",
+    "assigneeMode": "ALL_STUDENTS",
+    "topics": [{
+      "name": "Recursos"
+    }],
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1nqZ34DRPqpGmZGPJZBOpRSWCBFOtYk32",
+          "title": "cuaderno 1º bachillerato ciencias.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1nqZ34DRPqpGmZGPJZBOpRSWCBFOtYk32/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/pJWt5VH-Aia2gSPALVFz-XAB3p43CGHwlJhvwVq7r1303Wmhhi0x9GwGFPPpEayB06mXYyC8OXZNp1Y\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWorkMaterial": {
+      "title": "Cuadernillo del curso"
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    },
+    "creationTime": "2021-09-21T09:49:30.033Z",
+    "updateTime": "2021-09-21T09:49:29.370Z",
+    "publicationTime": "2021-09-21T09:49:29.334Z",
+    "state": "PUBLISHED",
+    "assigneeMode": "ALL_STUDENTS",
+    "topics": [{
+      "name": "Recursos"
+    }],
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1JrOz21eEBOi2xnL6qkwfB0KWfg8f6l1D",
+          "title": "soluciones",
+          "alternateLink": "https://drive.google.com/drive/folders/1JrOz21eEBOi2xnL6qkwfB0KWfg8f6l1D"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWorkMaterial": {
+      "title": "soluciones"
+    }
+  }]
+}

@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "name": "1BACH_CCSS",
+  "section": "2021.2022",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dc_classroom2762f285@group.calendar.google.com",
+  "courseFolder": {
+    "id": "1_Xmh9SjgA9UrGD-limqGI-1VVyKznhYBwJ8LOxh2GQ7Dr88VHylwBg4LRquNs66imUfxwCAY",
+    "name": "1BACH_CCSS 2021.2022",
+    "openUrl": "https://drive.google.com/drive/folders/1_Xmh9SjgA9UrGD-limqGI-1VVyKznhYBwJ8LOxh2GQ7Dr88VHylwBg4LRquNs66imUfxwCAY"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/img_breakfast.jpg",
+  "subject": "Matemáticas",
+  "courseState": "ACTIVE",
+  "owner": {
+    "name": {
+      "fullName": "CARLOS RODRÍGUEZ JASO"
+    },
+    "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+  },
+  "teachers": [{
+    "profile": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    }
+  }],
+  "students": [{
+    "profile": {
+      "name": {
+        "fullName": "Maryem Halloumi Ait Belhadj"
+      },
+      "emailAddress": "halloumiaitbelhadjm@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Arnauc Cabezas García"
+      },
+      "emailAddress": "cabezasgarciaa@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Cora Esteban Muñoz"
+      },
+      "emailAddress": "estebanmunozc@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Elena Cañibano Sinusia"
+      },
+      "emailAddress": "canibanosinusiae@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Sandra Plaza Barón"
+      },
+      "emailAddress": "plazabarons@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Nadia Rouaz Alonso"
+      },
+      "emailAddress": "rouazalonson@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Guillermo Ros"
+      },
+      "emailAddress": "rosmorazg@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Lucas Polo Sebastián"
+      },
+      "emailAddress": "polosebastianl@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Víctor Soravilla Guallar"
+      },
+      "emailAddress": "soravillaguallarv@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "David Espinosa Pérez"
+      },
+      "emailAddress": "espinosaperezd@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Rubén Pasamón Finol"
+      },
+      "emailAddress": "pasamonfinolr@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Diego Gimeno Dueñas"
+      },
+      "emailAddress": "gimenoduenasd@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Iker Vadillo Nogués"
+      },
+      "emailAddress": "vadillonoguesi@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Mario Muñoz Pelegrín"
+      },
+      "emailAddress": "munozpelegrinm@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Helena Tabasam Perez"
+      },
+      "emailAddress": "tabasamperezh@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Laura Bosque Villalba"
+      },
+      "emailAddress": "bosquevillalbal@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Blanca Cañibano Sinusia"
+      },
+      "emailAddress": "canibanosinusiab@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Claudia Tejero Bueno"
+      },
+      "emailAddress": "tejerobuenoc@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Alberto Prados Crespo"
+      },
+      "emailAddress": "pradoscrespoa@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Lucas Laita Pérez"
+      },
+      "emailAddress": "laitaperezl@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Daniela Cárdenas Vaillant"
+      },
+      "emailAddress": "cardenasvaillantd@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Javier García De Vicente"
+      },
+      "emailAddress": "garciadevicentej@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Aintxane Moreno Ganuza"
+      },
+      "emailAddress": "morenoganuzaa@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Nayara Corbacho Hernández"
+      },
+      "emailAddress": "corbachohernandezn@iespedrocerrada.org"
+    }
+  }],
+  "topics": [{
+    "name": "Recursos"
+  }],
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    },
+    "creationTime": "2021-09-22T05:53:21.973Z",
+    "updateTime": "2021-09-22T05:53:27.783Z",
+    "publicationTime": "2021-09-22T05:53:27.640Z",
+    "state": "PUBLISHED",
+    "assigneeMode": "ALL_STUDENTS",
+    "topics": [{
+      "name": "Recursos"
+    }],
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1SczBYhtqFMmuAh3L6asxKESJA0PDInfH",
+          "title": "soluciones",
+          "alternateLink": "https://drive.google.com/drive/folders/1SczBYhtqFMmuAh3L6asxKESJA0PDInfH"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWorkMaterial": {
+      "title": "Soluciones"
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    },
+    "creationTime": "2021-09-08T04:19:28.728Z",
+    "updateTime": "2021-09-08T05:47:00.522Z",
+    "publicationTime": "2021-09-08T04:22:15.225Z",
+    "state": "PUBLISHED",
+    "assigneeMode": "ALL_STUDENTS",
+    "topics": [{
+      "name": "Recursos"
+    }],
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1JcTjVdAybPpxkDEXYUWkDZQgZ3d6hKX_",
+          "title": "Tema 1 - Números reales.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1JcTjVdAybPpxkDEXYUWkDZQgZ3d6hKX_/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1Nd6OQlIgidiPU-25q3jvTrHNlnoFmgb-",
+          "title": "Tema 2 - Aritmética mercantil.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1Nd6OQlIgidiPU-25q3jvTrHNlnoFmgb-/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1S7LZlUvqNOyOojebOiEYBy9Jtk5vnErf",
+          "title": "Tema 3 - Álgebra.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1S7LZlUvqNOyOojebOiEYBy9Jtk5vnErf/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "104ajAKtojzLsnowbtIO0QSXWQ-8g-Gr5",
+          "title": "Tema 4 - Funciones elementales.pdf",
+          "alternateLink": "https://drive.google.com/file/d/104ajAKtojzLsnowbtIO0QSXWQ-8g-Gr5/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1SB5cnJQGgRZJM4-D0cNQoEEbyqbGTtAK",
+          "title": "Tema 5 - Funciones exponenciales logarítmicas y trigonométricas.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1SB5cnJQGgRZJM4-D0cNQoEEbyqbGTtAK/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1MXVmdWmjkgiT7KrPquxqXIsmybZx4OLg",
+          "title": "Tema 6.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1MXVmdWmjkgiT7KrPquxqXIsmybZx4OLg/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh5.googleusercontent.com/jUJEwCq9GH3iiZZ5XrbmA4_H2yg87qUUqV4H4zmJ1s1jBCOq3PH1ITNx9FKOEXBSRiYx6c4WU8lecwM\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1AJJEGOExNHsZ8_X6OIgNoOIkONZTJGaA",
+          "title": "Tema 6 - Límites de funciones Continuidad y ramas infinitas.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1AJJEGOExNHsZ8_X6OIgNoOIkONZTJGaA/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "183Hjvul_5ZHmcN2J8dRxV9-4H-2I2gaA",
+          "title": "Tema 7.pdf",
+          "alternateLink": "https://drive.google.com/file/d/183Hjvul_5ZHmcN2J8dRxV9-4H-2I2gaA/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh4.googleusercontent.com/RCZnwduJYjqpKqf2oAjg0RgKZGnGObZctzJz7-tZ8nAZI9iyufRJ2jMHc7Z5tpShYesZju-rrfmlqEo\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "13cvYoxTMB_FDO-1PpJk5n3GVtjgylSR4",
+          "title": "Tema 7 - Derivadas.pdf",
+          "alternateLink": "https://drive.google.com/file/d/13cvYoxTMB_FDO-1PpJk5n3GVtjgylSR4/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1ICI68aGjUuKET3eBEXqfeHIz-LHvIsYT",
+          "title": "Tema 8 - Distribuciones bidimensionales.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1ICI68aGjUuKET3eBEXqfeHIz-LHvIsYT/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1RfIGhnrDFzq8T8LSGCgeEFK-5WtL2DIJ",
+          "title": "Tema 9 - Distribuciones de probabilidad de variable discreta.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1RfIGhnrDFzq8T8LSGCgeEFK-5WtL2DIJ/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }, {
+      "driveFile": {
+        "driveFile": {
+          "id": "1ouievY5j0bhjzSmq9hgr-Uj9bjzd1TWL",
+          "title": "Tema 10 - Distribuciones de probabilidad de variable continua.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1ouievY5j0bhjzSmq9hgr-Uj9bjzd1TWL/view?usp\u003ddrive_web"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWorkMaterial": {
+      "title": "Libro de texto"
+    }
+  }]
+}
