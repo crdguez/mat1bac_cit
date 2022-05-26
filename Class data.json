@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "name": "1BACH_CIE",
+  "section": "2021-2022",
+  "room": "Científico tecnológico",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dc_classroom9814efe4@group.calendar.google.com",
+  "courseFolder": {
+    "id": "13-zxLjBLXi5uwT1IaG-YWhbeLfIPeFHMCL1e82w2h96djOWfQDfhGWu1cshj5RVRaa42Cqt5",
+    "name": "1BACH_TECNO 2021-2022",
+    "openUrl": "https://drive.google.com/drive/folders/13-zxLjBLXi5uwT1IaG-YWhbeLfIPeFHMCL1e82w2h96djOWfQDfhGWu1cshj5RVRaa42Cqt5"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/img_bookclub.jpg",
+  "subject": "Matemáticas",
+  "courseState": "ACTIVE",
+  "owner": {
+    "name": {
+      "fullName": "CARLOS RODRÍGUEZ JASO"
+    },
+    "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+  },
+  "teachers": [{
+    "profile": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    }
+  }],
+  "students": [{
+    "profile": {
+      "name": {
+        "fullName": "Natalia Berges Fernández"
+      },
+      "emailAddress": "bergesfernandezn@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "María Martínez Sádaba"
+      },
+      "emailAddress": "martinezsadabam@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Lucía Alegre Fajardo"
+      },
+      "emailAddress": "alegrefajardol@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Nicole Dariana Bustillo Tercero"
+      },
+      "emailAddress": "bustilloterceron@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Marcos Sanz Bona"
+      },
+      "emailAddress": "sanzbonam@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Paula Campo García"
+      },
+      "emailAddress": "campogarciap@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Lucía Giráldez Vicente"
+      },
+      "emailAddress": "giraldezvicentel@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Belén Bailo Hernández"
+      },
+      "emailAddress": "bailohernandezb@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Rayan Janati Abouabdillah"
+      },
+      "emailAddress": "janatiabouabdillahr@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Sandra Izquierdo Langarita"
+      },
+      "emailAddress": "izquierdolangaritas@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Alexia M.D"
+      },
+      "emailAddress": "manjarresdelgadoa@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Andrea Cabeza Roche"
+      },
+      "emailAddress": "cabezarochea@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Laura Izquierdo Langarita"
+      },
+      "emailAddress": "izquierdolangarital@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Juan José Morato Sánchez"
+      },
+      "emailAddress": "moratosanchezj@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Marta Zueras Martínez"
+      },
+      "emailAddress": "zuerasmartinezm@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Nayra Martínez Mariscal"
+      },
+      "emailAddress": "martinezmariscaln@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Malena Tejero Gimeno"
+      },
+      "emailAddress": "tejerogimenom@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Teodora Doncheva Mavrova"
+      },
+      "emailAddress": "donchevamavrovat@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Laura Raja Herranz"
+      },
+      "emailAddress": "rajaherranzl@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "María Gómez Izquierdo"
+      },
+      "emailAddress": "gomezizquierdom@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Sergio Escanero Agustín"
+      },
+      "emailAddress": "escaneroagustins@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Marco Villar Díaz"
+      },
+      "emailAddress": "villardiazm@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Iván Perna Burgués"
+      },
+      "emailAddress": "pernaburguesi@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Lizer Hernández Garza"
+      },
+      "emailAddress": "hernandezgarzal@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Daniel Cordero Rodríguez"
+      },
+      "emailAddress": "corderorodriguezd@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Karim Moussadek Blasco"
+      },
+      "emailAddress": "moussadekblascok@iespedrocerrada.org"
+    }
+  }, {
+    "profile": {
+      "name": {
+        "fullName": "Mercedes Álvarez Blánquez"
+      },
+      "emailAddress": "alvarezblanquezm@iespedrocerrada.org"
+    }
+  }],
+  "topics": [{
+    "name": "Recursos"
+  }],
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    },
+    "creationTime": "2021-09-21T09:49:12.074Z",
+    "updateTime": "2021-09-21T09:49:28.183Z",
+    "publicationTime": "2021-09-21T09:49:27.674Z",
+    "state": "PUBLISHED",
+    "assigneeMode": "ALL_STUDENTS",
+    "topics": [{
+      "name": "Recursos"
+    }],
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1JrOz21eEBOi2xnL6qkwfB0KWfg8f6l1D",
+          "title": "soluciones",
+          "alternateLink": "https://drive.google.com/drive/folders/1JrOz21eEBOi2xnL6qkwfB0KWfg8f6l1D"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWorkMaterial": {
+      "title": "soluciones"
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "CARLOS RODRÍGUEZ JASO"
+      },
+      "emailAddress": "rodriguezjasoc@iespedrocerrada.org"
+    },
+    "creationTime": "2021-09-03T07:46:22.489Z",
+    "updateTime": "2021-09-03T07:49:55.634Z",
+    "publicationTime": "2021-09-03T07:49:55.405Z",
+    "state": "PUBLISHED",
+    "assigneeMode": "ALL_STUDENTS",
+    "topics": [{
+      "name": "Recursos"
+    }],
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1v_WGdnFHUYoJZ9fO-yWbGhegoLNPeWn2",
+          "title": "cuaderno 1º bachillerato ciencias.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1v_WGdnFHUYoJZ9fO-yWbGhegoLNPeWn2/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh5.googleusercontent.com/uf37NUhf9qL9KH-4GCBoUlelglkFHwQ9rhGGIHYByJc1mx5oATWopr70wr-spgs95ZU4I40aag60cxU\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWorkMaterial": {
+      "title": "Cuadernillo del curso"
+    }
+  }]
+}
